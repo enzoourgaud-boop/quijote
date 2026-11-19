@@ -152,6 +152,8 @@ export interface RunState {
   character: string;
   /** Partie courte : mêmes actes, moins d'étages. */
   short?: boolean;
+  /** Thèmes choisis par l'élève pour cette partie (dans la limite des réglages du professeur). */
+  focus?: string[];
   ascension: number;
   /** Bonus du personnage. */
   bonus: { writeShare: number; restHeal: number };
@@ -305,7 +307,7 @@ export class Game {
   }
 
   /** Démarre une nouvelle partie à partir d'une graine. */
-  static newRun(content: Content, settings: Settings, seed: string, now = Date.now(), opts: { character?: string; ascension?: number; pending?: string[]; short?: boolean } = {}): Game {
+  static newRun(content: Content, settings: Settings, seed: string, now = Date.now(), opts: { character?: string; ascension?: number; pending?: string[]; short?: boolean; focus?: string[] } = {}): Game {
     const rng = new Rng(seed);
     const p = content.sequence.player;
     const chars = content.sequence.characters;
@@ -322,7 +324,7 @@ export class Game {
     const hp = Math.max(5, p.hp + (ch?.bonus.hp ?? 0) - (asc >= 9 ? 3 : 0));
     const state: RunState = {
       v: 3, seed, rng: rng.state, screen: 'map', hp, maxHp: hp, gold: 0, act: 0,
-      character: ch?.id ?? '', ascension: asc, short: opts.short || undefined, bonus: { writeShare: ch?.bonus.writeShare ?? 0, restHeal: ch?.bonus.restHeal ?? 0.3 },
+      character: ch?.id ?? '', ascension: asc, short: opts.short || undefined, focus: opts.focus?.length ? opts.focus : undefined, bonus: { writeShare: ch?.bonus.writeShare ?? 0, restHeal: ch?.bonus.restHeal ?? 0.3 },
       defeated: [], obtained: Object.keys(relics),
       map: generateMap(rng, mapConfig(content, !!opts.short)), node: null, path: [],
       inv, relics, upgrades: {}, streak: 0, poison: 0, reviveUsed: false, luckyCount: 0,
@@ -602,7 +604,9 @@ export class Game {
   activeThemes(): string[] {
     const all = this.content.sequence.themes.map(t => t.id);
     const on = this.settings.themes ? all.filter(t => this.settings.themes!.includes(t)) : all;
-    return on.length ? on : all;
+    // choix de l'élève, toujours à l'intérieur des thèmes autorisés par le professeur
+    const mine = this.state.focus ? on.filter(t => this.state.focus!.includes(t)) : on;
+    return mine.length ? mine : on.length ? on : all;
   }
 
   private isUsable(q: Question): boolean {

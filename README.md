@@ -11,7 +11,7 @@ Un jeu vidéo pour réviser l'espagnol en 5e (niveau A1) sur la séquence **« P
 
 Le jeu reprend le moteur d'*El Camino de Cempasúchil* (même fonctionnement, mêmes règles de combat). Seuls changent le contenu, l'univers et les visuels.
 
-> **Où en est le projet.** Étape 1 (le jeu complet) validée et sur `main`. Étape 2 (la partie courte) sur la branche `etape-2-partie-courte`, captures dans [`docs/etape-2/`](docs/etape-2/). Conception : [`docs/CONCEPTION.md`](docs/CONCEPTION.md). Points à valider : [`docs/A_VERIFIER.md`](docs/A_VERIFIER.md).
+> **Où en est le projet.** Étape 1 (le jeu complet) validée et sur `main`. Étape 2 (la partie courte) sur la branche `etape-2-partie-courte`, captures dans [`docs/etape-2/`](docs/etape-2/). Étape 3 (l'élève choisit ce qu'il travaille) sur la branche `etape-3-choix`, captures dans [`docs/etape-3/`](docs/etape-3/). Conception : [`docs/CONCEPTION.md`](docs/CONCEPTION.md). Points à valider : [`docs/A_VERIFIER.md`](docs/A_VERIFIER.md).
 
 ---
 
@@ -65,7 +65,8 @@ Tu peux donner l'adresse aux élèves, ou en faire un QR code. Le plus simple : 
    - un accent oublié donne « ¡Casi! » : ni dégât, ni point.
 5. **Les questions :** sept formes différentes : QCM, réponse écrite, vrai/faux, phrase à remettre en ordre, association mot / image, placement des personnages sur la carte de La Mancha (« qui vit où ? »), écoute.
 6. **Partie courte :** sur l'accueil, « Durée de la partie » → **Partie courte**. Les trois actes sont raccourcis (un combat, un repos, le jefe) et les jefes sont moins résistants : la partie dure 8 à 10 minutes, et l'élève rencontre quand même les trois jefes.
-7. **Les objets** viennent de la séquence. Les aides *Léxico* et *Ayuda* rappellent les encadrés du manuel ; *¡Fíjate!*, *Queso*, *Escudo*… Parmi les reliques : Rocinante, Rucio, *la lanza*, *la ficha de identidad*…
+7. **Choisir ce qu'on travaille :** sur l'accueil, « Ce que je veux travailler » : l'élève coche un ou plusieurs thèmes (Vocabulario, Conjugación, Presentarse, Personajes y textos). Rien de coché = tous les thèmes. Si tu as limité les thèmes avec un code de classe, l'élève ne choisit que parmi les tiens. Les questions ratées des parties précédentes reviennent quand même dans l'échauffement.
+8. **Les objets** viennent de la séquence. Les aides *Léxico* et *Ayuda* rappellent les encadrés du manuel ; *¡Fíjate!*, *Queso*, *Escudo*… Parmi les reliques : Rocinante, Rucio, *la lanza*, *la ficha de identidad*…
 
 ---
 

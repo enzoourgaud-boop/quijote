@@ -300,3 +300,12 @@ Pour chacune, ma recommandation. Un « oui à tout » suffit.
 
   Un élève fragile dépasse un peu les 10 minutes : il répond à davantage de questions.
 - **Correction** : l'aide de l'accueil (« Réponds pour attaquer ») et l'option « Pétales qui tombent » parlaient encore du Día de Muertos. L'aide affiche désormais les thèmes de la séquence, et l'option s'appelle « Pages qui volent sur l'accueil ».
+
+## 13. Étape 3 : l'élève choisit ce qu'il travaille
+
+- **Demande du professeur** (après l'étape 2) : que l'élève puisse choisir lui-même ce qu'il veut travailler.
+- **Choix sur l'accueil** : « Ce que je veux travailler », une case par thème, avec le nom écrit (la couleur n'est qu'un repère). Rien de coché = tous les thèmes ; on ne peut donc pas lancer une partie vide.
+- **Le professeur garde la main** : avec un code de classe qui limite les thèmes, seuls ces thèmes sont proposés. Si le choix de l'élève sortait des thèmes du professeur, ce sont ceux du professeur qui s'appliquent.
+- **Le choix est rangé dans la partie** : il survit à la sauvegarde et à un changement d'options en cours de partie. Il s'applique partout où le moteur tire une question (combats, jefes, rencontres, coffres).
+- **Les páginas perdidas restent** : l'échauffement de début de partie repose les questions ratées, quel que soit le thème choisi.
+- Non fait : choisir par notion (ex. « les mots interrogatifs ») plutôt que par thème. C'est possible, mais demande de changer le tirage des questions.

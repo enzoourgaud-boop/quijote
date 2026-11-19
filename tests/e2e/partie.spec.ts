@@ -46,6 +46,22 @@ test('une partie courte entière (les trois actes raccourcis)', async ({ page })
   expect(errors).toEqual([]);
 });
 
+test('l’élève choisit ce qu’il veut travailler', async ({ page }) => {
+  await page.fill('#pseudo', 'Bot');
+  await page.click('text=Créer et jouer');
+  await page.locator('.temas-eleccion label:has-text("Conjugación") input').check();
+  await expect(page.locator('.temas-eleccion')).toContainText('seulement sur : Conjugación');
+  await page.getByRole('button', { name: 'Commencer le chemin' }).click();
+  await page.locator('.sala.puede').first().click();
+  for (let i = 0; i < 4; i++) {
+    await expect(page.locator('.qa .tag').first()).toHaveText('Conjugación');
+    await answerCurrent(page, data);
+    const next = page.locator('.combate .fb .btn');
+    if (await next.count()) await next.click();
+    if (!(await page.locator('.combate .qa[data-qid]').count())) break;
+  }
+});
+
 test('espace professeur : code de classe appliqué côté élève', async ({ page, context }) => {
   await page.goto('./#prof');
   await page.fill('#prof-code', 'profe2026');

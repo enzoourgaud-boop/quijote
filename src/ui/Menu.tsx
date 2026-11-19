@@ -119,13 +119,18 @@ export function ProfileScreen({ list, current, onPick, onCreate, onDelete, onBac
 
 export function Title({ content, profile, meta, saved, settings, onSettings, onStart, onResume, onNav, initialSeed, pending = 0, classe, onClassCode, onClearClass }: {
   content: Content; profile: Profile; meta: Meta; saved: RunState | null; settings: Settings;
-  onSettings: (s: Settings) => void; onStart: (o: { seed: string; character: string; ascension: number; short: boolean }) => void; onResume: () => void;
+  onSettings: (s: Settings) => void; onStart: (o: { seed: string; character: string; ascension: number; short: boolean; focus: string[] }) => void; onResume: () => void;
   onNav: (screen: 'profiles' | 'collection' | 'achievements' | 'carnet' | 'prof') => void; initialSeed: string; pending?: number;
   classe: { code: string; seed: string } | null; onClassCode: (code: string) => string | null; onClearClass: () => void;
 }) {
   const seq = content.sequence;
   const [seed, setSeed] = useState(initialSeed);
   const [short, setShort] = useState(false);
+  // thèmes que l'élève peut choisir : ceux autorisés par le professeur (code de classe), sinon tous
+  const allowed = content.sequence.themes.filter(t => !settings.themes || settings.themes.includes(t.id));
+  const [focus, setFocus] = useState<string[]>([]);
+  const chosen = allowed.filter(t => focus.includes(t.id)).map(t => t.id);
+  const toggle = (id: string) => setFocus(f => (f.includes(id) ? f.filter(x => x !== id) : [...f, id]));
   const [classInput, setClassInput] = useState('');
   const [classErr, setClassErr] = useState<string | null>(null);
   const chars = seq.characters;
@@ -252,6 +257,18 @@ export function Title({ content, profile, meta, saved, settings, onSettings, onS
           début de la partie. Chaque page retrouvée donne +1 PV.
         </p>
       )}
+      {allowed.length > 1 && (
+        <fieldset class="duracion temas-eleccion">
+          <legend>Ce que je veux travailler</legend>
+          {allowed.map(t => (
+            <label key={t.id}>
+              <input type="checkbox" checked={focus.includes(t.id)} onChange={() => toggle(t.id)} />
+              <span class="tema-chip" style={{ '--c': t.color }}>{t.label}</span>
+            </label>
+          ))}
+          <span class="muted aide-temas">{chosen.length ? `Les questions porteront seulement sur : ${allowed.filter(t => chosen.includes(t.id)).map(t => t.label).join(', ')}.` : 'Rien de coché : tous les thèmes.'}</span>
+        </fieldset>
+      )}
       <fieldset class="duracion">
         <legend>Durée de la partie</legend>
         <label>
@@ -264,7 +281,7 @@ export function Title({ content, profile, meta, saved, settings, onSettings, onS
         </label>
       </fieldset>
       <div class="fila">
-        <button class={`btn ${saved ? 'sec' : ''}`} onClick={() => onStart({ seed: cleanSeed(seed), character, ascension: asc, short })}>
+        <button class={`btn ${saved ? 'sec' : ''}`} onClick={() => onStart({ seed: cleanSeed(seed), character, ascension: asc, short, focus: chosen })}>
           {saved ? 'Nouvelle partie' : 'Commencer le chemin'}
         </button>
         {meta.runs > 0 && (

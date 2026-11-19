@@ -1,6 +1,6 @@
 /**
  * Captures d'écran pour le résumé d'étape (pas un test) : CAPTURES=docs/etape-1 npx playwright test captures
- * (ajouter COURT=1 pour jouer une partie courte)
+ * (ajouter COURT=1 pour une partie courte, THEME=Conjugación pour choisir un thème)
  * Joue une partie et photographie la première occurrence de chaque écran.
  */
 import { mkdirSync } from 'node:fs';
@@ -35,6 +35,8 @@ test('captures d’écran', async ({ page }, info) => {
   await page.fill('input[placeholder="au hasard"]', 'MOLINO-42');
   // COURT=1 : partie courte
   if (process.env.COURT) await page.getByLabel(/Partie courte/).check();
+  // THEME=Conjugación : l'élève choisit ce qu'il travaille
+  if (process.env.THEME) await page.locator(`.temas-eleccion label:has-text("${process.env.THEME}") input`).check();
   await once('accueil');
   await page.getByRole('button', { name: 'Commencer le chemin' }).click();
 

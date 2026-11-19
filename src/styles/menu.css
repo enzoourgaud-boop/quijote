@@ -84,3 +84,7 @@ button.mini-carta:hover { transform: translateY(-4px) rotate(-2deg); }
 .duracion legend { padding: 0 6px; font-weight: 700; }
 .duracion label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
 .duracion input { flex: none; width: 20px; height: 20px; accent-color: var(--cempa); }
+
+/* thèmes choisis par l'élève : le nom est écrit, la couleur n'est qu'un repère */
+.temas-eleccion .tema-chip { padding: 3px 10px; border-radius: 999px; border-left: 6px solid var(--c); background: var(--noche-2); font-weight: 700; }
+.temas-eleccion .aide-temas { flex-basis: 100%; font-size: .9rem; }
