@@ -272,3 +272,5 @@ Pour chacune, ma recommandation. Un « oui à tout » suffit.
 6. **Pas de musique**, comme dans El Camino ; effets sonores gardés. *Recommandé* pour la classe. Si tu en veux une, je l'ajoute à l'étape 2 (originale, coupée par défaut).
 7. **La transcription est publique.** Le dépôt doit être public pour que GitHub Pages soit gratuit, donc les textes de ton manuel (Hachette) y sont visibles. El Camino fait déjà de même. Sinon, je ne garde dans le dépôt que les extraits utilisés par le jeu.
 8. **Les points de [`A_VERIFIER.md`](A_VERIFIER.md)** : corrigés que j'ai établis, faits et mots hors documents, noms inventés.
+
+> **Validé le 19/11/2026 : « oui à tout ».** Les huit décisions sont prises selon les recommandations ci-dessus : titre *Molinos y gigantes* et dépôt `quijote`, univers du mago, transposition un pour un, partie courte sur les trois actes raccourcis, *páginas perdidas*, pas de musique, transcription complète publique, points de `A_VERIFIER.md` à relire au fil des étapes.
