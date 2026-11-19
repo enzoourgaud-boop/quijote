@@ -11,7 +11,7 @@ Un jeu vidéo pour réviser l'espagnol en 5e (niveau A1) sur la séquence **« P
 
 Le jeu reprend le moteur d'*El Camino de Cempasúchil* (même fonctionnement, mêmes règles de combat). Seuls changent le contenu, l'univers et les visuels.
 
-> **Où en est le projet.** Étape 1 (le jeu complet) validée et sur `main`. Étape 2 (la partie courte) sur la branche `etape-2-partie-courte`, captures dans [`docs/etape-2/`](docs/etape-2/). Étape 3 (l'élève choisit ce qu'il travaille) sur la branche `etape-3-choix`, captures dans [`docs/etape-3/`](docs/etape-3/). Conception : [`docs/CONCEPTION.md`](docs/CONCEPTION.md). Points à valider : [`docs/A_VERIFIER.md`](docs/A_VERIFIER.md).
+> **Où en est le projet.** Étapes 1 (le jeu complet), 2 (la partie courte) et 3 (l'élève choisit ce qu'il travaille) validées et en ligne. Captures dans [`docs/etape-1/`](docs/etape-1/), [`docs/etape-2/`](docs/etape-2/), [`docs/etape-3/`](docs/etape-3/). Conception : [`docs/CONCEPTION.md`](docs/CONCEPTION.md). Points à valider : [`docs/A_VERIFIER.md`](docs/A_VERIFIER.md).
 
 ---
 
