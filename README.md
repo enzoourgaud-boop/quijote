@@ -1,12 +1,12 @@
 # El Camino de Cempasúchil
 
+> **Nouveau jeu en préparation : « Molinos y gigantes »** (séquence *Presentarse con Don Quijote*, 5e, A1). Ce dépôt part d'El Camino de Cempasúchil, dont il garde le moteur. Étape 0 : la proposition est dans [`docs/CONCEPTION.md`](docs/CONCEPTION.md), la transcription des documents dans [`sources/contenu-sequence.md`](sources/contenu-sequence.md), les points à valider dans [`docs/A_VERIFIER.md`](docs/A_VERIFIER.md). Jusqu'à l'étape 1, la suite de ce README décrit encore El Camino.
+
 Un jeu vidéo pour réviser l'espagnol en 5e (niveau A1-A2) sur la séquence **Día de Muertos**. C'est un « roguelike » : on avance sur une carte, on affronte des créatures en répondant en espagnol, on ramasse des pouvoirs, et chaque partie est différente. Une partie dure 15 à 20 minutes, la durée d'une fin de cours.
 
 - Il fonctionne dans le navigateur, sur les PC du collège, les tablettes et les téléphones.
 - Il n'y a **ni serveur, ni compte élève, ni publicité**. Aucune donnée ne quitte l'appareil.
 - Une fois chargé, il fonctionne **sans connexion** et peut s'installer comme une application.
-
-> **Version 2 en préparation.** L'étape 2 (version 1.1 : combat visible sans défiler, bugs corrigés, retour garanti des erreurs) est sur la branche `etape-2-corrections`, captures dans `docs/etape-2/`. Le bilan de la version actuelle est dans [`docs/AUDIT.md`](docs/AUDIT.md), la proposition de version 2 dans [`docs/V2.md`](docs/V2.md), et les points à valider dans [`docs/A_VERIFIER.md`](docs/A_VERIFIER.md) (section 9). Tant que la proposition n'est pas validée, le jeu en ligne reste la version décrite ci-dessous.
 
 ---
 
