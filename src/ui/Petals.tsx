@@ -22,7 +22,7 @@ export function Petals({ burst = false }: { burst?: boolean }) {
     const mk = (top: boolean): P => ({
       x: Math.random() * w, y: top ? -20 - Math.random() * h * (burst ? 0.4 : 1) : Math.random() * h,
       r: 5 + Math.random() * 7, vy: 18 + Math.random() * 30, vx: -8 + Math.random() * 16, a: Math.random() * 6, va: -1 + Math.random() * 2,
-      hue: 28 + Math.random() * 14,
+      hue: 38 + Math.random() * 10,
     });
     const ps = Array.from({ length: n }, () => mk(burst));
     const draw = (now: number) => {
@@ -37,10 +37,11 @@ export function Petals({ burst = false }: { burst?: boolean }) {
         ctx.save();
         ctx.translate(p.x, p.y);
         ctx.rotate(p.a);
-        ctx.fillStyle = `hsla(${p.hue}, 100%, 55%, .75)`;
-        ctx.beginPath();
-        ctx.ellipse(0, 0, p.r, p.r * 0.55, 0, 0, Math.PI * 2);
-        ctx.fill();
+        // une page de livre : papier clair et trois lignes d'écriture
+        ctx.fillStyle = `hsla(${p.hue}, 55%, 90%, .8)`;
+        ctx.fillRect(-p.r, -p.r * 0.7, p.r * 2, p.r * 1.4);
+        ctx.fillStyle = 'rgba(59, 42, 26, .45)';
+        for (let k = -1; k <= 1; k++) ctx.fillRect(-p.r * 0.7, k * p.r * 0.35 - 0.5, p.r * 1.4, 1);
         ctx.restore();
       }
       raf = requestAnimationFrame(draw);

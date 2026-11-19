@@ -6,7 +6,7 @@ Ce fichier liste tout ce qui, dans le jeu, **ne vient pas directement de tes doc
 - **corriger** : écris la correction à côté ;
 - **refuser** : barre la ligne ; l'élément sera retiré, ou la question restera désactivée.
 
-*Version de l'étape 0 (conception, version 2 : combat d'El Camino gardé). La liste s'allongera à l'étape 1 avec les identifiants exacts des questions.*
+*Mis à jour à l'étape 1. Les identifiants (`ficha-quijote-nombre`…) permettent de retrouver chaque question dans `content/sequences/quijote/questions/` ou dans l'espace professeur (onglet Questions, champ de recherche).*
 
 ## 1. Corrigés que j'ai établis
 
@@ -23,14 +23,15 @@ Tes documents sont des fiches d'exercices sans corrigé.
 
 ## 2. Faits absents des documents
 
-Les questions correspondantes seront créées **désactivées** (`"disabled": true`). Tu les actives d'un clic si tu les valides.
+Les questions correspondantes sont **désactivées** (`"disabled": true`) : `ficha-quijote-nombre` (Alonso), `ficha-quijote-nacionalidad` (española), `sancho-burbuja-justicia` (justicia), `vf-rocinante-caballo`. Tu les actives d'un clic dans l'espace professeur si tu les valides.
 
 | ✔ | Fait | D'où il vient |
 |---|---|---|
 | ☐ | Le nom civil de don Quijote est **Alonso Quijano** (fiche d'identité : Nombre, Apellidos). | Le roman ; aucun de tes documents ne le donne. Seul indice : sa nièce s'appelle *Antonia Quijana*. |
 | ☐ | Sa nacionalidad : **española**. | Déduit (La Mancha est en Espagne) ; le mot *española* n'apparaît pas. |
 | ☐ | **Rocinante est le cheval de don Quijote.** | Déduit de la carte illustrée « ROCINANTE » (un cheval) et de *¡Es muy amigo de Rocinante!* Le texte ne le dit pas en toutes lettres. |
-| ☐ | Sancho et don Quijote vivent dans le même pueblo. | Déduit : Sancho est *vecino* de don Quijote et dit *Vivo en un pueblo de la Mancha*. |
+| ☐ | Sancho et don Quijote vivent dans le même pueblo. | Déduit : Sancho est *vecino* de don Quijote et dit *Vivo en un pueblo de la Mancha*. Utilisé (actif) dans les scènes `esc-donde-4`, `esc-donde-7`, `esc-donde-8`. |
+| ☐ | Les trois aldeanas vivent au Toboso. | Déduit du dialogue : Sancho les appelle « del Toboso » et Aldonza dit *En el Toboso vivo*. Utilisé (actif) dans les scènes `esc-donde-2`, `-4`, `-7`, `-9`. |
 
 ## 3. Mots espagnols hors documents utilisés dans le jeu
 
@@ -60,6 +61,18 @@ Ils servent à l'habillage (noms, histoire, réactions), **jamais comme réponse
 | ☐ | **Noms d'objets** : Por favor, ¡Dejadnos pasar!, En realidad…, Fiel compañero, La Ñ amable, Mi único amor, El honor, El autor, ¡Qué importa!, Siempre listo, El mapa de España… | Expressions des documents ; leurs effets sont ceux des objets d'El Camino. |
 | ☐ | **Noms de rencontres** et leurs textes | Liste et textes complets à l'étape 1. |
 
+## 4 bis. Réponses interprétées
+
+Ces questions reprennent des consignes de tes documents qui n'ont pas de corrigé ; la réponse est mon interprétation.
+
+| ✔ | Identifiant | Réponse attendue |
+|---|---|---|
+| ☐ | `pers-jefe-comico` | *Don Quijote ve a una princesa, pero Aldonza es una aldeana con prisa* (consigne « Explica los aspectos cómicos de la escena »). |
+| ☐ | `dul-mago` | *Porque un mago la hace parecer una aldeana* (d'après la réplique de don Quijote). |
+| ☐ | `dul-tipo-arte` | *Al teatro* (le mot « teatro » est surligné dans le document). |
+| ☐ | `pers-ano` | *1605* : date de la référence du dialogue (« Don Quijote de la Mancha, 1605 »). |
+| ☐ | `conj-gusta-queso`, `conj-gusta-teatro` | *Me gusta el queso / el teatro* : phrases inventées pour opposer *gusta* et *gustan* (le document n'a que le pluriel). |
+
 ## 5. Règles de grammaire formulées par moi
 
 Tes documents donnent les tableaux et les terminaisons, sans formuler de règle d'emploi. Les corrections du jeu diront :
@@ -75,6 +88,25 @@ Tes documents donnent les tableaux et les terminaisons, sans formuler de règle 
 
 ## 6. Traductions ajoutées
 
-Les documents traduisent l'Ayuda, le lexique de la vidéo et les mots numérotés. Les autres traductions affichées par le jeu (glossaire, aide « Léxico ») seront de moi : *cansado* (fatigué), *simpático* (sympathique), *queso* (fromage), *casa* (maison), *sirvienta* (servante), *burro* (âne), *perro* (chien), *caballero* (chevalier), *mago* (magicien), *dama* (dame), *reina / princesa / duquesa* (reine / princesse / duchesse), *joven* (jeune), *rápido* (rapide), *realista* (réaliste), *misterio* (mystère)… La liste complète, mot par mot, sera ajoutée à l'étape 1.
+**Traductions données par tes documents** (rien à vérifier) : el apellido, la edad, el nombre, un caballo, el escudero, un escudo, una ciudad, un pueblo (Ayuda) ; fiel, hay que, siempre listo, ayudar (lexique de la vidéo) ; vecino, sencillo, sobrina, unos, galgo (notes de DQ_2) ; ¡Dejadnos pasar!, ¡Tenemos prisa!, panza, se burla, aldeana (notes du dialogue) ; gigante, libro, molino, lanza (Enquête 1).
 
-- ☐ J'ai relu les traductions de la liste complète.
+**Traductions que j'ai ajoutées** (questions de vocabulaire « Que veut dire ce mot ? », glossaire des rencontres, traductions de l'aide Léxico) :
+
+| ✔ | Mots |
+|---|---|
+| ☐ | el burro = l'âne · el perro = le chien · la casa = la maison · el queso = le fromage · el mundo = le monde · la montura = la monture |
+| ☐ | el teatro = le théâtre · la pintura = la peinture · la música = la musique · la televisión = la télévision · el cine = le cinéma |
+| ☐ | el caballero = le chevalier · la sirvienta = la servante · el compañero = le compagnon · el amigo = l'ami · la dama = la dame |
+| ☐ | la princesa = la princesse · la reina = la reine · la duquesa = la duchesse · el mago = le magicien · el señor = le monsieur · el escritor = l'écrivain · el autor = l'auteur |
+| ☐ | realista = réaliste · joven = jeune · rápido = rapide · bella = belle · cansado = fatigué · simpático = sympathique · solo = seul · modesta = modeste · único = unique · cómico = comique |
+| ☐ | el lugar de residencia = le lieu de résidence · la nacionalidad = la nationalité |
+| ☐ | Les traductions françaises de toutes les phrases (champ `translation`) et des textes des rencontres (`events.json`, champ `textFr`). |
+
+## 7. Textes du jeu à relire
+
+| ✔ | Où | Quoi |
+|---|---|---|
+| ☐ | `content/sequences/quijote/events.json` | Les 13 rencontres : textes espagnols, choix, traductions. |
+| ☐ | `content/sequences/quijote/enemies.json` | Répliques des ennemis (`taunt`) et phrases de l'album (`phrase` : *En realidad, es un molino*…). |
+| ☐ | `content/sequences/quijote/items.json` | Phrases de l'album pour chaque objet (ex. *Tú comes queso.*). |
+| ☐ | `content/sequences/quijote/sequence.json` | Introduction, texte de victoire, fiches des personnages, noms des salles. |

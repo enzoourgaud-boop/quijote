@@ -5,8 +5,12 @@
       "name": "La Mancha",
       "rows": [
         [
-          "mancha",
-          "en La Mancha"
+          "p1",
+          ""
+        ],
+        [
+          "p2",
+          ""
         ]
       ],
       "cols": [
@@ -20,6 +24,7 @@
         ]
       ],
       "scale": [
+        1,
         1
       ]
     }

@@ -3,6 +3,7 @@ import type { ComponentChildren } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
 import type { Game } from '../engine/game';
 import type { Enemy, Intent, Item } from '../engine/schema';
+import { figureSrc } from './figures';
 
 /** Relit l'interface à chaque changement du moteur. */
 export function useGame(game: Game | null) {
@@ -11,46 +12,26 @@ export function useGame(game: Game | null) {
   useEffect(() => (game ? game.subscribe(force) : undefined), [game]);
 }
 
-/* ---------- papel picado ---------- */
-const COLS = ['#ff3d8b', '#ff9f1c', '#22d1c6', '#9b6cff', '#ffd23f', '#3ddc84'];
-const circ = (cx: number, cy: number, r: number) => `M${cx - r},${cy}a${r},${r} 0 1,0 ${r * 2},0a${r},${r} 0 1,0 ${-r * 2},0Z`;
-const dia = (cx: number, cy: number, s: number) => `M${cx},${cy - s}L${cx + s},${cy}L${cx},${cy + s}L${cx - s},${cy}Z`;
-const OUTER = 'M0,0H52V50L47.7,56L43.3,50L39,56L34.7,50L30.3,56L26,50L21.7,56L17.3,50L13,56L8.7,50L4.3,56L0,50Z';
-const HOLES = (() => {
-  let h = circ(26, 24, 5);
-  for (let i = 0; i < 8; i++) {
-    const a = (i * Math.PI) / 4;
-    h += circ(26 + 11 * Math.cos(a), 24 + 11 * Math.sin(a), 2.6);
-  }
-  return h + dia(8, 9, 3.5) + dia(44, 9, 3.5) + dia(8, 41, 3.5) + dia(44, 41, 3.5);
-})();
+/* ---------- horizon de moulins (décor du haut de page) ---------- */
+const MOLINOS = [8, 22, 41, 63, 80, 94];
 
-export function PapelPicado() {
+export function Horizonte() {
   return (
-    <div class="picado" aria-hidden="true">
-      {Array.from({ length: 26 }, (_, i) => (
-        <svg viewBox="0 0 52 58" key={i}>
-          <path fill={COLS[i % COLS.length]} fill-rule="evenodd" d={OUTER + HOLES} />
-        </svg>
+    <div class="horizonte-molinos" aria-hidden="true">
+      {MOLINOS.map((x, i) => (
+        <img key={x} src={figureSrc('svg:molino')!} alt="" style={{ left: `${x}%`, '--d': `${i * 0.7}s`, '--t': `${0.75 + (i % 3) * 0.2}` }} />
       ))}
     </div>
   );
 }
 
-/** Icônes dessinées (quand aucun emoji ne convient). Dans le JSON : "emoji": "svg:papel-picado". */
+/** Emoji, ou dessin original quand le contenu dit "svg:molino". */
 export function Figure({ emoji }: { emoji: string }) {
-  if (emoji === 'svg:papel-picado') {
-    return (
-      <svg viewBox="-6 -4 64 66" width="1em" height="1em" style={{ verticalAlign: '-.1em' }}>
-        <path d="M-4,0H56" stroke="#6a5878" stroke-width="3" />
-        <path fill="#ff3d8b" fill-rule="evenodd" d={OUTER + HOLES} />
-      </svg>
-    );
-  }
-  return <>{emoji}</>;
+  const src = figureSrc(emoji);
+  return src ? <img class="figura" src={src} alt="" width="64" height="64" /> : <>{emoji}</>;
 }
 
-/* ---------- carte de lotería ---------- */
+/* ---------- carte de l’album ---------- */
 export function Carta({ enemy, color, cls = '', children }: { enemy: Pick<Enemy, 'name' | 'emoji' | 'top' | 'card'> & { kind?: Enemy['kind'] }; color: string; cls?: string; children?: ComponentChildren }) {
   return (
     <div class={`carta ${enemy.kind ?? ''} ${cls}`} style={{ '--c': color }} role="img" aria-label={`Carte n° ${enemy.card} : ${enemy.name}`}>

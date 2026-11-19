@@ -6,8 +6,8 @@
    ========================================================= */
 
 /* --- guirlande réduite et page plus large pendant le combat --- */
-html.en-combate .picado { height: 26px; margin-bottom: 8px; padding-top: 2px; }
-html.en-combate .picado svg { width: 22px; height: 24px; }
+html.en-combate .horizonte-molinos { height: 30px; margin-bottom: 8px; }
+html.en-combate .horizonte-molinos img { height: calc(24px * var(--t, 1)); bottom: 4px; }
 html.en-combate #app { max-width: min(1320px, 100%); gap: 10px; }
 html.en-combate body { padding-bottom: 14px; }
 .combate { gap: 12px; }
@@ -79,7 +79,7 @@ html.en-combate body { padding-bottom: 14px; }
   .combate .fb { scroll-margin-bottom: 10px; }
 }
 @media (max-width: 640px) {
-  html.en-combate .picado { display: none; }
+  html.en-combate .horizonte-molinos { display: none; }
   html.en-combate body { padding-top: 0; }
   .combate .hud { font-size: .9rem; gap: 6px; }
   .combate .hud .chip { padding: 3px 9px; }

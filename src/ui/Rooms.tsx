@@ -288,7 +288,7 @@ export function ChestScreen({ game }: { game: Game }) {
 
 /* ======================= Échauffement : páginas perdidas ======================= */
 
-/** Début de partie : les questions ratées aux parties précédentes. Chaque âme libérée donne +1 PV. */
+/** Début de partie : les questions ratées aux parties précédentes. Chaque page retrouvée donne +1 PV. */
 export function WarmupScreen({ game }: { game: Game }) {
   const s = game.state, w = s.warmup!;
   const q = game.getQuestion(w.quiz.q.id);
@@ -329,7 +329,7 @@ export function WarmupScreen({ game }: { game: Game }) {
         {fb && (
           <div>
             <button class="btn" ref={ref} onClick={() => game.warmupNext()}>
-              {last ? 'Commencer le chemin' : 'Âme suivante'}
+              {last ? 'Commencer le chemin' : 'Page suivante'}
             </button>
           </div>
         )}

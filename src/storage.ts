@@ -5,7 +5,8 @@
  * Aucune donnée ne quitte l'appareil.
  */
 
-const PREFIX = 'camino:';
+// préfixe propre au jeu : El Camino (même adresse github.io) utilise « camino: »
+const PREFIX = 'molinos:';
 const memory = new Map<string, string>();
 
 function probe(): boolean {

@@ -6,7 +6,7 @@ const data = loadBank();
 test.beforeEach(async ({ page }) => {
   await page.goto('./');
   await page.evaluate(() => localStorage.clear());
-  await page.evaluate(() => localStorage.setItem('camino:prefs', JSON.stringify({ sound: false, petals: false, motion: 'reduced' })));
+  await page.evaluate(() => localStorage.setItem('molinos:prefs', JSON.stringify({ sound: false, petals: false, motion: 'reduced' })));
   await page.reload();
 });
 
@@ -24,13 +24,13 @@ test('une partie entière, du profil jusqu’au code de fin', async ({ page }) =
   await expect(page.locator('.codigo')).toHaveText(/^[0-9A-Z]{5}-[0-9A-Z]{5}-[0-9A-Z]{5}-[0-9A-Z]{4}$/);
   await expect(page.locator('svg.qr')).toBeVisible();
   // nouveautés débloquées
-  await expect(page.locator('.desbloqueos')).toContainText('Nivel de Calavera 1');
+  await expect(page.locator('.desbloqueos')).toContainText('Nivel de caballero 1');
   // plusieurs façons de répondre ont été utilisées
   expect(Object.keys(modes).length).toBeGreaterThanOrEqual(4);
   expect(errors).toEqual([]);
   // la collection et le carnet sont remplis
   await page.getByRole('button', { name: 'Menu' }).click();
-  await expect(page.getByRole('button', { name: /Lotería \d+\/42/ })).not.toHaveText(/Lotería 0\//);
+  await expect(page.getByRole('button', { name: /Álbum \d+\/42/ })).not.toHaveText(/Álbum 0\//);
 });
 
 test('espace professeur : code de classe appliqué côté élève', async ({ page, context }) => {
@@ -48,7 +48,7 @@ test('espace professeur : code de classe appliqué côté élève', async ({ pag
   await eleve.getByRole('button', { name: 'Commencer le chemin' }).click();
   await eleve.locator('.sala.puede').first().click();
   await expect(eleve.locator('.qa .tag')).not.toHaveText('Vocabulario');
-  await expect(eleve.locator('.crono')).toHaveCount(0);
+  await expect(eleve.locator('.crono')).toHaveCount(1); // le professeur a activé le chrono (coupé par défaut)
 });
 
 test('le jeu fonctionne hors ligne une fois chargé', async ({ page, context, browserName }) => {
@@ -159,6 +159,10 @@ for (const [name, w, h] of [['PC de collège', 1366, 768], ['PC, fenêtre basse'
 
 test('le chrono se coupe en cours de partie et s’arrête quand les options sont ouvertes', async ({ page }) => {
   await startRun(page, 'CHRONO-11');
+  // le chrono est coupé par défaut : on l'active d'abord dans les options
+  await page.getByRole('button', { name: /Options/ }).click();
+  await page.locator('label:has-text("Chrono") input[type=checkbox]').check();
+  await page.keyboard.press('Escape');
   await page.locator('.sala.puede').first().click();
   const crono = page.locator('.crono');
   await expect(crono).toBeVisible();
@@ -178,7 +182,7 @@ test('le chrono se coupe en cours de partie et s’arrête quand les options son
   if (await page.locator('.combate .qa[data-qid]').count()) await expect(crono).toHaveCount(0);
 });
 
-test('almas pendientes : les questions ratées attendent au début de la partie suivante', async ({ page }) => {
+test('páginas perdidas : les questions ratées attendent au début de la partie suivante', async ({ page }) => {
   await startRun(page, 'ALMAS-11');
   await page.locator('.sala.puede').first().click();
   // deux erreurs, puis retour au menu
@@ -192,16 +196,16 @@ test('almas pendientes : les questions ratées attendent au début de la partie 
   }
   expect(missed.length).toBe(2);
   await page.getByRole('button', { name: /Revenir au menu/ }).click();
-  await expect(page.locator('.almas-aviso')).toContainText('2 almas pendientes');
+  await expect(page.locator('.almas-aviso')).toContainText('2 páginas perdidas');
   // nouvelle partie : l'échauffement propose ces deux questions
   await page.getByRole('button', { name: 'Nouvelle partie' }).click();
-  await expect(page.getByRole('heading', { name: 'Tus almas pendientes' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Tus páginas perdidas' })).toBeVisible();
   const first = (await page.locator('.qa.quiz').getAttribute('data-qid'))!;
   expect(missed).toContain(first);
   await answerCurrent(page, data);
-  await expect(page.locator('.calentamiento .fb')).toContainText('Alma liberada');
+  await expect(page.locator('.calentamiento .fb')).toContainText('Página recuperada');
   await expect(page.locator('.calentamiento')).toContainText('16 PV');
-  await page.getByRole('button', { name: 'Âme suivante' }).click();
+  await page.getByRole('button', { name: 'Page suivante' }).click();
   await answerCurrent(page, data, true);
   await page.getByRole('button', { name: 'Commencer le chemin' }).click();
   // sur la carte : 16 PV au lieu de 15, et une âme attend encore

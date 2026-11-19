@@ -138,7 +138,7 @@
     "kind": "reliquia",
     "rarity": "comun",
     "name": "La ficha de identidad",
-    "emoji": "🪪",
+    "emoji": "📇",
     "price": 9,
     "max": 1,
     "effect": "writeBonus",

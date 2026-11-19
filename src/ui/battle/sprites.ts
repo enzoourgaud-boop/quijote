@@ -1,11 +1,13 @@
 /**
  * Sprites « pixel art » originaux, dessinés dans un <canvas> basse résolution puis agrandis
  * sans lissage (image-rendering: pixelated).
- * - Ennemis : leur emoji (ou dessin SVG) est rendu en 32×32, palette réduite et contour sombre.
- * - Joueur : dessiné pixel par pixel (vu de dos, sombrero et bougie).
+ * - Ennemis : leur emoji (ou dessin de figures.ts) est rendu en 32×32, palette réduite et contour sombre.
+ * - Joueur : dessiné pixel par pixel (vu de dos : chapeau, tunique, lance).
  */
 
-const OUTLINE: [number, number, number] = [26, 15, 43]; // --noche
+import { figureSrc } from '../figures';
+
+const OUTLINE: [number, number, number] = [29, 31, 51]; // --noche
 
 /** Réduit les couleurs (look rétro) et ajoute un contour sombre d'un pixel. */
 function pixelize(ctx: CanvasRenderingContext2D, w: number, h: number) {
@@ -40,15 +42,6 @@ function pixelize(ctx: CanvasRenderingContext2D, w: number, h: number) {
 
 const EMOJI_FONT = '"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji","Twemoji Mozilla",sans-serif';
 
-/** Dessin du papel picado (identique à la guirlande) pour les emojis « svg:papel-picado ». */
-const PAPEL_SVG = (() => {
-  const circ = (cx: number, cy: number, r: number) => `M${cx - r},${cy}a${r},${r} 0 1,0 ${r * 2},0a${r},${r} 0 1,0 ${-r * 2},0Z`;
-  let holes = circ(26, 24, 5);
-  for (let i = 0; i < 8; i++) holes += circ(26 + 11 * Math.cos((i * Math.PI) / 4), 24 + 11 * Math.sin((i * Math.PI) / 4), 2.6);
-  const outer = 'M0,0H52V50L47.7,56L43.3,50L39,56L34.7,50L30.3,56L26,50L21.7,56L17.3,50L13,56L8.7,50L4.3,56L0,50Z';
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -4 64 66"><path d="M-4,0H56" stroke="#6a5878" stroke-width="3"/><path fill="#ff3d8b" fill-rule="evenodd" d="${outer}${holes}"/></svg>`;
-})();
-
 /** Dessine un ennemi (emoji + éventuel accessoire au-dessus) dans le canvas. */
 export function drawEnemy(canvas: HTMLCanvasElement, emoji: string, top?: string, res = 32): void {
   canvas.width = res;
@@ -69,13 +62,14 @@ export function drawEnemy(canvas: HTMLCanvasElement, emoji: string, top?: string
       /* canvas illisible : on garde le dessin brut */
     }
   };
-  if (emoji.startsWith('svg:')) {
+  const src = figureSrc(emoji);
+  if (src) {
     const img = new Image();
     img.onload = () => {
       ctx.drawImage(img, res * 0.08, res * 0.08, res * 0.84, res * 0.84);
       finish();
     };
-    img.src = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(PAPEL_SVG)}`;
+    img.src = src;
     return;
   }
   ctx.font = `${Math.round(res * (top ? 0.74 : 0.86))}px ${EMOJI_FONT}`;
@@ -85,33 +79,33 @@ export function drawEnemy(canvas: HTMLCanvasElement, emoji: string, top?: string
   finish();
 }
 
-/* ---------- Joueur, vu de dos (20 × 22) ---------- */
+/* ---------- Joueur, vu de dos (20 × 22) : chapeau, tunique, ceinture, lance ---------- */
 const PAL: Record<string, string> = {
-  K: '#1a0f2b', H: '#ff9f1c', h: '#b5620a', b: '#ff3d8b', N: '#3a2418',
-  P: '#ff3d8b', p: '#a8205a', T: '#22d1c6', S: '#c98a5b', L: '#3d2560', W: '#fff1dc', F: '#ffd23f', f: '#ff9f1c',
+  K: '#1d1f33', H: '#8a5a2b', h: '#5a3a1a', b: '#e9a23b', N: '#3b2a1a',
+  P: '#c0603a', p: '#7a3a22', T: '#f4e3b5', S: '#e9b98a', L: '#4a4e6e', W: '#8a5a2b', F: '#c8ccd4', f: '#9aa3b2',
 };
 const PLAYER = [
-  '........KKKK........',
-  '.......KHHHHK.......',
-  '......KHHHHHHK......',
-  '......KbbbbbbK......',
-  '..KKKKKHHHHHHKKKKK..',
-  '.KHHHHHHHHHHHHHHHHK.',
-  '..KKhhhhhhhhhhhhKK..',
-  '.....KNNNNNNNNK..KK.',
-  '.....KNNNNNNNNK.KFFK',
-  '....KPPPPPPPPPPKKfFK',
-  '...KPPPPPPPPPPPPKKfK',
-  '..KPPTTTTTTTTTTPPKWK',
-  '..KPPPPPPPPPPPPPPSWK',
-  '..KpPPPPPPPPPPPPpSWK',
-  '..KPPTTTTTTTTTTPPKWK',
-  '..KpPPPPPPPPPPPPpKK.',
-  '...KppppppppppppK...',
-  '....KLLLLLKLLLLLK...',
-  '....KLLLLLKLLLLLK...',
-  '....KLLLLK.KLLLLK...',
-  '....KKKKKK.KKKKKK...',
+  '.................F..',
+  '................FfF.',
+  '.................F..',
+  '.......KKKKK.....W..',
+  '......KHHHHHK....W..',
+  '...KKKHHbbbHHKKK.W..',
+  '..KHHHHHHHHHHHHHKW..',
+  '...KKhhhhhhhhhKK.W..',
+  '......KNNNNNK....W..',
+  '.....KPPPPPPPK..SW..',
+  '....KPPPPPPPPPKSSW..',
+  '...KPPPPPPPPPPPKKW..',
+  '...KPTTTTTTTTTPK.W..',
+  '...KPPPPPPPPPPPK.W..',
+  '...KpPPPPPPPPPpK.W..',
+  '...KppppppppppK..W..',
+  '....KLLLLKLLLLK..W..',
+  '....KLLLLKLLLLK..W..',
+  '....KLLLK.KLLLK..W..',
+  '....KKKKK.KKKKK.....',
+  '....................',
   '....................',
 ];
 

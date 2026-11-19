@@ -1,14 +1,15 @@
 /* =========================================================
-   El Camino de Cempasúchil : direction artistique
-   Nuit violette, papel picado, cartes de lotería, orange cempasúchil.
+   Molinos y gigantes : direction artistique
+   Nuit bleue de Castille, ocre des plaines, blanc des moulins, rouge d'Espagne.
+   (Les noms des variables viennent d'El Camino ; seules leurs valeurs changent.)
    ========================================================= */
 :root {
   color-scheme: dark;
-  --noche: #1a0f2b; --noche-2: #28173f; --noche-3: #3d2560; --noche-4: #553782;
-  --papel: #fff1dc; --tinta: #21142f; --tinta-2: #6a5878;
-  --cempa: #ff9f1c; --cempa-sombra: #b5620a; --rosa: #ff3d8b; --turquesa: #22d1c6; --morado: #9b6cff; --amarillo: #ffd23f;
-  --texto: #f7ecff; --texto-2: #bfa9d6;
-  --display: 'Sancreek', 'Rockwell', 'Georgia', serif;
+  --noche: #1d1f33; --noche-2: #2a2d47; --noche-3: #3c4063; --noche-4: #555a85;
+  --papel: #f6ecd2; --tinta: #2a2116; --tinta-2: #6b5d48;
+  --cempa: #e9a23b; --cempa-sombra: #9a6420; --rosa: #e0596b; --turquesa: #45c4b0; --morado: #9b82d6; --amarillo: #f2d16b;
+  --texto: #f4efe4; --texto-2: #c2bba8;
+  --display: 'Pixelify Sans', 'Atkinson Hyperlegible', 'Verdana', sans-serif;
   --body: 'Atkinson Hyperlegible', 'Verdana', 'Segoe UI', sans-serif;
   --r: 14px;
   --base: 1.0625rem;
@@ -18,7 +19,7 @@ html { background: var(--noche); min-height: 100%; }
 body {
   margin: 0; background: var(--noche); color: var(--texto); font-family: var(--body); font-size: var(--base); line-height: 1.45;
   padding: 0 max(16px, env(safe-area-inset-right, 0px)) 40px max(16px, env(safe-area-inset-left, 0px));
-  background-image: radial-gradient(ellipse at 50% -10%, #3a1d55, transparent 60%);
+  background-image: radial-gradient(ellipse at 50% -10%, #34406a, transparent 60%);
   min-height: 100vh; overflow-x: hidden;
 }
 #app { max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px; }
@@ -37,11 +38,14 @@ a { color: var(--turquesa); }
 .screen { display: flex; flex-direction: column; gap: 18px; animation: entra .45s ease-out both; }
 @keyframes entra { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 
-/* ---------- papel picado ---------- */
-.picado { display: flex; justify-content: center; gap: 4px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) 14px; padding-top: 6px; border-top: 2px solid var(--noche-3); overflow: hidden; height: 64px; }
-.picado svg { flex: none; width: 52px; height: 58px; transform-origin: top center; animation: viento 4s ease-in-out infinite; }
-.picado svg:nth-child(2n) { animation-delay: -1.3s; } .picado svg:nth-child(3n) { animation-delay: -2.6s; }
-@keyframes viento { 0%, 100% { transform: rotate(-2deg); } 50% { transform: rotate(2deg); } }
+/* ---------- horizon de moulins ---------- */
+.horizonte-molinos {
+  position: relative; height: 64px; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))) 14px; overflow: hidden;
+  background: linear-gradient(transparent 78%, #6b5a2e 78%); border-bottom: 2px solid var(--noche-3);
+}
+.horizonte-molinos img { position: absolute; bottom: 8px; height: calc(56px * var(--t, 1)); transform: translateX(-50%); animation: viento 5s ease-in-out infinite; animation-delay: var(--d, 0s); transform-origin: bottom center; }
+.figura { width: 1em; height: 1em; vertical-align: -.12em; }
+@keyframes viento { 0%, 100% { transform: translateX(-50%) rotate(-1.5deg); } 50% { transform: translateX(-50%) rotate(1.5deg); } }
 
 /* ---------- boutons ---------- */
 .btn { background: var(--cempa); color: var(--tinta); border: 0; border-radius: 999px; padding: 13px 26px; font-weight: 700; font-size: 1.05rem; box-shadow: 0 4px 0 var(--cempa-sombra); transition: transform .08s; }
@@ -248,13 +252,13 @@ a { color: var(--turquesa); }
 
 /* ---------- transition entre les salles ---------- */
 .transicion { position: fixed; inset: 0; pointer-events: none; z-index: 50; overflow: hidden; }
-.transicion span { position: absolute; top: -60px; background: radial-gradient(ellipse at 40% 30%, #ffd23f, var(--cempa) 60%, var(--cempa-sombra)); border-radius: 60% 0 60% 0; transform: rotate(var(--rot)); animation: petalo .9s ease-in forwards; opacity: .95; }
+.transicion span { position: absolute; top: -60px; background: repeating-linear-gradient(transparent 0 5px, rgba(59, 42, 26, .35) 5px 6px) var(--papel); border-radius: 2px; box-shadow: 2px 2px 0 rgba(0, 0, 0, .25); transform: rotate(var(--rot)); animation: petalo .9s ease-in forwards; opacity: .95; }
 @keyframes petalo { to { transform: translateY(110vh) rotate(calc(var(--rot) + 260deg)); opacity: 0; } }
 
 /* ---------- mouvement réduit ---------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001s !important; animation-iteration-count: 1 !important; transition-duration: .001s !important; }
-  .picado svg { animation: none !important; }
+  .horizonte-molinos img { animation: none !important; }
   .transicion { display: none; }
 }
 

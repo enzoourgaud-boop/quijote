@@ -3,11 +3,14 @@ import { useEffect, useState } from 'preact/hooks';
 import type { Asked } from '../engine/game';
 import type { Question, SceneRef, Scenes } from '../engine/schema';
 import { pointerDrag } from './drag';
+import { Figure } from './components';
+import { figureName } from './figures';
 import { canSpeak, speak, stopSpeaking, voicesReady } from './speech';
 
 const FR_POS: Record<string, string> = {
   arriba: 'en haut', abajo: 'en bas', fondo: 'au fond', segundo: 'au second plan', primero: 'au premier plan',
   izquierda: 'à gauche', centro: 'au centre', derecha: 'à droite',
+  p1: 'place 1', p2: 'place 2', pueblo: 'au village de don Quichotte', toboso: 'au Toboso',
 };
 
 /* ======================= Vrai / faux ======================= */
@@ -185,7 +188,7 @@ export function MatchBoard({ q, asked, done, onSubmit }: { q: Extract<Question, 
             >
               <span class="num" aria-hidden="true">{i + 1}</span>
               {w}
-              {done && ok === false && <span class="sol-img"> → {correct(w)}</span>}
+              {done && ok === false && <span class="sol-img"> → <Figure emoji={correct(w) ?? ""} /></span>}
             </button>
           );
         })}
@@ -203,9 +206,9 @@ export function MatchBoard({ q, asked, done, onSubmit }: { q: Extract<Question, 
               data-img={img}
               disabled={done}
               onClick={() => sel && link(sel, img)}
-              aria-label={`Image ${img}${w ? `, reliée à « ${w} »` : ''}${sel ? `. Relier à « ${sel} »` : ''}`}
+              aria-label={`Image ${figureName(img)}${w ? `, reliée à « ${w} »` : ''}${sel ? `. Relier à « ${sel} »` : ''}`}
             >
-              <span class="emo" aria-hidden="true">{img}</span>
+              <span class="emo" aria-hidden="true"><Figure emoji={img} /></span>
               {w && <span class="num" aria-hidden="true">{words.indexOf(w) + 1}</span>}
             </button>
           );

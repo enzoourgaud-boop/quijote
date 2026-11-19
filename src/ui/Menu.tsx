@@ -283,16 +283,16 @@ export function Title({ content, profile, meta, saved, settings, onSettings, onS
 }
 
 const savePick = (id: string) => {
-  try { localStorage.setItem('camino:pick', id); } catch { /* rien */ }
+  try { localStorage.setItem('molinos:pick', id); } catch { /* rien */ }
 };
 const localPick = () => {
-  try { return localStorage.getItem('camino:pick'); } catch { return null; }
+  try { return localStorage.getItem('molinos:pick'); } catch { return null; }
 };
 const saveAsc = (n: number) => {
-  try { localStorage.setItem('camino:asc', String(n)); } catch { /* rien */ }
+  try { localStorage.setItem('molinos:asc', String(n)); } catch { /* rien */ }
 };
 const localAsc = () => {
-  try { return localStorage.getItem('camino:asc'); } catch { return null; }
+  try { return localStorage.getItem('molinos:asc'); } catch { return null; }
 };
 
 /* ======================= Collection ======================= */

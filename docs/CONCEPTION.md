@@ -274,3 +274,13 @@ Pour chacune, ma recommandation. Un « oui à tout » suffit.
 8. **Les points de [`A_VERIFIER.md`](A_VERIFIER.md)** : corrigés que j'ai établis, faits et mots hors documents, noms inventés.
 
 > **Validé le 19/11/2026 : « oui à tout ».** Les huit décisions sont prises selon les recommandations ci-dessus : titre *Molinos y gigantes* et dépôt `quijote`, univers du mago, transposition un pour un, partie courte sur les trois actes raccourcis, *páginas perdidas*, pas de musique, transcription complète publique, points de `A_VERIFIER.md` à relire au fil des étapes.
+
+## 11. Ajustements faits pendant l'étape 1
+
+- **Banque** : 377 questions (373 actives, 4 désactivées en attente de validation). Vocabulario 145, Conjugación 68, Presentarse 76, Personajes y textos 84. Types : 261 QCM, 27 écrits (plus les QCM qui peuvent passer à l'écrit), 26 écoutes, 22 vrai/faux, 16 phrases à ordonner, 11 associations, 10 scènes.
+- **Mots codés** (Enquête 1) : 13 questions écrites, avec le tableau de l'alphabet rappelé dans la consigne.
+- **Scène « ¿Dónde vive? »** : deux places par village, pour pouvoir placer Antonia et la sirvienta chez don Quijote.
+- **Dessins originaux** (`src/ui/figures.ts`) : moulin, géant, lance, chevalier masqué, mage ; utilisés en combat, dans l'album et dans les associations. Les emoji trop récents pour les vieux PC sont remplacés.
+- **Stockage séparé** : le jeu range ses données sous `molinos:` ; El Camino, à la même adresse github.io, garde les siennes (`camino:`).
+- **Chrono coupé par défaut** : avec les valeurs de combat d'El Camino, sans temps écoulé, le jeu est un peu plus facile. Simulation (300 parties par profil) : élève à 60 % → 36 % de victoires ; à 75 % → 91 % ; à 90 % → 100 %. Durée d'une partie gagnée : 16 à 23 minutes. Les *Niveles de caballero* rendent le jeu plus difficile après une victoire.
+- **Police** : Sancreek (style western) retirée ; les titres utilisent Pixelify Sans, déjà présente.

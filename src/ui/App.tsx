@@ -10,7 +10,7 @@ import { randomSeed } from '../engine/rng';
 import { profiles, type Profile } from '../profiles';
 import { storage } from '../storage';
 import { Combat } from './Combat';
-import { PapelPicado, useGame } from './components';
+import { Horizonte, useGame } from './components';
 import { AchievementsScreen, CarnetScreen, CollectionScreen, Over, ProfileScreen, Title } from './Menu';
 import { ChestScreen, EventScreen, MapScreen, RestScreen, WarmupScreen } from './Rooms';
 import { Reward, Shop } from './screens';
@@ -262,7 +262,7 @@ function Main({ content, fromPack, reload }: { content: Content; fromPack: boole
   if (menu === 'prof') {
     return (
       <>
-        <PapelPicado />
+        <Horizonte />
         <main id="app">
           {!Teacher ? <p class="muted">Chargement de l’espace professeur…</p> : <Teacher
             content={content}
@@ -289,7 +289,7 @@ function Main({ content, fromPack, reload }: { content: Content; fromPack: boole
   if (!profile || !meta || menu === 'profiles') {
     return (
       <>
-        <PapelPicado />
+        <Horizonte />
         <main id="app">
           <ProfileScreen
             list={list}
@@ -316,7 +316,7 @@ function Main({ content, fromPack, reload }: { content: Content; fromPack: boole
   return (
     <>
       {petals && <Petals key={screen === 'over' ? 'fin' : 'calme'} burst={screen === 'over' && game?.state.result === 'win'} />}
-      <PapelPicado />
+      <Horizonte />
       <button class="btn-opciones" onClick={() => setOptionsOpen(true)} aria-label="Options : son, taille du texte, police, animations" title="Options">
         ⚙️
       </button>

@@ -45,7 +45,7 @@
 .imagen.sobre { outline: 3px solid var(--turquesa); }
 
 /* --- scènes --- */
-.decorado { position: relative; width: 100%; max-width: 560px; margin: 0 auto; aspect-ratio: 16 / 10; border-radius: var(--r); overflow: hidden; border: 4px solid var(--cadre, #1a0f2b); }
+.decorado { position: relative; width: 100%; max-width: 560px; margin: 0 auto; aspect-ratio: 16 / 10; border-radius: var(--r); overflow: hidden; border: 4px solid var(--cadre, #1d1f33); }
 .decor-fondo { position: absolute; inset: 0; }
 .decor-ofrenda .decor-fondo {
   background:
@@ -60,6 +60,13 @@
 }
 .celdas { position: absolute; inset: 9% 2% 4%; display: grid; grid-template-columns: repeat(var(--cols), 1fr); grid-template-rows: repeat(var(--filas), 1fr); gap: 4px; }
 .decor-cementerio .celdas { inset: 6% 2% 2%; }
+.decor-mancha .decor-fondo { background: linear-gradient(90deg, #d9b45a 0 49.6%, var(--tinta) 49.6% 50.4%, #c98b4a 50.4%); }
+.decor-mancha .decor-fondo::before, .decor-mancha .decor-fondo::after {
+  position: absolute; top: 2%; width: 46%; text-align: center; font: 700 clamp(.8rem, 2.6vw, 1rem) var(--body); color: var(--tinta);
+}
+.decor-mancha .decor-fondo::before { content: 'El pueblo de don Quijote'; left: 2%; }
+.decor-mancha .decor-fondo::after { content: 'El Toboso'; left: 52%; }
+.decor-mancha .celdas { inset: 14% 2% 3%; }
 .celda { position: relative; display: grid; place-items: end center; padding-bottom: 6%; border: 2px dashed transparent; border-radius: 10px; background: transparent; font-size: 1rem; }
 button.celda { border-color: rgba(255, 241, 220, .35); cursor: pointer; }
 button.celda:hover, .celda.sobre { border-color: var(--turquesa); background: rgba(34, 209, 198, .15); }

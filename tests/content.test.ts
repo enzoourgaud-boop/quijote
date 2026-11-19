@@ -29,7 +29,7 @@ describe('banque de questions', () => {
   });
   it('détecte un champ manquant', () => {
     const raw = readSequence('quijote');
-    const data = [{ id: 'sans-reponse', type: 'qcm', theme: 'personajes', notions: ['cultura-fiesta'], level: 1, prompt: '¿?', distractors: ['a', 'b', 'c'], explanation: 'x', source: 'texto-ce' }];
+    const data = [{ id: 'sans-reponse', type: 'qcm', theme: 'personajes', notions: ['personajes'], level: 1, prompt: '¿?', distractors: ['a', 'b', 'c'], explanation: 'x', source: 'dq2' }];
     const { issues } = parseContent({ ...raw, questions: [{ file: 'test.json', data }] });
     expect(issues.some(i => i.where.includes('sans-reponse') && i.where.includes('answer'))).toBe(true);
   });

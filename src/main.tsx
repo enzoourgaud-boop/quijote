@@ -1,5 +1,4 @@
 import { render } from 'preact';
-import '@fontsource/sancreek/400.css';
 import '@fontsource/atkinson-hyperlegible/400.css';
 import '@fontsource/atkinson-hyperlegible/700.css';
 import '@fontsource/pixelify-sans/400.css';
