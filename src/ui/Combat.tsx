@@ -91,8 +91,8 @@ export function Combat({ game, paused = false }: { game: Game; paused?: boolean 
             {c.q.mode === 'write' ? " · à l'écrit" : ''}
           </span>
           {c.q.again && (
-            <span class="alma-chip" title="Tu avais raté cette question. Réussis-la pour libérer cette âme : +1 PV.">
-              <span aria-hidden="true">👻</span> Alma pendiente
+            <span class="alma-chip" title="Tu avais raté cette question. Réussis-la pour retrouver cette page : +1 PV.">
+              <span aria-hidden="true">📄</span> Página perdida
             </span>
           )}
         </div>

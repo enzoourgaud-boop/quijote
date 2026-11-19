@@ -6,12 +6,12 @@ import { canonicalValue, wrongValue } from '../src/engine/questions';
 import { content } from './helpers';
 import { simulate } from './sim';
 
-const S = { ...DEFAULT_SETTINGS };
+const S = { ...DEFAULT_SETTINGS, chrono: true }; // ces tests portent sur le chrono, coupé par défaut
 type Internals = { startFight(id: string): void };
 const good = (g: Game, id: string) => canonicalValue(g.getQuestion(id)!);
 const bad = (g: Game, id: string, options: string[]) => wrongValue(g.getQuestion(id)!, options);
 
-function fight(seed: string, settings = S, enemy = 'pan-de-muerto', pending: string[] = []): Game {
+function fight(seed: string, settings = S, enemy = 'queso-gigante', pending: string[] = []): Game {
   const g = Game.newRun(content(), settings, seed, 0, { pending });
   if (g.state.screen === 'warmup') g.warmupSkip();
   (g as unknown as Internals).startFight(enemy);
@@ -84,7 +84,7 @@ describe('bugs corrigés', () => {
       expect(all(sans)).not.toContain(id);
     }
   });
-  it('la Chuleta ne donne pas la réponse d’un vrai / faux', () => {
+  it('l’Ayuda ne donne pas la réponse d’un vrai / faux', () => {
     const g = fight('CHULETA');
     for (const q of content().questions.filter(x => x.type === 'vrai-faux' && !x.disabled)) {
       g.state.combat!.q = { id: q.id, mode: 'tf', options: ['verdadero', 'falso'] };
@@ -93,12 +93,12 @@ describe('bugs corrigés', () => {
       expect(hint.length, q.id).toBeGreaterThan(10);
     }
   });
-  it('le Traductor sert toujours : traduction, sinon première lettre de la réponse', () => {
+  it('le Léxico sert toujours : traduction, sinon première lettre de la réponse', () => {
     const g = fight('TRADUCTOR');
     const sans = content().questions.find(q => !q.disabled && !q.translation && (q.type === 'qcm' || q.type === 'ecrit'))!;
     g.state.combat!.q = { id: sans.id, mode: 'qcm', options: [] };
     expect(g.translationText()).toMatch(/commence par/);
-    expect(g.powerBlock('traductor')).toBeNull();
+    expect(g.powerBlock('lexico')).toBeNull();
     const avec = content().questions.find(q => !q.disabled && !!q.translation)!;
     g.state.combat!.q = { id: avec.id, mode: 'qcm', options: [] };
     expect(g.translationText()).toBe(avec.translation);
@@ -144,11 +144,11 @@ describe('almas pendientes : les erreurs reviennent', () => {
     expect(g.state.stats.freed).toBe(1);
     expect(g.state.hp).toBe(6);
     expect(fb.fx).toContain('alma');
-    expect(fb.lines.join(' ')).toMatch(/Alma liberada/);
+    expect(fb.lines.join(' ')).toMatch(/Página recuperada/);
   });
   it('une question en attente n’est jamais reposée si elle ne convient pas à l’ennemi (écrit obligatoire)', () => {
     const notWritable = ids(3, q => q.type === 'vrai-faux');
-    const g = fight('ALMA-2', S, 'pinata-furiosa', []);
+    const g = fight('ALMA-2', S, 'caballero-enmascarado', []);
     g.state.retry = [...notWritable];
     const c = () => g.state.combat!;
     c().hp = 999;

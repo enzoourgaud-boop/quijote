@@ -10,7 +10,7 @@ import { content } from './helpers';
 describe('code de classe', () => {
   it('encode puis décode les réglages', () => {
     const seq = content().sequence;
-    const s = { ...DEFAULT_SETTINGS, themes: ['gramatica', 'cultura'], types: ['qcm', 'vrai-faux'], chrono: false, chronoFactor: 1.5, writeFactor: 0, accents: 'strict' as const };
+    const s = { ...DEFAULT_SETTINGS, themes: ['identidad', 'personajes'], types: ['qcm', 'vrai-faux'], chrono: false, chronoFactor: 1.5, writeFactor: 0, accents: 'strict' as const };
     const code = encodeClass(s, seq);
     expect(code).toMatch(/^[0-9A-Z]{6}$/);
     expect(decodeClass(code, seq)).toEqual({ themes: s.themes, types: s.types, chrono: false, chronoFactor: 1.5, writeFactor: 0, accents: 'strict' });
@@ -30,7 +30,7 @@ describe('code de classe', () => {
     let accepted = 0;
     for (const ch of alpha) if (ch !== code[0] && decodeClass(ch + code.slice(1), seq)) accepted++;
     expect(accepted).toBeLessThanOrEqual(3);
-    expect(parseClassLink(`#classe-${code}-VELA-12`)).toEqual({ code, seed: 'VELA-12' });
+    expect(parseClassLink(`#classe-${code}-LANZA-12`)).toEqual({ code, seed: 'LANZA-12' });
     expect(parseClassLink(code.toLowerCase())).toEqual({ code, seed: '' });
     expect(parseClassLink('#prof')).toBeNull();
   });
@@ -60,11 +60,11 @@ describe('CSV', () => {
 
 describe('modifications du professeur', () => {
   it('ajoute, modifie, retire des questions sans toucher aux fichiers d’origine', () => {
-    const raw = readSequence('dia-de-muertos');
+    const raw = readSequence('quijote');
     const o = emptyOverlay();
     const first = (raw.questions[0].data as { id: string; prompt: string }[])[0];
     o.upserts[first.id] = { ...(first as object), prompt: 'Énoncé modifié' } as never;
-    o.upserts['prof-nueva'] = { id: 'prof-nueva', type: 'vrai-faux', theme: 'cultura', notions: ['cultura-fiesta'], level: 1, prompt: 'La fiesta es en noviembre.', answer: 'verdadero', explanation: 'Sí.', source: 'texto-ce' };
+    o.upserts['prof-nueva'] = { id: 'prof-nueva', type: 'vrai-faux', theme: 'personajes', notions: ['personajes'], level: 1, prompt: 'La fiesta es en noviembre.', answer: 'verdadero', explanation: 'Sí.', source: 'dq2' };
     const second = (raw.questions[0].data as { id: string }[])[1].id;
     o.removed.push(second);
     const { content: c, issues } = parseContent(applyOverlay(raw, o));
@@ -79,10 +79,10 @@ describe('modifications du professeur', () => {
 
 describe('fichier professeur.json dans le dépôt', () => {
   it('ses questions remplacent celles d’origine de même identifiant, sans doublon', () => {
-    const raw = readSequence('dia-de-muertos');
+    const raw = readSequence('quijote');
     const orig = (raw.questions[0].data as { id: string; prompt: string }[])[0];
     const mod = { ...(orig as object), prompt: 'Version du professeur' };
-    const neu = { id: 'prof-extra', type: 'vrai-faux', theme: 'cultura', notions: ['cultura-fiesta'], level: 1, prompt: 'Se baila mucho.', answer: 'verdadero', explanation: 'Sí.', source: 'texto-ce' };
+    const neu = { id: 'prof-extra', type: 'vrai-faux', theme: 'personajes', notions: ['personajes'], level: 1, prompt: 'Se baila mucho.', answer: 'verdadero', explanation: 'Sí.', source: 'dq2' };
     const { content: c, issues } = parseContent({ ...raw, questions: [...raw.questions, { file: 'questions/professeur.json', data: [mod, neu] }] });
     expect(issues.filter(i => i.level === 'erreur')).toEqual([]);
     expect(c!.questions.filter(q => q.id === orig.id)).toHaveLength(1);

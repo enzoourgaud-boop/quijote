@@ -1,0 +1,402 @@
+[
+  {
+    "id": "ord-quijote-lee",
+    "type": "ordre",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 1,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Don Quichotte lit un livre.",
+    "promptLang": "fr",
+    "answer": "Don Quijote lee un libro.",
+    "accept": [],
+    "tokens": [
+      "Don Quijote",
+      "lee",
+      "un",
+      "libro."
+    ],
+    "extra": [],
+    "translation": "",
+    "explanation": "leer, él : lee.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "ord-yo-casa",
+    "type": "ordre",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 1,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Je suis à la maison.",
+    "promptLang": "fr",
+    "answer": "Yo estoy en casa.",
+    "accept": [],
+    "tokens": [
+      "Yo",
+      "estoy",
+      "en",
+      "casa."
+    ],
+    "extra": [
+      "soy"
+    ],
+    "translation": "",
+    "explanation": "ESTAR pour dire où l’on est : yo estoy.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "ord-rocinante-caballo",
+    "type": "ordre",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 1,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Rocinante est un cheval.",
+    "promptLang": "fr",
+    "answer": "Rocinante es un caballo.",
+    "accept": [],
+    "tokens": [
+      "Rocinante",
+      "es",
+      "un",
+      "caballo."
+    ],
+    "extra": [
+      "está"
+    ],
+    "translation": "",
+    "explanation": "SER pour dire ce qu’est une chose : es.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "ord-vecino-simpatico",
+    "type": "ordre",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 2,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Le voisin est très sympathique.",
+    "promptLang": "fr",
+    "answer": "El vecino es muy simpático.",
+    "accept": [],
+    "tokens": [
+      "El vecino",
+      "es",
+      "muy",
+      "simpático."
+    ],
+    "extra": [
+      "está"
+    ],
+    "translation": "",
+    "explanation": "SER pour dire comment est quelqu’un.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "ord-quijote-cansado",
+    "type": "ordre",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 2,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Don Quichotte est fatigué.",
+    "promptLang": "fr",
+    "answer": "Don Quijote está cansado.",
+    "accept": [],
+    "tokens": [
+      "Don Quijote",
+      "está",
+      "cansado."
+    ],
+    "extra": [
+      "es"
+    ],
+    "translation": "",
+    "explanation": "ESTAR pour dire comment on se sent.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "ord-tu-comes",
+    "type": "ordre",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Tu manges du fromage.",
+    "promptLang": "fr",
+    "answer": "Tú comes queso.",
+    "accept": [],
+    "tokens": [
+      "Tú",
+      "comes",
+      "queso."
+    ],
+    "extra": [
+      "come"
+    ],
+    "translation": "",
+    "explanation": "comer, tú : comes.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "ord-soy-de-la-mancha",
+    "type": "ordre",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 1,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Je suis de la Manche.",
+    "promptLang": "fr",
+    "answer": "Soy de La Mancha.",
+    "accept": [],
+    "tokens": [
+      "Soy",
+      "de",
+      "La Mancha."
+    ],
+    "extra": [],
+    "translation": "",
+    "explanation": "Ordre : Soy de La Mancha. La majuscule est au début, le point à la fin (aide de l’Enquête 2).",
+    "source": "intro"
+  },
+  {
+    "id": "ord-tengo-cincuenta",
+    "type": "ordre",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 1,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "J’ai cinquante ans.",
+    "promptLang": "fr",
+    "answer": "Tengo cincuenta años.",
+    "accept": [],
+    "tokens": [
+      "Tengo",
+      "cincuenta",
+      "años."
+    ],
+    "extra": [
+      "Soy"
+    ],
+    "translation": "",
+    "explanation": "Ordre : Tengo cincuenta años. La majuscule est au début, le point à la fin (aide de l’Enquête 2).",
+    "source": "intro"
+  },
+  {
+    "id": "ord-me-gustan-libros",
+    "type": "ordre",
+    "theme": "identidad",
+    "notions": [
+      "gustar"
+    ],
+    "level": 1,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "J’aime les livres.",
+    "promptLang": "fr",
+    "answer": "Me gustan los libros.",
+    "accept": [],
+    "tokens": [
+      "Me",
+      "gustan",
+      "los",
+      "libros."
+    ],
+    "extra": [],
+    "translation": "",
+    "explanation": "Ordre : Me gustan los libros. La majuscule est au début, le point à la fin (aide de l’Enquête 2).",
+    "source": "intro"
+  },
+  {
+    "id": "ord-no-me-gustan",
+    "type": "ordre",
+    "theme": "identidad",
+    "notions": [
+      "gustar"
+    ],
+    "level": 2,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Je n’aime pas les géants.",
+    "promptLang": "fr",
+    "answer": "No me gustan los gigantes.",
+    "accept": [],
+    "tokens": [
+      "No",
+      "me",
+      "gustan",
+      "los",
+      "gigantes."
+    ],
+    "extra": [],
+    "translation": "",
+    "explanation": "Ordre : No me gustan los gigantes. La majuscule est au début, le point à la fin (aide de l’Enquête 2).",
+    "source": "intro"
+  },
+  {
+    "id": "ord-soy-don-quijote",
+    "type": "ordre",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 1,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Je suis don Quichotte.",
+    "promptLang": "fr",
+    "answer": "Soy don Quijote.",
+    "accept": [],
+    "tokens": [
+      "Soy",
+      "don",
+      "Quijote."
+    ],
+    "extra": [
+      "Estoy"
+    ],
+    "translation": "",
+    "explanation": "Ordre : Soy don Quijote. La majuscule est au début, le point à la fin (aide de l’Enquête 2).",
+    "source": "dq1"
+  },
+  {
+    "id": "ord-vivo-pueblo",
+    "type": "ordre",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 2,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "J’habite dans un village de la Manche.",
+    "promptLang": "fr",
+    "answer": "Vivo en un pueblo de la Mancha.",
+    "accept": [],
+    "tokens": [
+      "Vivo",
+      "en",
+      "un pueblo",
+      "de",
+      "la Mancha."
+    ],
+    "extra": [],
+    "translation": "",
+    "explanation": "Ordre : Vivo en un pueblo de la Mancha. La majuscule est au début, le point à la fin (aide de l’Enquête 2).",
+    "source": "dq1"
+  },
+  {
+    "id": "ord-como-te-llamas",
+    "type": "ordre",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 2,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Comment t’appelles-tu ?",
+    "promptLang": "fr",
+    "answer": "¿Cómo te llamas?",
+    "accept": [],
+    "tokens": [
+      "¿Cómo",
+      "te",
+      "llamas?"
+    ],
+    "extra": [
+      "Dónde"
+    ],
+    "translation": "",
+    "explanation": "Ordre : ¿Cómo te llamas? La majuscule est au début, le point à la fin (aide de l’Enquête 2).",
+    "source": "dq1"
+  },
+  {
+    "id": "ord-cuantos-anos",
+    "type": "ordre",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 2,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Quel âge as-tu ?",
+    "promptLang": "fr",
+    "answer": "¿Cuántos años tienes?",
+    "accept": [],
+    "tokens": [
+      "¿Cuántos",
+      "años",
+      "tienes?"
+    ],
+    "extra": [
+      "eres"
+    ],
+    "translation": "",
+    "explanation": "Ordre : ¿Cuántos años tienes? La majuscule est au début, le point à la fin (aide de l’Enquête 2).",
+    "source": "dq1"
+  },
+  {
+    "id": "ord-me-llamo-sancho",
+    "type": "ordre",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 3,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Je m’appelle Sancho Panza et je suis un écuyer.",
+    "promptLang": "fr",
+    "answer": "Me llamo Sancho Panza y soy un escudero.",
+    "accept": [],
+    "tokens": [
+      "Me llamo",
+      "Sancho Panza",
+      "y",
+      "soy",
+      "un escudero."
+    ],
+    "extra": [],
+    "translation": "",
+    "explanation": "Ordre : Me llamo Sancho Panza y soy un escudero. La majuscule est au début, le point à la fin (aide de l’Enquête 2).",
+    "source": "dq1"
+  },
+  {
+    "id": "ord-este-es",
+    "type": "ordre",
+    "theme": "identidad",
+    "notions": [
+      "presentar"
+    ],
+    "level": 3,
+    "label": "Remets la phrase dans l’ordre",
+    "prompt": "Voici le chevalier don Quichotte.",
+    "promptLang": "fr",
+    "answer": "Este es el caballero don Quijote.",
+    "accept": [],
+    "tokens": [
+      "Este",
+      "es",
+      "el caballero",
+      "don Quijote."
+    ],
+    "extra": [
+      "está"
+    ],
+    "translation": "",
+    "explanation": "Ordre : Este es el caballero don Quijote. La majuscule est au début, le point à la fin (aide de l’Enquête 2).",
+    "source": "dulcinea"
+  }
+]

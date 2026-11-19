@@ -64,7 +64,7 @@ describe('nouveaux types de questions', () => {
   it('le validateur repère deux objets au même endroit sur une scène', () => {
     const c = content();
     const q0 = byType('scene')[0] as Extract<Question, { type: 'scene' }>;
-    const q = { ...q0, scene: { decor: q0.scene.decor, items: [{ object: 'vela', row: 'arriba', col: 'izquierda' }, { object: 'foto', row: 'arriba', col: 'izquierda' }] } };
+    const q = { ...q0, scene: { decor: q0.scene.decor, items: [{ object: 'lanza', row: 'arriba', col: 'izquierda' }, { object: 'foto', row: 'arriba', col: 'izquierda' }] } };
     expect(checkCoherence({ ...c, questions: [q] }).some(i => i.message.includes('même endroit'))).toBe(true);
   });
 });
@@ -98,9 +98,9 @@ describe('moteur et nouveaux types', () => {
     }
   });
 
-  it('l’intention « Canto » de la Lechuza impose une question orale', () => {
+  it('l’intention « ¿Me oyes? » du Caballo Salvaje impose une question orale', () => {
     const g = Game.newRun(content(), S, 'LECHUZA');
-    (g as unknown as { startFight(id: string): void }).startFight('lechuza');
+    (g as unknown as { startFight(id: string): void }).startFight('caballo-salvaje');
     let listened = 0;
     for (let i = 0; i < 30 && g.state.screen === 'combat'; i++) {
       const c = g.state.combat!;
@@ -117,20 +117,20 @@ describe('moteur et nouveaux types', () => {
     expect(listened).toBeGreaterThan(0);
   });
 
-  it('l’Oráculo fonctionne sur tous les types', () => {
+  it('« En realidad… » fonctionne sur tous les types', () => {
     for (const t of ['vrai-faux', 'ordre', 'association', 'scene'] as const) {
       const g = Game.newRun(content(), { ...S, types: [t] }, `ORA-${t}`);
       g.choose(g.reachable()[0].id);
-      g.state.inv.oraculo = 1;
-      g.usePower('oraculo');
+      g.state.inv['en-realidad'] = 1;
+      g.usePower('en-realidad');
       expect(g.state.combat!.fb!.outcome, t).toBe('oracle');
     }
   });
 
-  it('Tijeras donne un indice sur les types sans QCM', () => {
+  it('¡Fíjate! donne un indice sur les types sans QCM', () => {
     const g = Game.newRun(content(), { ...S, types: ['ordre'] }, 'TIJ-ORD');
     g.choose(g.reachable()[0].id);
-    expect(g.usePower('tijeras')).toBe(true);
+    expect(g.usePower('fijate')).toBe(true);
     expect(g.state.combat!.mask).toMatch(/commence par/);
   });
 });

@@ -80,8 +80,8 @@ export function describeSettings(s: Partial<Settings>, seq: Sequence): string[] 
   const out: string[] = [];
   if (s.themes) out.push(`Thèmes : ${s.themes.map(t => seq.themes.find(x => x.id === t)?.label ?? t).join(', ')}`);
   if (s.types) out.push(`Types : ${s.types.map(t => QUESTION_TYPES.find(x => x.id === t)?.label ?? t).join(', ')}`);
-  if (s.chrono === false) out.push('Sans chrono');
-  else if (s.chronoFactor && s.chronoFactor !== 1) out.push(`Chrono ×${s.chronoFactor}`);
+  // le chrono est coupé par défaut : on ne signale que le cas où il est activé
+  if (s.chrono) out.push(s.chronoFactor && s.chronoFactor !== 1 ? `Avec chrono ×${s.chronoFactor}` : 'Avec chrono');
   if (s.writeFactor === 0) out.push('Pas de réponse écrite');
   else if (s.writeFactor && s.writeFactor !== 1) out.push(`Réponses écrites ×${s.writeFactor}`);
   if (s.accents === 'accept') out.push('Accents oubliés acceptés');

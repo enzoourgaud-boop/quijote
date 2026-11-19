@@ -6,7 +6,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Page } from '@playwright/test';
 
-const SEQ = join(import.meta.dirname, '..', '..', 'content', 'sequences', 'dia-de-muertos');
+const SEQ = join(import.meta.dirname, '..', '..', 'content', 'sequences', 'quijote');
 
 type Q = Record<string, unknown> & { id: string; answer?: string; tokens?: string[]; pairs?: [string, string][]; scene?: { decor: string; items: { object: string; row?: string; col?: string }[] } };
 

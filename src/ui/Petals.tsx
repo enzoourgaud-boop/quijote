@@ -1,4 +1,4 @@
-/** Pétales de cempasúchil qui tombent doucement (décor). Coupés si les animations sont réduites. */
+/** Pages de livre qui volent doucement (décor). Coupées si les animations sont réduites. */
 import { useEffect, useRef } from 'preact/hooks';
 import { motionReduced } from '../prefs';
 

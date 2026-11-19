@@ -1,8 +1,8 @@
 [
   {
-    "id": "vela-traviesa",
-    "name": "La Vela Traviesa",
-    "emoji": "🕯️",
+    "id": "lanza-loca",
+    "name": "La Lanza Loca",
+    "emoji": "svg:lanza",
     "card": 5,
     "kind": "normal",
     "hp": 4,
@@ -20,13 +20,13 @@
         "kind": "attack"
       }
     ],
-    "taunt": "¡Mi mecha es muy corta!",
-    "phrase": "La vela está en el altar."
+    "taunt": "¡Tengo prisa!",
+    "phrase": "En realidad, es una lanza."
   },
   {
-    "id": "calaverita",
-    "name": "La Calaverita",
-    "emoji": "💀",
+    "id": "escudo-saltarin",
+    "name": "El Escudo Saltarín",
+    "emoji": "🛡️",
     "card": 11,
     "kind": "normal",
     "hp": 4,
@@ -44,13 +44,13 @@
         "kind": "attack"
       }
     ],
-    "taunt": "¡Soy de azúcar, pero muy dura!",
-    "phrase": "La calavera es de azúcar."
+    "taunt": "¡No me gustan las lanzas!",
+    "phrase": "En realidad, es un escudo."
   },
   {
-    "id": "pan-de-muerto",
-    "name": "El Pan de Muerto",
-    "emoji": "🍞",
+    "id": "queso-gigante",
+    "name": "El Queso Gigante",
+    "emoji": "🧀",
     "card": 17,
     "kind": "normal",
     "hp": 5,
@@ -68,13 +68,13 @@
         "value": 2
       }
     ],
-    "taunt": "¡Estoy saliendo del horno!",
-    "phrase": "El pan de muerto está en la mesa."
+    "taunt": "¡Soy un queso gigante!",
+    "phrase": "En realidad, es un queso."
   },
   {
-    "id": "papel-picado",
-    "name": "El Papel Picado",
-    "emoji": "svg:papel-picado",
+    "id": "libro-volador",
+    "name": "El Libro Volador",
+    "emoji": "📖",
     "card": 8,
     "kind": "normal",
     "hp": 4,
@@ -90,13 +90,13 @@
         "value": 2
       }
     ],
-    "taunt": "¡El viento me lleva tus monedas!",
-    "phrase": "El papel picado está arriba."
+    "taunt": "¡Me gustan tus monedas!",
+    "phrase": "En realidad, es un libro."
   },
   {
-    "id": "pinata-furiosa",
-    "name": "La Piñata Furiosa",
-    "emoji": "🪅",
+    "id": "caballero-enmascarado",
+    "name": "El Caballero Enmascarado",
+    "emoji": "svg:caballero",
     "card": 20,
     "kind": "elite",
     "hp": 7,
@@ -117,12 +117,12 @@
       }
     ],
     "taunt": "¡Aquí solo se escribe!",
-    "phrase": "Los niños están bailando en la fiesta."
+    "phrase": "En realidad, es el vecino de don Quijote."
   },
   {
-    "id": "alebrije",
-    "name": "El Alebrije",
-    "emoji": "🐉",
+    "id": "gran-libro",
+    "name": "El Gran Libro",
+    "emoji": "📕",
     "card": 23,
     "kind": "jefe",
     "hp": 9,
@@ -144,12 +144,12 @@
         "value": 4
       }
     ],
-    "taunt": "¡Cambio de color! ¿Qué tema me hace daño hoy?",
-    "phrase": "El alebrije está volando."
+    "taunt": "¡Mira mis páginas! ¿Qué tema me hace daño hoy?",
+    "phrase": "En realidad, es el libro de don Quijote."
   },
   {
-    "id": "xoloitzcuintle",
-    "name": "El Xoloitzcuintle",
+    "id": "perro-gigante",
+    "name": "El Perro Gigante",
     "emoji": "🐕",
     "card": 29,
     "kind": "normal",
@@ -167,13 +167,13 @@
         "kind": "stealItem"
       }
     ],
-    "taunt": "¡Grrr! Huelo tus poderes…",
-    "phrase": "El perro está durmiendo junto a la tumba."
+    "taunt": "¡Grrr! ¿Qué tienes?",
+    "phrase": "En realidad, es un perro."
   },
   {
-    "id": "lechuza",
-    "name": "La Lechuza",
-    "emoji": "🦉",
+    "id": "caballo-salvaje",
+    "name": "El Caballo Salvaje",
+    "emoji": "🐎",
     "card": 34,
     "kind": "normal",
     "hp": 6,
@@ -191,13 +191,13 @@
         "kind": "listen"
       }
     ],
-    "taunt": "¡Uuuh! ¿Me oyes en la noche?",
-    "phrase": "La lechuza está en el cementerio."
+    "taunt": "¿Me oyes?",
+    "phrase": "No es un caballo: en realidad, es un burro."
   },
   {
-    "id": "esqueleto-musico",
-    "name": "El Esqueleto Músico",
-    "emoji": "🎺",
+    "id": "molinito",
+    "name": "El Molinito",
+    "emoji": "svg:molino",
     "card": 38,
     "kind": "normal",
     "hp": 7,
@@ -211,14 +211,13 @@
         "kind": "attack"
       }
     ],
-    "taunt": "¡Más fuerte, más fuerte!",
-    "phrase": "El esqueleto está tocando la trompeta."
+    "taunt": "¡Más rápido, más rápido!",
+    "phrase": "En realidad, es un molino pequeño."
   },
   {
-    "id": "cruz-florida",
-    "name": "La Cruz Florida",
-    "emoji": "✝️",
-    "top": "🌼",
+    "id": "casa-andante",
+    "name": "La Casa Andante",
+    "emoji": "🏠",
     "card": 31,
     "kind": "normal",
     "hp": 6,
@@ -237,14 +236,13 @@
         "value": 2
       }
     ],
-    "taunt": "Mis flores me protegen.",
-    "phrase": "En la cruz hay flores de cempasúchil."
+    "taunt": "¡Estoy en casa!",
+    "phrase": "En realidad, es una casa."
   },
   {
-    "id": "mariachi-de-huesos",
-    "name": "El Mariachi de Huesos",
-    "emoji": "💀",
-    "top": "🎻",
+    "id": "caballero-rapido",
+    "name": "El Caballero Rápido",
+    "emoji": "🏇",
     "card": 36,
     "kind": "elite",
     "hp": 9,
@@ -264,14 +262,13 @@
         "value": 4
       }
     ],
-    "taunt": "¡Rápido, rápido, que la canción se acaba!",
-    "phrase": "Los esqueletos están cantando."
+    "taunt": "¡Tengo prisa, mucha prisa!",
+    "phrase": "En realidad, es un señor del pueblo."
   },
   {
-    "id": "mictlantecuhtli",
-    "name": "Mictlantecuhtli",
-    "emoji": "💀",
-    "top": "👑",
+    "id": "gigante",
+    "name": "El Gigante",
+    "emoji": "svg:gigante",
     "card": 42,
     "kind": "jefe",
     "hp": 12,
@@ -279,7 +276,7 @@
     "traits": [
       "juicio"
     ],
-    "focusTheme": "cultura",
+    "focusTheme": "personajes",
     "pattern": "cycle",
     "intents": [
       {
@@ -293,13 +290,13 @@
         "kind": "attack"
       }
     ],
-    "taunt": "Cada tres preguntas, te juzgo.",
-    "phrase": "Lleva una corona en la cabeza."
+    "taunt": "¡Soy un gigante! ¿Conoces a don Quijote?",
+    "phrase": "No es un gigante: en realidad, es un molino."
   },
   {
-    "id": "alma-errante",
-    "name": "El Alma Errante",
-    "emoji": "👻",
+    "id": "pintura-viva",
+    "name": "La Pintura Viva",
+    "emoji": "🖼️",
     "card": 46,
     "kind": "normal",
     "hp": 7,
@@ -318,12 +315,12 @@
       }
     ],
     "taunt": "¿Dónde estoy? ¡Aquí no!",
-    "phrase": "Las almas visitan a sus familiares."
+    "phrase": "En realidad, es una pintura."
   },
   {
-    "id": "mariposa-negra",
-    "name": "La Mariposa Negra",
-    "emoji": "🦋",
+    "id": "burlon",
+    "name": "El Burlón",
+    "emoji": "😜",
     "card": 49,
     "kind": "normal",
     "hp": 7,
@@ -341,13 +338,13 @@
         "kind": "fog"
       }
     ],
-    "taunt": "Mis alas brillan con tus monedas.",
-    "phrase": "La mariposa está volando."
+    "taunt": "¡Ja, ja! ¡Me burlo de ti!",
+    "phrase": "En realidad, es un señor."
   },
   {
-    "id": "serpiente",
-    "name": "La Serpiente",
-    "emoji": "🐍",
+    "id": "television",
+    "name": "La Televisión Encantada",
+    "emoji": "📺",
     "card": 51,
     "kind": "normal",
     "hp": 8,
@@ -366,13 +363,13 @@
         "value": 3
       }
     ],
-    "taunt": "Sssss… mi veneno es lento.",
-    "phrase": "La serpiente está en el camino."
+    "taunt": "¡Mírame, mírame!",
+    "phrase": "En realidad, es una televisión."
   },
   {
-    "id": "jaguar-obsidiana",
-    "name": "El Jaguar de Obsidiana",
-    "emoji": "🐆",
+    "id": "teatro-ambulante",
+    "name": "El Teatro Ambulante",
+    "emoji": "🎭",
     "card": 14,
     "kind": "elite",
     "hp": 10,
@@ -392,14 +389,13 @@
         "value": 3
       }
     ],
-    "taunt": "En la niebla, no hay chuleta.",
-    "phrase": "El jaguar está a la derecha."
+    "taunt": "¡En el teatro no hay ayuda!",
+    "phrase": "En realidad, es un teatro."
   },
   {
-    "id": "catrina",
-    "name": "La Catrina",
-    "emoji": "💀",
-    "top": "👒",
+    "id": "mago",
+    "name": "El Mago",
+    "emoji": "svg:mago",
     "card": 54,
     "kind": "final",
     "hp": 20,
@@ -410,17 +406,17 @@
         "kind": "attack"
       }
     ],
-    "taunt": "Bienvenido a mi baile.",
+    "taunt": "¡Bienvenido a mi teatro!",
     "phases": [
       {
-        "name": "La Elegante",
+        "name": "Las apariencias",
         "from": 1,
         "traits": [
           "abanico"
         ],
         "abanico": 4,
         "themes": [
-          "cultura",
+          "personajes",
           "vocabulario"
         ],
         "intents": [
@@ -436,16 +432,16 @@
             "value": 4
           }
         ],
-        "message": "La Catrina ouvre son abanico : seules les réponses écrites le traversent."
+        "message": "El Mago se envuelve en su capa : seules les réponses écrites la traversent."
       },
       {
-        "name": "El Retrato",
+        "name": "¿Quién eres?",
         "from": 0.66,
         "traits": [
           "vanidad"
         ],
         "themes": [
-          "gramatica"
+          "identidad"
         ],
         "intents": [
           {
@@ -459,10 +455,10 @@
             "value": 4
           }
         ],
-        "message": "La Catrina pose pour son portrait : décris la scène ! Chaque erreur lui rend 1 PV."
+        "message": "El Mago te demande qui tu es : présente-toi ! Chaque erreur lui rend 1 PV."
       },
       {
-        "name": "El Último Baile",
+        "name": "La realidad",
         "from": 0.33,
         "traits": [
           "ultimoBaile"
@@ -480,9 +476,9 @@
             "value": 5
           }
         ],
-        "message": "Dernière danse ! Chrono fixe, coups plus forts. Une série de 3 la fait tituber (dégâts doublés)."
+        "message": "Il ne reste que l'homme ! Chrono fixe, coups plus forts. Une série de 3 le fait tituber (dégâts doublés)."
       }
     ],
-    "phrase": "La Catrina lleva un sombrero."
+    "phrase": "En realidad, es un mago de teatro."
   }
 ]

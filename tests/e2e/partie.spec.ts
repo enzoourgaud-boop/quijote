@@ -16,7 +16,7 @@ test('une partie entière, du profil jusqu’au code de fin', async ({ page }) =
   await expect(page.getByRole('heading', { name: '¿Quién juega?' })).toBeVisible();
   await page.fill('#pseudo', 'Bot');
   await page.click('text=Créer et jouer');
-  await page.fill('input[placeholder="au hasard"]', 'CALAVERA-42');
+  await page.fill('input[placeholder="au hasard"]', 'MOLINO-42');
   await page.getByRole('button', { name: 'Commencer le chemin' }).click();
   const modes = await playToEnd(page, data);
   await expect(page.locator('h1')).toHaveText('¡Felicidades!');
@@ -44,7 +44,7 @@ test('espace professeur : code de classe appliqué côté élève', async ({ pag
   await eleve.goto(`./#classe-${code}`);
   await eleve.fill('#pseudo', 'Élève');
   await eleve.click('text=Créer et jouer');
-  await expect(eleve.locator('.clase')).toContainText('Sans chrono');
+  await expect(eleve.locator('.clase')).toContainText('Avec chrono');
   await eleve.getByRole('button', { name: 'Commencer le chemin' }).click();
   await eleve.locator('.sala.puede').first().click();
   await expect(eleve.locator('.qa .tag')).not.toHaveText('Vocabulario');

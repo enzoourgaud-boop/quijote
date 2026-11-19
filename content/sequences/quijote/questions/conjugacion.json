@@ -1,0 +1,1505 @@
+[
+  {
+    "id": "conj-ser-yo",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 1,
+    "label": "Conjugue SER au présent",
+    "prompt": "ser — yo …",
+    "answer": "soy",
+    "accept": [],
+    "distractors": [
+      "eres",
+      "es",
+      "estoy"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "ser = être (qui l’on est, ce qu’est une chose, comment elle est) · yo = je",
+    "explanation": "SER : yo soy, tú eres, él / ella es.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ser-tu",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 1,
+    "label": "Conjugue SER au présent",
+    "prompt": "ser — tú …",
+    "answer": "eres",
+    "accept": [],
+    "distractors": [
+      "soy",
+      "es",
+      "estás"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "ser = être (qui l’on est, ce qu’est une chose, comment elle est) · tú = tu",
+    "explanation": "SER : yo soy, tú eres, él / ella es.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ser-el",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 1,
+    "label": "Conjugue SER au présent",
+    "prompt": "ser — él / ella …",
+    "answer": "es",
+    "accept": [],
+    "distractors": [
+      "soy",
+      "eres",
+      "está"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "ser = être (qui l’on est, ce qu’est une chose, comment elle est) · él / ella = il / elle",
+    "explanation": "SER : yo soy, tú eres, él / ella es.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-estar-yo",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 1,
+    "label": "Conjugue ESTAR au présent",
+    "prompt": "estar — yo …",
+    "answer": "estoy",
+    "accept": [],
+    "distractors": [
+      "estás",
+      "está",
+      "soy"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "estar = être (où l’on est, comment on se sent) · yo = je",
+    "explanation": "ESTAR : yo estoy, tú estás, él / ella está.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-estar-tu",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 1,
+    "label": "Conjugue ESTAR au présent",
+    "prompt": "estar — tú …",
+    "answer": "estás",
+    "accept": [],
+    "distractors": [
+      "estoy",
+      "está",
+      "eres"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "estar = être (où l’on est, comment on se sent) · tú = tu",
+    "explanation": "ESTAR : yo estoy, tú estás, él / ella está.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-estar-el",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 1,
+    "label": "Conjugue ESTAR au présent",
+    "prompt": "estar — él / ella …",
+    "answer": "está",
+    "accept": [],
+    "distractors": [
+      "estoy",
+      "estás",
+      "es"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "estar = être (où l’on est, comment on se sent) · él / ella = il / elle",
+    "explanation": "ESTAR : yo estoy, tú estás, él / ella está.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-tener-yo",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 1,
+    "label": "Conjugue TENER au présent",
+    "prompt": "tener — yo …",
+    "answer": "tengo",
+    "accept": [],
+    "distractors": [
+      "tienes",
+      "tiene",
+      "soy"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "tener = avoir · yo = je",
+    "explanation": "TENER : yo tengo, tú tienes, él / ella tiene.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-tener-tu",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 1,
+    "label": "Conjugue TENER au présent",
+    "prompt": "tener — tú …",
+    "answer": "tienes",
+    "accept": [],
+    "distractors": [
+      "tengo",
+      "tiene",
+      "eres"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "tener = avoir · tú = tu",
+    "explanation": "TENER : yo tengo, tú tienes, él / ella tiene.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-tener-el",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 1,
+    "label": "Conjugue TENER au présent",
+    "prompt": "tener — él / ella …",
+    "answer": "tiene",
+    "accept": [],
+    "distractors": [
+      "tengo",
+      "tienes",
+      "es"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "tener = avoir · él / ella = il / elle",
+    "explanation": "TENER : yo tengo, tú tienes, él / ella tiene.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex1-1",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 1,
+    "label": "Exercice 1 : conjugue le verbe",
+    "prompt": "Yo ___ Sancho Panza. (ser)",
+    "answer": "soy",
+    "accept": [],
+    "distractors": [
+      "es",
+      "eres",
+      "estoy"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Je suis Sancho Panza.",
+    "explanation": "SER pour dire qui l’on est : yo soy.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex1-2",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 1,
+    "label": "Exercice 1 : conjugue le verbe",
+    "prompt": "Don Quijote ___ cincuenta años. (tener)",
+    "answer": "tiene",
+    "accept": [],
+    "distractors": [
+      "tengo",
+      "tienes",
+      "es"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Don Quichotte a cinquante ans.",
+    "explanation": "L’âge se dit avec TENER : él tiene… años.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex1-3",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 1,
+    "label": "Exercice 1 : conjugue le verbe",
+    "prompt": "¿Tú ___ en La Mancha? (estar)",
+    "answer": "estás",
+    "accept": [],
+    "distractors": [
+      "estoy",
+      "está",
+      "eres"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Tu es dans la Manche ?",
+    "explanation": "ESTAR pour dire où l’on est : tú estás.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex1-4",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 1,
+    "label": "Exercice 1 : conjugue le verbe",
+    "prompt": "El vecino ___ muy simpático. (ser)",
+    "answer": "es",
+    "accept": [],
+    "distractors": [
+      "soy",
+      "eres",
+      "está"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Le voisin est très sympathique.",
+    "explanation": "SER pour dire comment est quelqu’un : él es.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex1-5",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 1,
+    "label": "Exercice 1 : conjugue le verbe",
+    "prompt": "Yo ___ un burro. (tener)",
+    "answer": "tengo",
+    "accept": [],
+    "distractors": [
+      "tiene",
+      "tienes",
+      "soy"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "J'ai un âne.",
+    "explanation": "TENER : yo tengo.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex1-6",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 1,
+    "label": "Exercice 1 : conjugue le verbe",
+    "prompt": "Don Quijote ___ cansado. (estar)",
+    "answer": "está",
+    "accept": [],
+    "distractors": [
+      "es",
+      "estoy",
+      "estás"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Don Quichotte est fatigué.",
+    "explanation": "ESTAR pour dire comment on se sent sur le moment : él está.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex1-7",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 1,
+    "label": "Exercice 1 : conjugue le verbe",
+    "prompt": "Don Quijote, tú ___ un caballero. (ser)",
+    "answer": "eres",
+    "accept": [],
+    "distractors": [
+      "es",
+      "soy",
+      "estás"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Don Quichotte, tu es un chevalier.",
+    "explanation": "On parle à don Quijote : tú. SER : tú eres.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex1-8",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 1,
+    "label": "Exercice 1 : conjugue le verbe",
+    "prompt": "La vecina viv___ en el pueblo. (vivir)",
+    "answer": "e",
+    "accept": [],
+    "distractors": [
+      "o",
+      "es",
+      "a"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "La voisine habite au village.",
+    "explanation": "Verbe en -IR, él / ella : terminaison -e → vive.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex2-1",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 1,
+    "label": "Exercice 2 : choisis la bonne forme",
+    "prompt": "Yo ___ en casa.",
+    "answer": "estoy",
+    "accept": [],
+    "distractors": [
+      "está",
+      "estás",
+      "soy"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Je suis à la maison.",
+    "explanation": "ESTAR pour dire où l’on est : yo estoy.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex2-2",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 1,
+    "label": "Exercice 2 : choisis la bonne forme",
+    "prompt": "Sancho, ¿tú ___ un burro?",
+    "answer": "tienes",
+    "accept": [],
+    "distractors": [
+      "tengo",
+      "tiene",
+      "eres"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Sancho, tu as un âne ?",
+    "explanation": "On parle à Sancho : tú tienes.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex2-3",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 1,
+    "label": "Exercice 2 : choisis la bonne forme",
+    "prompt": "Rocinante ___ un caballo.",
+    "answer": "es",
+    "accept": [],
+    "distractors": [
+      "soy",
+      "eres",
+      "está"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Rocinante est un cheval.",
+    "explanation": "SER pour dire ce qu’est une chose : es.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex2-4",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 1,
+    "label": "Exercice 2 : choisis la bonne forme",
+    "prompt": "Tú ___ queso.",
+    "answer": "comes",
+    "accept": [],
+    "distractors": [
+      "como",
+      "come",
+      "comas"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Tu manges du fromage.",
+    "explanation": "Verbe en -ER, tú : -es → comes.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-ex2-5",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 1,
+    "label": "Exercice 2 : choisis la bonne forme",
+    "prompt": "Don Quijote ___ un libro.",
+    "answer": "lee",
+    "accept": [],
+    "distractors": [
+      "leo",
+      "lees",
+      "lea"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Don Quichotte lit un livre.",
+    "explanation": "Verbe en -ER, él : -e → lee.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-sancho-tiene",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 2,
+    "prompt": "Sancho ___ un burro: se llama Rucio.",
+    "answer": "tiene",
+    "accept": [],
+    "distractors": [
+      "tengo",
+      "tienes",
+      "es"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Sancho a un âne : il s’appelle Rucio.",
+    "explanation": "TENER : él tiene.",
+    "source": "dq2"
+  },
+  {
+    "id": "conj-antonia-tiene",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 2,
+    "prompt": "Antonia ___ veinte años.",
+    "answer": "tiene",
+    "accept": [],
+    "distractors": [
+      "es",
+      "tienes",
+      "está"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Antonia a vingt ans.",
+    "explanation": "L’âge se dit avec TENER : ella tiene veinte años.",
+    "source": "dq2"
+  },
+  {
+    "id": "conj-sirvienta-tiene",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 2,
+    "prompt": "La sirvienta ___ unos cuarenta años.",
+    "answer": "tiene",
+    "accept": [],
+    "distractors": [
+      "es",
+      "tengo",
+      "está"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "La servante a environ quarante ans.",
+    "explanation": "L’âge se dit avec TENER : ella tiene.",
+    "source": "dq2"
+  },
+  {
+    "id": "conj-tu-tienes-caballo",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 2,
+    "prompt": "¿Tú ___ un caballo?",
+    "answer": "tienes",
+    "accept": [],
+    "distractors": [
+      "tiene",
+      "tengo",
+      "eres"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Tu as un cheval ?",
+    "explanation": "TENER : tú tienes.",
+    "source": "dq2"
+  },
+  {
+    "id": "conj-sancho-es",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 2,
+    "prompt": "Sancho ___ realista y sencillo.",
+    "answer": "es",
+    "accept": [],
+    "distractors": [
+      "está",
+      "eres",
+      "tiene"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Sancho est réaliste et simple.",
+    "explanation": "SER pour dire comment est quelqu’un : él es.",
+    "source": "dq2"
+  },
+  {
+    "id": "conj-rucio-es",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 2,
+    "prompt": "Rucio ___ un burro.",
+    "answer": "es",
+    "accept": [],
+    "distractors": [
+      "está",
+      "soy",
+      "tiene"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Rucio est un âne.",
+    "explanation": "SER pour dire ce qu’est une chose : es.",
+    "source": "dq2"
+  },
+  {
+    "id": "conj-tu-eres-escudero",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 2,
+    "prompt": "Sancho, tú ___ un escudero.",
+    "answer": "eres",
+    "accept": [],
+    "distractors": [
+      "es",
+      "estás",
+      "soy"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Sancho, tu es un écuyer.",
+    "explanation": "On parle à Sancho : tú eres.",
+    "source": "dq1"
+  },
+  {
+    "id": "conj-dulcinea-es",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 2,
+    "prompt": "Dulcinea ___ joven.",
+    "answer": "es",
+    "accept": [],
+    "distractors": [
+      "está",
+      "tiene",
+      "soy"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Dulcinée est jeune.",
+    "explanation": "SER pour dire comment est quelqu’un : ella es.",
+    "source": "dq2"
+  },
+  {
+    "id": "conj-yo-cansado",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 2,
+    "prompt": "Yo ___ cansado.",
+    "answer": "estoy",
+    "accept": [],
+    "distractors": [
+      "soy",
+      "está",
+      "tengo"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Je suis fatigué.",
+    "explanation": "ESTAR pour dire comment on se sent : yo estoy.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-tu-casa",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 2,
+    "prompt": "Tú ___ en casa.",
+    "answer": "estás",
+    "accept": [],
+    "distractors": [
+      "eres",
+      "está",
+      "estoy"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Tu es à la maison.",
+    "explanation": "ESTAR pour dire où l’on est : tú estás.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-quijote-mancha",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 2,
+    "prompt": "Don Quijote ___ en La Mancha.",
+    "answer": "está",
+    "accept": [],
+    "distractors": [
+      "es",
+      "estás",
+      "tiene"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Don Quichotte est dans la Manche.",
+    "explanation": "ESTAR pour dire où l’on est : él está.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-yo-leo",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Yo ___ un libro.",
+    "answer": "leo",
+    "accept": [],
+    "distractors": [
+      "lee",
+      "lees",
+      "lea"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Je lis un livre.",
+    "explanation": "leer (-ER), yo : -o → leo. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-tu-lees",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Tú ___ muchos libros.",
+    "answer": "lees",
+    "accept": [],
+    "distractors": [
+      "lee",
+      "leo",
+      "leas"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Tu lis beaucoup de livres.",
+    "explanation": "leer (-ER), tú : -es → lees. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "intro"
+  },
+  {
+    "id": "conj-yo-como",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Yo ___ queso.",
+    "answer": "como",
+    "accept": [],
+    "distractors": [
+      "come",
+      "comes",
+      "coma"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Je mange du fromage.",
+    "explanation": "comer (-ER), yo : -o → como. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-sancho-come",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Sancho ___ queso.",
+    "answer": "come",
+    "accept": [],
+    "distractors": [
+      "como",
+      "comes",
+      "coma"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Sancho mange du fromage.",
+    "explanation": "comer (-ER), él : -e → come. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-yo-vivo",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Yo ___ en un pueblo de la Mancha.",
+    "answer": "vivo",
+    "accept": [],
+    "distractors": [
+      "vive",
+      "vives",
+      "viva"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "J'habite dans un village de la Manche.",
+    "explanation": "vivir (-IR), yo : -o → vivo. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "dq1"
+  },
+  {
+    "id": "conj-tu-vives",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "¿Dónde ___ tú?",
+    "answer": "vives",
+    "accept": [],
+    "distractors": [
+      "vive",
+      "vivo",
+      "vivas"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Où habites-tu ?",
+    "explanation": "vivir (-IR), tú : -es → vives. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "dq1"
+  },
+  {
+    "id": "conj-dulcinea-vive",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Dulcinea ___ en el pueblo del Toboso.",
+    "answer": "vive",
+    "accept": [],
+    "distractors": [
+      "vivo",
+      "vives",
+      "viva"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Dulcinée habite dans le village du Toboso.",
+    "explanation": "vivir (-IR), ella : -e → vive. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "dq2"
+  },
+  {
+    "id": "conj-sancho-ayuda",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Sancho ___ a don Quijote.",
+    "answer": "ayuda",
+    "accept": [],
+    "distractors": [
+      "ayudo",
+      "ayudas",
+      "ayude"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Sancho aide don Quichotte.",
+    "explanation": "ayudar (-AR), él : -a → ayuda. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "dq1"
+  },
+  {
+    "id": "conj-yo-ayudo",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Yo ___ a don Quijote.",
+    "answer": "ayudo",
+    "accept": [],
+    "distractors": [
+      "ayuda",
+      "ayudas",
+      "ayude"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "J'aide don Quichotte.",
+    "explanation": "ayudar (-AR), yo : -o → ayudo. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "dq1"
+  },
+  {
+    "id": "conj-tu-ayudas",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Tú ___ a Sancho.",
+    "answer": "ayudas",
+    "accept": [],
+    "distractors": [
+      "ayuda",
+      "ayudo",
+      "ayudes"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Tu aides Sancho.",
+    "explanation": "ayudar (-AR), tú : -as → ayudas. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "dq1"
+  },
+  {
+    "id": "conj-sancho-explica",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Sancho ___ a don Quijote cómo es el mundo.",
+    "answer": "explica",
+    "accept": [],
+    "distractors": [
+      "explico",
+      "explicas",
+      "explique"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Sancho explique à don Quichotte comment est le monde.",
+    "explanation": "explicar (-AR), él : -a → explica. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "dq2"
+  },
+  {
+    "id": "conj-yo-explico",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Yo ___ cómo es el mundo en realidad.",
+    "answer": "explico",
+    "accept": [],
+    "distractors": [
+      "explica",
+      "explicas",
+      "explique"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "J'explique comment est le monde en réalité.",
+    "explanation": "explicar (-AR), yo : -o → explico. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "dq2"
+  },
+  {
+    "id": "conj-quijote-decide",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Don Quijote ___ llamarla Dulcinea.",
+    "answer": "decide",
+    "accept": [],
+    "distractors": [
+      "decido",
+      "decides",
+      "decida"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Don Quichotte décide de l'appeler Dulcinée.",
+    "explanation": "decidir (-IR), él : -e → decide. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "dq2"
+  },
+  {
+    "id": "conj-tu-miras",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 2,
+    "prompt": "Tú ___ a Dulcinea.",
+    "answer": "miras",
+    "accept": [],
+    "distractors": [
+      "mira",
+      "miro",
+      "mires"
+    ],
+    "writable": true,
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "Tu regardes Dulcinée.",
+    "explanation": "mirar (-AR), tú : -as → miras. Verbes réguliers : -AR → o, as, a | -ER / -IR → o, es, e.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "conj-gustan-libros",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "gustar"
+    ],
+    "level": 1,
+    "prompt": "Me ___ los libros.",
+    "answer": "gustan",
+    "accept": [],
+    "distractors": [
+      "gusta",
+      "gusto",
+      "gustas"
+    ],
+    "writable": true,
+    "translation": "J'aime les livres.",
+    "explanation": "Me gusta + un nom singulier, me gustan + un nom pluriel. « los libros » est au pluriel : me gustan.",
+    "source": "intro"
+  },
+  {
+    "id": "conj-gustan-gigantes",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "gustar"
+    ],
+    "level": 1,
+    "prompt": "No me ___ los gigantes.",
+    "answer": "gustan",
+    "accept": [],
+    "distractors": [
+      "gusta",
+      "gusto",
+      "gustas"
+    ],
+    "writable": true,
+    "translation": "Je n'aime pas les géants.",
+    "explanation": "Me gusta + un nom singulier, me gustan + un nom pluriel. « los gigantes » est au pluriel : me gustan.",
+    "source": "intro"
+  },
+  {
+    "id": "conj-gusta-queso",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "gustar"
+    ],
+    "level": 2,
+    "prompt": "Me ___ el queso.",
+    "answer": "gusta",
+    "accept": [],
+    "distractors": [
+      "gustan",
+      "gusto",
+      "gustas"
+    ],
+    "writable": true,
+    "translation": "J'aime le fromage.",
+    "explanation": "Me gusta + un nom singulier, me gustan + un nom pluriel. « el queso » est au singulier : me gusta.",
+    "source": "intro"
+  },
+  {
+    "id": "conj-gusta-teatro",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "gustar"
+    ],
+    "level": 2,
+    "prompt": "Me ___ el teatro.",
+    "answer": "gusta",
+    "accept": [],
+    "distractors": [
+      "gustan",
+      "gusto",
+      "gustas"
+    ],
+    "writable": true,
+    "translation": "J'aime le théâtre.",
+    "explanation": "Me gusta + un nom singulier, me gustan + un nom pluriel. « el teatro » est au singulier : me gusta.",
+    "source": "intro"
+  },
+  {
+    "id": "conj-correcta-casa",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 3,
+    "label": "Phrase correcte · Je suis à la maison.",
+    "prompt": "Quelle phrase est correcte ?",
+    "promptLang": "fr",
+    "answer": "Yo estoy en casa.",
+    "accept": [],
+    "distractors": [
+      "Yo soy en casa.",
+      "Yo tengo en casa.",
+      "Yo está en casa."
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "ESTAR pour dire où l’on est.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-correcta-anos",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 3,
+    "label": "Phrase correcte · J'ai cinquante ans.",
+    "prompt": "Quelle phrase est correcte ?",
+    "promptLang": "fr",
+    "answer": "Tengo cincuenta años.",
+    "accept": [],
+    "distractors": [
+      "Soy cincuenta años.",
+      "Estoy cincuenta años.",
+      "Tiene cincuenta años yo."
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "L’âge se dit avec TENER, comme en français « avoir 50 ans ».",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-correcta-caballero",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": 3,
+    "label": "Phrase correcte · Don Quichotte est un chevalier.",
+    "prompt": "Quelle phrase est correcte ?",
+    "promptLang": "fr",
+    "answer": "Don Quijote es un caballero.",
+    "accept": [],
+    "distractors": [
+      "Don Quijote está un caballero.",
+      "Don Quijote tiene un caballero.",
+      "Don Quijote eres un caballero."
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "SER pour dire qui est quelqu’un : él es.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-correcta-cansado",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": 3,
+    "label": "Phrase correcte · Rocinante est fatigué.",
+    "prompt": "Quelle phrase est correcte ?",
+    "promptLang": "fr",
+    "answer": "Rocinante está cansado.",
+    "accept": [],
+    "distractors": [
+      "Rocinante es cansado.",
+      "Rocinante tiene cansado.",
+      "Rocinante estoy cansado."
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "ESTAR pour dire comment on se sent sur le moment.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-correcta-vive",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": 3,
+    "label": "Phrase correcte · Aldonza habite au Toboso.",
+    "prompt": "Quelle phrase est correcte ?",
+    "promptLang": "fr",
+    "answer": "Aldonza vive en el Toboso.",
+    "accept": [],
+    "distractors": [
+      "Aldonza vivo en el Toboso.",
+      "Aldonza vives en el Toboso.",
+      "Aldonza viva en el Toboso."
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "vivir, ella : -e → vive.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-correcta-tienes",
+    "type": "qcm",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": 3,
+    "label": "Phrase correcte · Tu as un lévrier ?",
+    "prompt": "Quelle phrase est correcte ?",
+    "promptLang": "fr",
+    "answer": "¿Tú tienes un galgo?",
+    "accept": [],
+    "distractors": [
+      "¿Tú tiene un galgo?",
+      "¿Tú tengo un galgo?",
+      "¿Tú eres un galgo?"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "TENER : tú tienes.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-jefe-burro",
+    "type": "ecrit",
+    "theme": "conjugacion",
+    "notions": [
+      "tener"
+    ],
+    "level": "jefe",
+    "prompt": "Traduis : « Tu as un âne. »",
+    "promptLang": "fr",
+    "answer": "Tienes un burro",
+    "accept": [
+      "Tú tienes un burro"
+    ],
+    "distractors": [
+      "Tiene un burro",
+      "Eres un burro",
+      "Tengo un burro"
+    ],
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "",
+    "explanation": "TENER : tú tienes. Le pronom tú est facultatif.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-jefe-cansado",
+    "type": "ecrit",
+    "theme": "conjugacion",
+    "notions": [
+      "estar"
+    ],
+    "level": "jefe",
+    "prompt": "Traduis : « Je suis fatigué. »",
+    "promptLang": "fr",
+    "answer": "Estoy cansado",
+    "accept": [
+      "Yo estoy cansado",
+      "Estoy cansada"
+    ],
+    "distractors": [
+      "Soy cansado",
+      "Está cansado",
+      "Tengo cansado"
+    ],
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "",
+    "explanation": "ESTAR pour dire comment on se sent : yo estoy.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-jefe-lee",
+    "type": "ecrit",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": "jefe",
+    "prompt": "Traduis : « Il lit un livre. »",
+    "promptLang": "fr",
+    "answer": "Lee un libro",
+    "accept": [
+      "Él lee un libro"
+    ],
+    "distractors": [
+      "Leo un libro",
+      "Lees un libro",
+      "Es un libro"
+    ],
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "",
+    "explanation": "leer (-ER), él : -e → lee.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-jefe-vive",
+    "type": "ecrit",
+    "theme": "conjugacion",
+    "notions": [
+      "verbos-regulares"
+    ],
+    "level": "jefe",
+    "prompt": "Traduis : « Elle habite au Toboso. »",
+    "promptLang": "fr",
+    "answer": "Vive en el Toboso",
+    "accept": [
+      "Ella vive en el Toboso"
+    ],
+    "distractors": [
+      "Vivo en el Toboso",
+      "Vives en el Toboso",
+      "Está el Toboso"
+    ],
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "",
+    "explanation": "vivir (-IR), ella : -e → vive.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "conj-jefe-caballero",
+    "type": "ecrit",
+    "theme": "conjugacion",
+    "notions": [
+      "ser"
+    ],
+    "level": "jefe",
+    "prompt": "Traduis : « Tu es un chevalier. »",
+    "promptLang": "fr",
+    "answer": "Eres un caballero",
+    "accept": [
+      "Tú eres un caballero"
+    ],
+    "distractors": [
+      "Es un caballero",
+      "Estás un caballero",
+      "Soy un caballero"
+    ],
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "",
+    "explanation": "SER : tú eres.",
+    "source": "conjugacion"
+  }
+]

@@ -12,9 +12,9 @@ export default defineConfig({
       injectRegister: null,
       includeAssets: ['icon.svg', 'apple-touch-icon.png'],
       manifest: {
-        name: 'El Camino de Cempasúchil',
-        short_name: 'Cempasúchil',
-        description: "Roguelike pour réviser l'espagnol (Día de Muertos).",
+        name: 'Molinos y gigantes',
+        short_name: 'Molinos',
+        description: "Roguelike pour réviser l'espagnol (Presentarse con Don Quijote).",
         lang: 'fr',
         start_url: './',
         scope: './',

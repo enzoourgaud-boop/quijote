@@ -198,12 +198,12 @@ export function RestScreen({ game }: { game: Game }) {
       <Hud game={game} />
       <div class="escena">
         <div class="ofrenda-dibujo" aria-hidden="true">
-          <span class="v1">🕯️</span>
-          <span class="v2">🕯️</span>
-          <span class="f">🖼️</span>
-          <span class="fl1">🌼</span>
-          <span class="fl2">🌼</span>
-          <span class="pan">🍞</span>
+          <span class="v1">📕</span>
+          <span class="v2">🧀</span>
+          <span class="f">🏠</span>
+          <span class="fl1">🐕</span>
+          <span class="fl2">🛡️</span>
+          <span class="pan">🍽️</span>
         </div>
         <div class="relato-box">
           <h2>{info?.name}</h2>
@@ -226,7 +226,7 @@ export function RestScreen({ game }: { game: Game }) {
       )}
       {!s.rest!.result && choosing && (
         <>
-          <h3>Quelle aide déposer sur la ofrenda ?</h3>
+          <h3>Quelle aide améliorer ?</h3>
           <div class="elige">
             {up.map(id => {
               const it = game.item(id)!;
@@ -286,7 +286,7 @@ export function ChestScreen({ game }: { game: Game }) {
   );
 }
 
-/* ======================= Échauffement : almas pendientes ======================= */
+/* ======================= Échauffement : páginas perdidas ======================= */
 
 /** Début de partie : les questions ratées aux parties précédentes. Chaque âme libérée donne +1 PV. */
 export function WarmupScreen({ game }: { game: Game }) {
@@ -308,24 +308,24 @@ export function WarmupScreen({ game }: { game: Game }) {
         <div class="almas-dibujo" aria-hidden="true">
           {w.ids.map((id, i) => (
             <span key={id} class={i < w.i || (i === w.i && fb) ? (i === w.i ? (fb!.verdict === 'ok' ? 'libre' : 'queda') : 'pasada') : i === w.i ? 'actual' : ''}>
-              👻
+              📄
             </span>
           ))}
         </div>
         <div class="relato-box">
           <span class="lbl">Avant de partir</span>
-          <h2>Tus almas pendientes</h2>
+          <h2>Tus páginas perdidas</h2>
           <p>
-            {w.ids.length > 1 ? `Ces ${w.ids.length} questions t'ont échappé la dernière fois.` : "Cette question t'a échappé la dernière fois."} Chaque bonne réponse libère une âme et te donne{' '}
+            {w.ids.length > 1 ? `Ces ${w.ids.length} questions t'ont échappé la dernière fois.` : "Cette question t'a échappé la dernière fois."} Chaque bonne réponse te rend une page et te donne{' '}
             <b>+1 PV</b> pour cette partie. Pas de chrono, pas de risque.
           </p>
           <p class="muted" role="status">
-            Question {w.i + 1} sur {w.ids.length} · {w.freed} âme{w.freed > 1 ? 's' : ''} libérée{w.freed > 1 ? 's' : ''} · {s.hp} PV
+            Question {w.i + 1} sur {w.ids.length} · {w.freed} page{w.freed > 1 ? 's' : ''} retrouvée{w.freed > 1 ? 's' : ''} · {s.hp} PV
           </p>
         </div>
       </div>
       <QuizView q={q} asked={w.quiz.q} fb={fb} onAnswer={v => game.warmupAnswer(v)} scenes={game.content.scenes} voices={game.content.sequence.voices}>
-        {fb && <p class="alerta">{fb.verdict === 'ok' ? '👻 Alma liberada : +1 PV.' : fb.verdict === 'casi' ? "Presque : il manque un accent. L'âme reviendra." : "L'âme reste avec toi : elle reviendra pendant la partie."}</p>}
+        {fb && <p class="alerta">{fb.verdict === 'ok' ? '📄 Página recuperada : +1 PV.' : fb.verdict === 'casi' ? 'Presque : il manque un accent. La page reviendra.' : 'La page reste perdue : elle reviendra pendant la partie.'}</p>}
         {fb && (
           <div>
             <button class="btn" ref={ref} onClick={() => game.warmupNext()}>

@@ -1,0 +1,365 @@
+{
+  "id": "quijote",
+  "title": "Molinos y gigantes",
+  "tagline": "Roguelike d'espagnol · séquence Presentarse con Don Quijote",
+  "intro": "Un mago a ensorcelé La Mancha : les livres volent, les fromages roulent, et les moulins ressemblent à des géants. Accompagne don Quijote du pueblo jusqu'au Toboso et réponds en espagnol pour montrer le monde tel qu'il est « en realidad ». Au bout t'attend le Mago.",
+  "victory": "Tu as vaincu le Mago. ¡No es un gigante, es un molino! La Mancha est redevenue réelle grâce à toi.",
+  "defeatTitle": "¡Qué pena!",
+  "victoryTitle": "¡Felicidades!",
+  "voices": [
+    "es-ES",
+    "es-MX",
+    "es-US",
+    "es"
+  ],
+  "themes": [
+    {
+      "id": "vocabulario",
+      "label": "Vocabulario",
+      "color": "#2a9d8f",
+      "translationOptional": true,
+      "check": {
+        "ignoreArticles": true
+      }
+    },
+    {
+      "id": "conjugacion",
+      "label": "Conjugación",
+      "color": "#e9a23b"
+    },
+    {
+      "id": "identidad",
+      "label": "Presentarse",
+      "color": "#8e6cc9"
+    },
+    {
+      "id": "personajes",
+      "label": "Personajes y textos",
+      "color": "#d1495b"
+    }
+  ],
+  "notions": [
+    {
+      "id": "voc-objetos",
+      "label": "Vocabulaire : objets, animaux et lieux (caballo, molino, lanza…)"
+    },
+    {
+      "id": "voc-personas",
+      "label": "Vocabulaire : les personnes (caballero, escudero, vecino…)"
+    },
+    {
+      "id": "voc-adjetivos",
+      "label": "Vocabulaire : décrire quelqu'un (fiel, joven, rápido…)"
+    },
+    {
+      "id": "voc-video",
+      "label": "Lexique de la vidéo (fiel, hay que, siempre listo, ayudar)"
+    },
+    {
+      "id": "alfabeto",
+      "label": "L'alphabet espagnol et le Ñ"
+    },
+    {
+      "id": "ser",
+      "label": "SER au présent (soy, eres, es)"
+    },
+    {
+      "id": "estar",
+      "label": "ESTAR au présent (estoy, estás, está)"
+    },
+    {
+      "id": "tener",
+      "label": "TENER au présent (tengo, tienes, tiene)"
+    },
+    {
+      "id": "verbos-regulares",
+      "label": "Verbes réguliers au présent (-AR, -ER, -IR)"
+    },
+    {
+      "id": "gustar",
+      "label": "Me gusta / me gustan"
+    },
+    {
+      "id": "presentarse",
+      "label": "Se présenter (me llamo, soy, tengo… años, vivo en)"
+    },
+    {
+      "id": "presentar",
+      "label": "Présenter quelqu'un (se llama, es, tiene, vive)"
+    },
+    {
+      "id": "interrogativos",
+      "label": "Les mots interrogatifs (quién, cómo, dónde, cuántos)"
+    },
+    {
+      "id": "ficha",
+      "label": "La fiche d'identité (nombre, apellido, edad…)"
+    },
+    {
+      "id": "numeros",
+      "label": "Les nombres (tres, veinte, cuarenta, cincuenta)"
+    },
+    {
+      "id": "personajes",
+      "label": "Les personnages et leurs relations"
+    },
+    {
+      "id": "mancha-cervantes",
+      "label": "La Mancha, Cervantes et les adaptations"
+    },
+    {
+      "id": "teatro-dulcinea",
+      "label": "La scène de théâtre « ¡Hermosa Dulcinea! »"
+    },
+    {
+      "id": "hors-documents",
+      "label": "Hors documents (à vérifier)"
+    }
+  ],
+  "sources": [
+    {
+      "id": "intro",
+      "title": "Enquêtes : mots codés et phrases en désordre",
+      "file": "sources/intro.pdf"
+    },
+    {
+      "id": "dq1",
+      "title": "Don Quijote de la Mancha : Ayuda, fiche, Observa",
+      "file": "sources/DQ1.pdf"
+    },
+    {
+      "id": "dq2",
+      "title": "Paso 3 : ¿Quién es él?, ¿y ella?",
+      "file": "sources/DQ_2.pdf"
+    },
+    {
+      "id": "conjugacion",
+      "title": "Exercices : ser, estar, tener",
+      "file": "sources/exercice_conjugaison_ser_estar_tener_x2.pdf"
+    },
+    {
+      "id": "dulcinea",
+      "title": "¡Hermosa Dulcinea! (théâtre)",
+      "file": "sources/Hermosa_Dulcinea.pdf"
+    }
+  ],
+  "player": {
+    "hp": 15,
+    "startItems": {
+      "lexico": 1,
+      "fijate": 1,
+      "ayuda": 1
+    }
+  },
+  "acts": [
+    {
+      "id": "pueblo",
+      "name": "El pueblo",
+      "color": "#e9a23b",
+      "level": 1,
+      "chrono": 30,
+      "writeShare": 0.15,
+      "enemies": [
+        "lanza-loca",
+        "escudo-saltarin",
+        "queso-gigante",
+        "libro-volador"
+      ],
+      "elites": [
+        "caballero-enmascarado"
+      ],
+      "boss": "gran-libro"
+    },
+    {
+      "id": "molinos",
+      "name": "Los molinos",
+      "color": "#2a9d8f",
+      "level": 2,
+      "chrono": 25,
+      "writeShare": 0.3,
+      "enemies": [
+        "perro-gigante",
+        "caballo-salvaje",
+        "molinito",
+        "casa-andante"
+      ],
+      "elites": [
+        "caballero-rapido"
+      ],
+      "boss": "gigante"
+    },
+    {
+      "id": "toboso",
+      "name": "El Toboso",
+      "color": "#8e6cc9",
+      "level": 3,
+      "chrono": 20,
+      "writeShare": 0.45,
+      "enemies": [
+        "pintura-viva",
+        "burlon",
+        "television"
+      ],
+      "elites": [
+        "teatro-ambulante"
+      ],
+      "boss": "mago"
+    }
+  ],
+  "feedback": {
+    "ok": [
+      "¡Muy bien!",
+      "¡Perfecto!",
+      "¡Eso es!",
+      "¡Bravo!"
+    ],
+    "ko": [
+      "¡Ay, caramba!",
+      "¡Qué pena!",
+      "¡Uy!"
+    ],
+    "casi": "¡Casi!",
+    "timeout": "¡Se acabó el tiempo!",
+    "oracle": "En realidad…"
+  },
+  "map": {
+    "floors": 6,
+    "width": [
+      3,
+      4
+    ],
+    "restFloor": 4,
+    "weights": {
+      "combat": 45,
+      "event": 24,
+      "elite": 10,
+      "shop": 9,
+      "chest": 9,
+      "rest": 3
+    }
+  },
+  "rooms": {
+    "combat": {
+      "name": "Combate",
+      "emoji": "⚔️",
+      "help": "Un ennemi de l'acte. Récompense : un pouvoir au choix."
+    },
+    "elite": {
+      "name": "Élite",
+      "emoji": "💀",
+      "help": "Un ennemi coriace avec une règle spéciale. Récompense : une relique."
+    },
+    "shop": {
+      "name": "La tienda",
+      "emoji": "🛒",
+      "help": "La boutique : achète des aides et des reliques avec tes monedas.",
+      "text": "Une petite boutique du pueblo : du queso, des lances, des livres. On y accepte tes monedas."
+    },
+    "rest": {
+      "name": "En casa",
+      "emoji": "🏠",
+      "help": "Repos : soigne-toi ou améliore une aide.",
+      "text": "La casa de don Quijote. Tu peux t'y reposer, ou y laisser une aide pour la rendre plus puissante."
+    },
+    "event": {
+      "name": "Encuentro",
+      "emoji": "❓",
+      "help": "Une rencontre sur le chemin, en espagnol. À toi de choisir."
+    },
+    "chest": {
+      "name": "Cofre",
+      "emoji": "🎁",
+      "help": "Un coffre. Parfois fermé par une question."
+    },
+    "boss": {
+      "name": "Jefe",
+      "emoji": "👑",
+      "help": "Le jefe de l'acte."
+    }
+  },
+  "meal": {
+    "name": "¡A comer!",
+    "emoji": "🍽️",
+    "price": 4,
+    "heal": 5,
+    "description": "Un repas chaud : rend 5 points de vie."
+  },
+  "characters": [
+    {
+      "id": "sancho",
+      "name": "Sancho Panza",
+      "title": "el escudero",
+      "emoji": "🧑",
+      "description": "Vive en un pueblo de la Mancha. Es realista y sencillo. Commence avec un Queso en plus ; le repos En casa le soigne davantage (40 %).",
+      "bonus": {
+        "items": {
+          "queso": 1
+        },
+        "restHeal": 0.4
+      },
+      "palette": {
+        "H": "#8a5a2b",
+        "h": "#5a3a1a",
+        "b": "#e9a23b",
+        "P": "#c0603a",
+        "p": "#7a3a22",
+        "T": "#f4e3b5"
+      },
+      "unlock": {
+        "type": "default"
+      }
+    },
+    {
+      "id": "antonia",
+      "name": "Antonia Quijana",
+      "title": "la sobrina",
+      "emoji": "👧",
+      "description": "Tiene veinte años. Vive con don Quijote. Commence avec Rocinante (série dès 2 bonnes réponses) et 3 PV de plus.",
+      "bonus": {
+        "relics": {
+          "rocinante": 1
+        },
+        "hp": 3
+      },
+      "palette": {
+        "H": "#2a9d8f",
+        "h": "#1a6a60",
+        "b": "#f4e3b5",
+        "P": "#2a9d8f",
+        "p": "#1a6a60",
+        "T": "#e9a23b"
+      },
+      "unlock": {
+        "type": "boss",
+        "value": "gran-libro",
+        "label": "Vaincre El Gran Libro (jefe de l'acte 1)"
+      }
+    },
+    {
+      "id": "aldonza",
+      "name": "Aldonza Lorenzo",
+      "title": "del Toboso",
+      "emoji": "👩",
+      "description": "Vive en el Toboso. Es joven. ¡No es princesa! Commence avec la Ficha de identidad ; davantage de questions à écrire (qui frappent plus fort).",
+      "bonus": {
+        "relics": {
+          "ficha": 1
+        },
+        "writeShare": 0.15
+      },
+      "palette": {
+        "H": "#8e6cc9",
+        "h": "#5b3a9e",
+        "b": "#f4e3b5",
+        "P": "#f4efe4",
+        "p": "#b8b0a0",
+        "T": "#8e6cc9"
+      },
+      "unlock": {
+        "type": "wins",
+        "value": 1,
+        "label": "Gagner une partie"
+      }
+    }
+  ]
+}

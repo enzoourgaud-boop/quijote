@@ -3,7 +3,7 @@ import { parseContent, type Issue, type RawContent } from '../engine/content';
 import type { Content } from '../engine/schema';
 import { applyOverlay, teacher } from './teacher';
 
-const SEQUENCE_ID = 'dia-de-muertos';
+const SEQUENCE_ID = 'quijote';
 
 const sequences = import.meta.glob('../../content/sequences/*/sequence.json', { eager: true, import: 'default' });
 const enemies = import.meta.glob('../../content/sequences/*/enemies.json', { eager: true, import: 'default' });

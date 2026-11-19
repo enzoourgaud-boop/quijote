@@ -1,0 +1,78 @@
+{
+  "decors": [
+    {
+      "id": "mancha",
+      "name": "La Mancha",
+      "rows": [
+        [
+          "mancha",
+          "en La Mancha"
+        ]
+      ],
+      "cols": [
+        [
+          "pueblo",
+          "en el pueblo de don Quijote"
+        ],
+        [
+          "toboso",
+          "en el Toboso"
+        ]
+      ],
+      "scale": [
+        1
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "quijote",
+      "es": "don Quijote",
+      "un": "don Quijote",
+      "fr": "don Quichotte",
+      "emoji": "🧔"
+    },
+    {
+      "id": "sancho",
+      "es": "Sancho Panza",
+      "un": "Sancho Panza",
+      "fr": "Sancho Panza",
+      "emoji": "🧑"
+    },
+    {
+      "id": "antonia",
+      "es": "Antonia",
+      "un": "Antonia",
+      "fr": "Antonia (la nièce)",
+      "emoji": "👧"
+    },
+    {
+      "id": "sirvienta",
+      "es": "la sirvienta",
+      "un": "una sirvienta",
+      "fr": "la servante",
+      "emoji": "👩"
+    },
+    {
+      "id": "galgo",
+      "es": "el galgo",
+      "un": "un galgo",
+      "fr": "le lévrier",
+      "emoji": "🐕"
+    },
+    {
+      "id": "dulcinea",
+      "es": "Dulcinea",
+      "un": "Dulcinea",
+      "fr": "Dulcinée (Aldonza)",
+      "emoji": "👸"
+    },
+    {
+      "id": "aldeanas",
+      "es": "las aldeanas",
+      "un": "tres aldeanas",
+      "fr": "les villageoises",
+      "emoji": "👒"
+    }
+  ]
+}

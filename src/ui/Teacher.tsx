@@ -185,7 +185,7 @@ function ClassTab({ content, settings, onApply }: { content: Content; settings: 
         <legend>Défi de classe (facultatif)</legend>
         <label class="check">
           Graine
-          <input type="text" value={seed} maxLength={24} placeholder="ex. VELA-12" onInput={e => setSeed((e.target as HTMLInputElement).value)} />
+          <input type="text" value={seed} maxLength={24} placeholder="ex. LANZA-12" onInput={e => setSeed((e.target as HTMLInputElement).value)} />
         </label>
         <p class="muted">Avec une graine, toute la classe joue la même carte avec les mêmes salles.</p>
       </fieldset>
@@ -361,7 +361,7 @@ function Editor({ content, initial, isNew, onSave, onCancel, onRevert, onRemove 
       {t === 'ordre' && field('tokens', 'Étiquettes dans l’ordre, séparées par | (facultatif : sinon, mot par mot)')}
       {t === 'ordre' && field('extra', 'Étiquettes pièges, séparées par | (facultatif)')}
       {t === 'association' && field('pairs', 'Paires « mot = image » (une par ligne, 3 à 5)', { area: true, rows: 5 })}
-      {(t === 'scene' || t === 'qcm') && field('scene', t === 'scene' ? 'Scène (JSON)' : 'Image de scène (JSON, facultatif)', { area: true, rows: 4, help: 'Ex. {"decor":"ofrenda","items":[{"object":"vela","row":"arriba","col":"izquierda"}]}' })}
+      {(t === 'scene' || t === 'qcm') && field('scene', t === 'scene' ? 'Scène (JSON)' : 'Image de scène (JSON, facultatif)', { area: true, rows: 4, help: 'Ex. {"decor":"mancha","items":[{"object":"dulcinea","col":"toboso"}]}' })}
       {field('translation', 'Traduction (pour le pouvoir Traductor)')}
       {field('explanation', 'Explication / règle (en français, affichée après une erreur)', { area: true, rows: 2 })}
       {problems.length > 0 && (
@@ -696,7 +696,7 @@ function SequenceTab({ content, fromPack, onReload }: { content: Content; fromPa
         {fromPack ? ' · importée sur cet appareil' : ' · séquence intégrée au jeu'}.
       </p>
       <p class="muted">
-        Le moteur du jeu ne connaît rien du Día de Muertos : tout est dans les fichiers de la séquence. Pour en préparer une autre (la Navidad, la Semana Santa…),
+        Le moteur du jeu ne connaît rien de don Quijote : tout est dans les fichiers de la séquence. Pour en préparer une autre (la Navidad, la Semana Santa…),
         exporte ce « pack », modifie-le (ou fais-le modifier), puis réimporte-le. Le plus simple pour toute la classe reste de créer un nouveau dossier dans
         <code> content/sequences/</code> du dépôt (voir le README).
       </p>

@@ -138,7 +138,7 @@ export function BattleScene({ game }: { game: Game }) {
           <HpBar hp={c.hp} max={c.maxHp} late={fb && ok ? 'tarde-ok' : ''} label={`Vie de ${e.name} : ${c.hp} sur ${c.maxHp}`} />
           <div class="marco-estado">
             {c.shield > 0 && <span title="Bouclier">🛡️{c.shield}</span>}
-            {c.abanico > 0 && <span title="Abanico : seules les réponses écrites le traversent">🪭{c.abanico}</span>}
+            {c.abanico > 0 && <span title="Capa : seules les réponses écrites la traversent">🧥{c.abanico}</span>}
             {c.attackBonus > 0 && <span title="Attaque renforcée">⚔️+{c.attackBonus}</span>}
             {c.weakTheme && <span title="Thème qui lui fait mal">🎨 {seq.themes.find(t => t.id === c.weakTheme)?.label}</span>}
             {phase && <span class="fase">{phase.name}</span>}
@@ -173,7 +173,7 @@ export function BattleScene({ game }: { game: Game }) {
           )}
           {fb && ok && (
             <span class={`numero ${fb.dmgToEnemy ? '' : 'cero'}`} key={`n-${turnKey}`} aria-hidden="true">
-              {fb.dmgToEnemy ? `−${fb.dmgToEnemy}` : has(fx, 'vanish') ? '¡Fallo!' : has(fx, 'abanico') ? '🪭' : '0'}
+              {fb.dmgToEnemy ? `−${fb.dmgToEnemy}` : has(fx, 'vanish') ? '¡Fallo!' : has(fx, 'abanico') ? '🧥' : '0'}
             </span>
           )}
           {fb && ok && has(fx, 'crit') && fb.dmgToEnemy > 0 && (
@@ -230,7 +230,7 @@ export function BattleScene({ game }: { game: Game }) {
         <div class="marco marco-jugador">
           <div class="marco-titulo">
             <b>{ch?.name ?? 'Tú'}</b>
-            <span class="nv">{s.ascension ? `💀${s.ascension}` : `Acte ${s.act + 1}`}</span>
+            <span class="nv">{s.ascension ? `🛡️${s.ascension}` : `Acte ${s.act + 1}`}</span>
           </div>
           <HpBar hp={s.hp} max={s.maxHp} late={fb && !ok ? 'tarde-ko' : ''} label={`Tes points de vie : ${s.hp} sur ${s.maxHp}`} />
           <div class="marco-estado">

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "casa-de-don-quijote",
+    "name": "La casa de don Quijote",
+    "emoji": "🏠",
+    "items": [
+      "lanza",
+      "sirvienta",
+      "galgo"
+    ],
+    "effect": "healOnCorrect",
+    "value": 1,
+    "description": "La lanza + La sirvienta + El galgo : +1 PV à chaque bonne réponse."
+  },
+  {
+    "id": "muy-amigos",
+    "name": "¡Muy amigos!",
+    "emoji": "🤝",
+    "items": [
+      "rocinante",
+      "rucio"
+    ],
+    "effect": "streakDouble",
+    "description": "Rocinante + Rucio : le bonus de série est doublé."
+  },
+  {
+    "id": "me-gustan-los-libros",
+    "name": "Me gustan los libros",
+    "emoji": "📚",
+    "items": [
+      "ficha",
+      "libro-dq"
+    ],
+    "effect": "goldOnWrite",
+    "value": 1,
+    "description": "La ficha de identidad + El libro de don Quijote : +1 moneda par réponse écrite juste."
+  }
+]

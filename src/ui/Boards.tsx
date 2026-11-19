@@ -225,7 +225,7 @@ export function MatchBoard({ q, asked, done, onSubmit }: { q: Extract<Question, 
 
 /* ======================= Scènes ======================= */
 
-/** Dessin d'une scène (ofrenda ou cimetière) avec ses cases. */
+/** Dessin d'une scène (décor de scenes.json) avec ses cases. */
 export function SceneView({ scenes, decorId, placed, onCell, cellsInteractive, highlight }: {
   scenes: Scenes; decorId: string; placed: Record<string, string>; onCell?: (cell: string) => void; cellsInteractive?: boolean;
   highlight?: Record<string, 'good' | 'bad'>;

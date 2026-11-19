@@ -5,7 +5,7 @@ import { content } from './helpers';
 
 describe('banque de questions', () => {
   it('la séquence fournie est valide et compte au moins 200 questions', () => {
-    const { content: c, issues } = parseContent(readSequence('dia-de-muertos'));
+    const { content: c, issues } = parseContent(readSequence('quijote'));
     expect(issues.filter(i => i.level === 'erreur')).toEqual([]);
     expect(c!.questions.length).toBeGreaterThanOrEqual(200);
   });
@@ -28,8 +28,8 @@ describe('banque de questions', () => {
     expect(checkCoherence({ ...c, questions: [q, { ...q, id: 'copie' }] }).some(i => i.message.includes('même énoncé'))).toBe(true);
   });
   it('détecte un champ manquant', () => {
-    const raw = readSequence('dia-de-muertos');
-    const data = [{ id: 'sans-reponse', type: 'qcm', theme: 'cultura', notions: ['cultura-fiesta'], level: 1, prompt: '¿?', distractors: ['a', 'b', 'c'], explanation: 'x', source: 'texto-ce' }];
+    const raw = readSequence('quijote');
+    const data = [{ id: 'sans-reponse', type: 'qcm', theme: 'personajes', notions: ['cultura-fiesta'], level: 1, prompt: '¿?', distractors: ['a', 'b', 'c'], explanation: 'x', source: 'texto-ce' }];
     const { issues } = parseContent({ ...raw, questions: [{ file: 'test.json', data }] });
     expect(issues.some(i => i.where.includes('sans-reponse') && i.where.includes('answer'))).toBe(true);
   });

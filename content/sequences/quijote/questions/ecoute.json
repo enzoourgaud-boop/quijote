@@ -1,0 +1,648 @@
+[
+  {
+    "id": "eco-voc-caballo",
+    "type": "ecoute",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le mot que tu entends.",
+    "promptLang": "fr",
+    "answer": "el caballo",
+    "accept": [],
+    "distractors": [
+      "el caballero",
+      "el castillo",
+      "el cabello"
+    ],
+    "writable": false,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "Tu as entendu « el caballo » (le cheval).",
+    "source": "dq1"
+  },
+  {
+    "id": "eco-voc-molino",
+    "type": "ecoute",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le mot que tu entends.",
+    "promptLang": "fr",
+    "answer": "el molino",
+    "accept": [],
+    "distractors": [
+      "el camino",
+      "el vecino",
+      "el pepino"
+    ],
+    "writable": false,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "Tu as entendu « el molino » (le moulin).",
+    "source": "intro"
+  },
+  {
+    "id": "eco-voc-lanza",
+    "type": "ecoute",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le mot que tu entends.",
+    "promptLang": "fr",
+    "answer": "la lanza",
+    "accept": [],
+    "distractors": [
+      "la panza",
+      "la danza",
+      "la plaza"
+    ],
+    "writable": false,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "Tu as entendu « la lanza » (la lance).",
+    "source": "intro"
+  },
+  {
+    "id": "eco-voc-gigante",
+    "type": "ecoute",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le mot que tu entends.",
+    "promptLang": "fr",
+    "answer": "el gigante",
+    "accept": [],
+    "distractors": [
+      "el elegante",
+      "el guante",
+      "el diamante"
+    ],
+    "writable": false,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "Tu as entendu « el gigante » (le géant).",
+    "source": "intro"
+  },
+  {
+    "id": "eco-voc-libro",
+    "type": "ecoute",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le mot que tu entends.",
+    "promptLang": "fr",
+    "answer": "el libro",
+    "accept": [],
+    "distractors": [
+      "el litro",
+      "el lobo",
+      "el libre"
+    ],
+    "writable": false,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "Tu as entendu « el libro » (le livre).",
+    "source": "intro"
+  },
+  {
+    "id": "eco-voc-escudero",
+    "type": "ecoute",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le mot que tu entends.",
+    "promptLang": "fr",
+    "answer": "el escudero",
+    "accept": [],
+    "distractors": [
+      "el escudo",
+      "el estudio",
+      "el escenario"
+    ],
+    "writable": false,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "Tu as entendu « el escudero » (l'écuyer).",
+    "source": "dq1"
+  },
+  {
+    "id": "eco-voc-sobrina",
+    "type": "ecoute",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le mot que tu entends.",
+    "promptLang": "fr",
+    "answer": "la sobrina",
+    "accept": [],
+    "distractors": [
+      "la cortina",
+      "la cocina",
+      "la madrina"
+    ],
+    "writable": false,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "Tu as entendu « la sobrina » (la nièce).",
+    "source": "dq2"
+  },
+  {
+    "id": "eco-voc-queso",
+    "type": "ecoute",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le mot que tu entends.",
+    "promptLang": "fr",
+    "answer": "el queso",
+    "accept": [],
+    "distractors": [
+      "el beso",
+      "el peso",
+      "el hueso"
+    ],
+    "writable": false,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "Tu as entendu « el queso » (le fromage).",
+    "source": "conjugacion"
+  },
+  {
+    "id": "eco-voc-princesa",
+    "type": "ecoute",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le mot que tu entends.",
+    "promptLang": "fr",
+    "answer": "la princesa",
+    "accept": [],
+    "distractors": [
+      "la sorpresa",
+      "la promesa",
+      "la empresa"
+    ],
+    "writable": false,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "Tu as entendu « la princesa » (la princesse).",
+    "source": "dulcinea"
+  },
+  {
+    "id": "eco-voc-burro",
+    "type": "ecoute",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le mot que tu entends.",
+    "promptLang": "fr",
+    "answer": "el burro",
+    "accept": [],
+    "distractors": [
+      "el barro",
+      "el churro",
+      "el perro"
+    ],
+    "writable": false,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "Tu as entendu « el burro » (l'âne).",
+    "source": "dq2"
+  },
+  {
+    "id": "eco-voc-pueblo",
+    "type": "ecoute",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le mot que tu entends.",
+    "promptLang": "fr",
+    "answer": "el pueblo",
+    "accept": [],
+    "distractors": [
+      "el puente",
+      "el mueble",
+      "el puerto"
+    ],
+    "writable": false,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "Tu as entendu « el pueblo » (le village).",
+    "source": "dq1"
+  },
+  {
+    "id": "eco-num-veinte",
+    "type": "ecoute",
+    "theme": "identidad",
+    "notions": [
+      "numeros"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le nombre que tu entends.",
+    "promptLang": "fr",
+    "say": "veinte",
+    "answer": "20",
+    "accept": [],
+    "distractors": [
+      "40",
+      "50",
+      "3"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Tu as entendu « veinte » = 20. Exemple : Antonia tiene veinte años.",
+    "source": "dq2"
+  },
+  {
+    "id": "eco-num-cuarenta",
+    "type": "ecoute",
+    "theme": "identidad",
+    "notions": [
+      "numeros"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le nombre que tu entends.",
+    "promptLang": "fr",
+    "say": "cuarenta",
+    "answer": "40",
+    "accept": [],
+    "distractors": [
+      "20",
+      "50",
+      "3"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Tu as entendu « cuarenta » = 40. Exemple : La sirvienta tiene unos cuarenta años.",
+    "source": "dq2"
+  },
+  {
+    "id": "eco-num-cincuenta",
+    "type": "ecoute",
+    "theme": "identidad",
+    "notions": [
+      "numeros"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le nombre que tu entends.",
+    "promptLang": "fr",
+    "say": "cincuenta",
+    "answer": "50",
+    "accept": [],
+    "distractors": [
+      "20",
+      "40",
+      "3"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Tu as entendu « cincuenta » = 50. Exemple : Tengo cincuenta años.",
+    "source": "intro"
+  },
+  {
+    "id": "eco-num-tres",
+    "type": "ecoute",
+    "theme": "identidad",
+    "notions": [
+      "numeros"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute et choisis le nombre que tu entends.",
+    "promptLang": "fr",
+    "say": "tres",
+    "answer": "3",
+    "accept": [],
+    "distractors": [
+      "20",
+      "40",
+      "50"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Tu as entendu « tres » = 3. Exemple : Sancho se acerca a tres jóvenes del pueblo.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "eco-pregunta-llamas",
+    "type": "ecoute",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute la question et choisis la bonne réponse.",
+    "promptLang": "fr",
+    "say": "¿Cómo te llamas?",
+    "answer": "Me llamo Sancho Panza.",
+    "accept": [],
+    "distractors": [
+      "Tengo cincuenta años.",
+      "Vivo en un pueblo de la Mancha.",
+      "Soy de La Mancha."
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Question entendue : « ¿Cómo te llamas? ». Bonne réponse : « Me llamo Sancho Panza. ». Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ?",
+    "source": "dq1"
+  },
+  {
+    "id": "eco-pregunta-vives",
+    "type": "ecoute",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute la question et choisis la bonne réponse.",
+    "promptLang": "fr",
+    "say": "¿Dónde vives?",
+    "answer": "Vivo en un pueblo de la Mancha.",
+    "accept": [],
+    "distractors": [
+      "Me llamo Sancho Panza.",
+      "Tengo cincuenta años.",
+      "Soy don Quijote."
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Question entendue : « ¿Dónde vives? ». Bonne réponse : « Vivo en un pueblo de la Mancha. ». Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ?",
+    "source": "dq1"
+  },
+  {
+    "id": "eco-pregunta-anos",
+    "type": "ecoute",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute la question et choisis la bonne réponse.",
+    "promptLang": "fr",
+    "say": "¿Cuántos años tienes?",
+    "answer": "Tengo cincuenta años.",
+    "accept": [],
+    "distractors": [
+      "Me llamo don Quijote.",
+      "Vivo en La Mancha.",
+      "Soy un caballero."
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Question entendue : « ¿Cuántos años tienes? ». Bonne réponse : « Tengo cincuenta años. ». Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ?",
+    "source": "dq1"
+  },
+  {
+    "id": "eco-pregunta-eres",
+    "type": "ecoute",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 3,
+    "label": "Compréhension orale",
+    "prompt": "Écoute la question et choisis la bonne réponse.",
+    "promptLang": "fr",
+    "say": "¿Quién eres?",
+    "answer": "Soy don Quijote.",
+    "accept": [],
+    "distractors": [
+      "Tengo cincuenta años.",
+      "Vivo en el Toboso.",
+      "Me gustan los libros."
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Question entendue : « ¿Quién eres? ». Bonne réponse : « Soy don Quijote. ». Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ?",
+    "source": "dq1"
+  },
+  {
+    "id": "eco-pregunta-dulcinea",
+    "type": "ecoute",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 3,
+    "label": "Compréhension orale",
+    "prompt": "Écoute la question et choisis la bonne réponse.",
+    "promptLang": "fr",
+    "say": "¿Quién es Dulcinea?",
+    "answer": "Se llama en realidad Aldonza Lorenzo.",
+    "accept": [],
+    "distractors": [
+      "Tiene veinte años.",
+      "Es un burro.",
+      "Vive con don Quijote."
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Question entendue : « ¿Quién es Dulcinea? ». Bonne réponse : « Se llama en realidad Aldonza Lorenzo. ». Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ?",
+    "source": "dq2"
+  },
+  {
+    "id": "eco-quien-quijote",
+    "type": "ecoute",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute : qui parle ?",
+    "promptLang": "fr",
+    "say": "Tengo cincuenta años. Me gustan los libros.",
+    "answer": "Don Quijote",
+    "accept": [],
+    "distractors": [
+      "Sancho Panza",
+      "Aldonza",
+      "Antonia"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Tu as entendu : « Tengo cincuenta años. Me gustan los libros. » C’est Don Quijote.",
+    "source": "intro"
+  },
+  {
+    "id": "eco-quien-sancho",
+    "type": "ecoute",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute : qui parle ?",
+    "promptLang": "fr",
+    "say": "Soy el escudero. Tengo un burro: se llama Rucio.",
+    "answer": "Sancho Panza",
+    "accept": [],
+    "distractors": [
+      "Don Quijote",
+      "Aldonza",
+      "Antonia"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Tu as entendu : « Soy el escudero. Tengo un burro: se llama Rucio. » C’est Sancho Panza.",
+    "source": "dq1"
+  },
+  {
+    "id": "eco-quien-aldonza",
+    "type": "ecoute",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 2,
+    "label": "Compréhension orale",
+    "prompt": "Écoute : qui parle ?",
+    "promptLang": "fr",
+    "say": "En el Toboso vivo, sí, pero ¡no soy princesa!",
+    "answer": "Aldonza",
+    "accept": [],
+    "distractors": [
+      "Antonia",
+      "Sancho Panza",
+      "Don Quijote"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Tu as entendu : « En el Toboso vivo, sí, pero ¡no soy princesa! » C’est Aldonza.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "eco-quien-antonia",
+    "type": "ecoute",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 3,
+    "label": "Compréhension orale",
+    "prompt": "Écoute : qui parle ?",
+    "promptLang": "fr",
+    "say": "Soy la sobrina de don Quijote. Tengo veinte años.",
+    "answer": "Antonia",
+    "accept": [],
+    "distractors": [
+      "Aldonza",
+      "La sirvienta",
+      "Sancho Panza"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Tu as entendu : « Soy la sobrina de don Quijote. Tengo veinte años. » C’est Antonia.",
+    "source": "dq2"
+  },
+  {
+    "id": "eco-quien-amor",
+    "type": "ecoute",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 3,
+    "label": "Compréhension orale",
+    "prompt": "Écoute : qui parle ?",
+    "promptLang": "fr",
+    "say": "Tú eres mi único amor. Por favor, mírame, Dulcinea.",
+    "answer": "Don Quijote",
+    "accept": [],
+    "distractors": [
+      "Sancho Panza",
+      "Aldonza",
+      "Una aldeana"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Tu as entendu : « Tú eres mi único amor. Por favor, mírame, Dulcinea. » C’est Don Quijote.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "eco-quien-aldeanas",
+    "type": "ecoute",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 3,
+    "label": "Compréhension orale",
+    "prompt": "Écoute : qui parle ?",
+    "promptLang": "fr",
+    "say": "¡Dejadnos pasar! ¡Tenemos prisa!",
+    "answer": "Las aldeanas",
+    "accept": [],
+    "distractors": [
+      "Don Quijote",
+      "Sancho Panza",
+      "El galgo"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "Tu as entendu : « ¡Dejadnos pasar! ¡Tenemos prisa! » C’est Las aldeanas.",
+    "source": "dulcinea"
+  }
+]

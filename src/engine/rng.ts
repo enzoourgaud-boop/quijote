@@ -62,11 +62,11 @@ export class Rng {
 }
 
 const WORDS = [
-  'CALAVERA', 'VELA', 'FLOR', 'ALTAR', 'TUMBA', 'CRUZ', 'ALMA', 'FIESTA', 'MUSICA', 'TAMBOR',
-  'TROMPETA', 'GUITARRA', 'SOMBRERO', 'VESTIDO', 'OFRENDA', 'INCIENSO', 'REGALO', 'DISFRAZ', 'MARIPOSA', 'ALEBRIJE',
+  'MOLINO', 'LANZA', 'GIGANTE', 'LIBRO', 'CABALLO', 'BURRO', 'ESCUDO', 'QUESO', 'PUEBLO', 'MANCHA',
+  'TOBOSO', 'ROCINANTE', 'RUCIO', 'GALGO', 'ESCUDERO', 'CABALLERO', 'DULCINEA', 'SANCHO', 'MAGO', 'TEATRO',
 ];
 
-/** Graine lisible, à recopier au tableau : « CALAVERA-42 ». */
+/** Graine lisible, à recopier au tableau : « MOLINO-42 ». */
 export function randomSeed(rand: () => number = Math.random): string {
   return `${WORDS[Math.floor(rand() * WORDS.length)]}-${10 + Math.floor(rand() * 90)}`;
 }

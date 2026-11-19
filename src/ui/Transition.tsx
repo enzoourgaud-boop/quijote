@@ -1,4 +1,4 @@
-/** Rideau de pétales de cempasúchil joué à chaque changement de salle (désactivé si mouvement réduit). */
+/** Rideau joué à chaque changement de salle (désactivé si mouvement réduit). */
 const PETALS = Array.from({ length: 18 }, (_, i) => ({
   left: (i * 37) % 100,
   delay: (i % 6) * 0.05,

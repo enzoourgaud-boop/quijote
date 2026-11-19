@@ -1,0 +1,1357 @@
+[
+  {
+    "id": "int-como-te-llamas",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 1,
+    "label": "Complète la question",
+    "prompt": "¿___ te llamas? — Me llamo Sancho Panza.",
+    "answer": "Cómo",
+    "accept": [],
+    "distractors": [
+      "Quién",
+      "Dónde",
+      "Cuántos"
+    ],
+    "writable": true,
+    "translation": "Comment t’appelles-tu ? — Je m’appelle Sancho Panza.",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Attention à l’accent.",
+    "source": "dq1"
+  },
+  {
+    "id": "int-donde-vives",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 1,
+    "label": "Complète la question",
+    "prompt": "¿___ vives? — Vivo en un pueblo de la Mancha.",
+    "answer": "Dónde",
+    "accept": [],
+    "distractors": [
+      "Quién",
+      "Cómo",
+      "Cuántos"
+    ],
+    "writable": true,
+    "translation": "Où habites-tu ? — J’habite dans un village de la Manche.",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Attention à l’accent.",
+    "source": "dq1"
+  },
+  {
+    "id": "int-cuantos-anos",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 1,
+    "label": "Complète la question",
+    "prompt": "¿___ años tienes? — Tengo cincuenta años.",
+    "answer": "Cuántos",
+    "accept": [],
+    "distractors": [
+      "Quién",
+      "Cómo",
+      "Dónde"
+    ],
+    "writable": true,
+    "translation": "Quel âge as-tu ? — J’ai cinquante ans.",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Attention à l’accent.",
+    "source": "dq1"
+  },
+  {
+    "id": "int-quien-eres",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 1,
+    "label": "Complète la question",
+    "prompt": "¿___ eres? — Soy don Quijote.",
+    "answer": "Quién",
+    "accept": [],
+    "distractors": [
+      "Cómo",
+      "Dónde",
+      "Cuántos"
+    ],
+    "writable": true,
+    "translation": "Qui es-tu ? — Je suis don Quichotte.",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Attention à l’accent.",
+    "source": "dq1"
+  },
+  {
+    "id": "int-quien-es-dulcinea",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 2,
+    "label": "Complète la question",
+    "prompt": "¿___ es Dulcinea? — Se llama en realidad Aldonza Lorenzo.",
+    "answer": "Quién",
+    "accept": [],
+    "distractors": [
+      "Cómo",
+      "Dónde",
+      "Cuántos"
+    ],
+    "writable": true,
+    "translation": "Qui est Dulcinée ? — En réalité, elle s’appelle Aldonza Lorenzo.",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Attention à l’accent.",
+    "source": "dq2"
+  },
+  {
+    "id": "int-cuantos-antonia",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 2,
+    "label": "Complète la question",
+    "prompt": "¿___ años tiene Antonia? — Tiene veinte años.",
+    "answer": "Cuántos",
+    "accept": [],
+    "distractors": [
+      "Quién",
+      "Cómo",
+      "Dónde"
+    ],
+    "writable": true,
+    "translation": "Quel âge a Antonia ? — Elle a vingt ans.",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Attention à l’accent.",
+    "source": "dq2"
+  },
+  {
+    "id": "int-donde-dulcinea",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 2,
+    "label": "Complète la question",
+    "prompt": "¿___ vive Dulcinea? — En el pueblo del Toboso.",
+    "answer": "Dónde",
+    "accept": [],
+    "distractors": [
+      "Quién",
+      "Cómo",
+      "Cuántos"
+    ],
+    "writable": true,
+    "translation": "Où habite Dulcinée ? — Dans le village du Toboso.",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Attention à l’accent.",
+    "source": "dq2"
+  },
+  {
+    "id": "int-como-burro",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 2,
+    "label": "Complète la question",
+    "prompt": "¿___ se llama el burro de Sancho? — Se llama Rucio.",
+    "answer": "Cómo",
+    "accept": [],
+    "distractors": [
+      "Quién",
+      "Dónde",
+      "Cuántos"
+    ],
+    "writable": true,
+    "translation": "Comment s’appelle l’âne de Sancho ? — Il s’appelle Rucio.",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Attention à l’accent.",
+    "source": "dq2"
+  },
+  {
+    "id": "int-cuantos-dulcinea",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 3,
+    "label": "Complète la question",
+    "prompt": "¿___ años tiene Dulcinea? — ¡Es un misterio!",
+    "answer": "Cuántos",
+    "accept": [],
+    "distractors": [
+      "Quién",
+      "Cómo",
+      "Dónde"
+    ],
+    "writable": true,
+    "translation": "Quel âge a Dulcinée ? — C’est un mystère !",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Attention à l’accent.",
+    "source": "dq2"
+  },
+  {
+    "id": "int-quien-sancho",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 3,
+    "label": "Complète la question",
+    "prompt": "¿___ es él? — Es Sancho Panza, el escudero.",
+    "answer": "Quién",
+    "accept": [],
+    "distractors": [
+      "Cómo",
+      "Dónde",
+      "Cuántos"
+    ],
+    "writable": true,
+    "translation": "Qui est-ce ? — C’est Sancho Panza, l’écuyer.",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Attention à l’accent.",
+    "source": "dq2"
+  },
+  {
+    "id": "int-escribe-llamas",
+    "type": "ecrit",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 3,
+    "prompt": "Écris la question en espagnol : « Comment t’appelles-tu ? »",
+    "promptLang": "fr",
+    "answer": "¿Cómo te llamas?",
+    "accept": [],
+    "distractors": [
+      "¿Cómo se llama?",
+      "¿Quién eres?",
+      "¿Cómo me llamo?"
+    ],
+    "translation": "",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Réponse : ¿Cómo te llamas?",
+    "source": "dq1"
+  },
+  {
+    "id": "int-escribe-vives",
+    "type": "ecrit",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": 3,
+    "prompt": "Écris la question en espagnol : « Où habites-tu ? »",
+    "promptLang": "fr",
+    "answer": "¿Dónde vives?",
+    "accept": [],
+    "distractors": [
+      "¿Dónde vive?",
+      "¿Dónde vivo?",
+      "¿Cómo vives?"
+    ],
+    "translation": "",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Réponse : ¿Dónde vives?",
+    "source": "dq1"
+  },
+  {
+    "id": "int-escribe-anos",
+    "type": "ecrit",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": "jefe",
+    "prompt": "Écris la question en espagnol : « Quel âge as-tu ? »",
+    "promptLang": "fr",
+    "answer": "¿Cuántos años tienes?",
+    "accept": [],
+    "distractors": [
+      "¿Cuántos años tiene?",
+      "¿Cuántos años eres?",
+      "¿Cómo años tienes?"
+    ],
+    "translation": "",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Réponse : ¿Cuántos años tienes?",
+    "source": "dq1"
+  },
+  {
+    "id": "int-escribe-eres",
+    "type": "ecrit",
+    "theme": "identidad",
+    "notions": [
+      "interrogativos"
+    ],
+    "level": "jefe",
+    "prompt": "Écris la question en espagnol : « Qui es-tu ? »",
+    "promptLang": "fr",
+    "answer": "¿Quién eres?",
+    "accept": [
+      "¿Quién eres tú?"
+    ],
+    "distractors": [
+      "¿Quién es?",
+      "¿Cómo eres?",
+      "¿Quién soy?"
+    ],
+    "translation": "",
+    "explanation": "Mots interrogatifs (page Observa) : ¿Quién? = qui ? · ¿Cómo? = comment ? · ¿Dónde? = où ? · ¿Cuántos? = combien ? Réponse : ¿Quién eres?",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-nombre-es",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 1,
+    "label": "Fiche d’identité : comment dit-on en espagnol ?",
+    "prompt": "le prénom",
+    "promptLang": "fr",
+    "answer": "el nombre",
+    "accept": [],
+    "distractors": [
+      "el apellido",
+      "la edad",
+      "el lugar de residencia"
+    ],
+    "writable": true,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "el nombre = le prénom (Ayuda).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-nombre-fr",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 1,
+    "label": "Fiche d’identité : que veut dire ce mot ?",
+    "prompt": "el nombre",
+    "answer": "le prénom",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le nom de famille",
+      "l'âge",
+      "le lieu de résidence"
+    ],
+    "writable": false,
+    "translation": "Un mot de la fiche d’identité (encadré Ayuda).",
+    "explanation": "el nombre = le prénom (Ayuda).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-apellido-es",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 1,
+    "label": "Fiche d’identité : comment dit-on en espagnol ?",
+    "prompt": "le nom de famille",
+    "promptLang": "fr",
+    "answer": "el apellido",
+    "accept": [],
+    "distractors": [
+      "la edad",
+      "el lugar de residencia",
+      "la nacionalidad"
+    ],
+    "writable": true,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "el apellido = le nom de famille (Ayuda).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-apellido-fr",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 1,
+    "label": "Fiche d’identité : que veut dire ce mot ?",
+    "prompt": "el apellido",
+    "answer": "le nom de famille",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "l'âge",
+      "le lieu de résidence",
+      "la nationalité"
+    ],
+    "writable": false,
+    "translation": "Un mot de la fiche d’identité (encadré Ayuda).",
+    "explanation": "el apellido = le nom de famille (Ayuda).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-edad-es",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 1,
+    "label": "Fiche d’identité : comment dit-on en espagnol ?",
+    "prompt": "l'âge",
+    "promptLang": "fr",
+    "answer": "la edad",
+    "accept": [],
+    "distractors": [
+      "el lugar de residencia",
+      "la nacionalidad",
+      "el nombre"
+    ],
+    "writable": true,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "la edad = l'âge (Ayuda).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-edad-fr",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 1,
+    "label": "Fiche d’identité : que veut dire ce mot ?",
+    "prompt": "la edad",
+    "answer": "l'âge",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le lieu de résidence",
+      "la nationalité",
+      "le prénom"
+    ],
+    "writable": false,
+    "translation": "Un mot de la fiche d’identité (encadré Ayuda).",
+    "explanation": "la edad = l'âge (Ayuda).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-residencia-es",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 2,
+    "label": "Fiche d’identité : comment dit-on en espagnol ?",
+    "prompt": "le lieu de résidence",
+    "promptLang": "fr",
+    "answer": "el lugar de residencia",
+    "accept": [],
+    "distractors": [
+      "la nacionalidad",
+      "el nombre",
+      "el apellido"
+    ],
+    "writable": true,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "el lugar de residencia = le lieu de résidence (fiche de don Quijote).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-residencia-fr",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 2,
+    "label": "Fiche d’identité : que veut dire ce mot ?",
+    "prompt": "el lugar de residencia",
+    "answer": "le lieu de résidence",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la nationalité",
+      "le prénom",
+      "le nom de famille"
+    ],
+    "writable": false,
+    "translation": "Un mot de la fiche d’identité (encadré Ayuda).",
+    "explanation": "el lugar de residencia = le lieu de résidence (fiche de don Quijote).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-nacionalidad-es",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 2,
+    "label": "Fiche d’identité : comment dit-on en espagnol ?",
+    "prompt": "la nationalité",
+    "promptLang": "fr",
+    "answer": "la nacionalidad",
+    "accept": [],
+    "distractors": [
+      "el nombre",
+      "el apellido",
+      "la edad"
+    ],
+    "writable": true,
+    "check": {
+      "ignoreArticles": true
+    },
+    "translation": "",
+    "explanation": "la nacionalidad = la nationalité (fiche de don Quijote).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-nacionalidad-fr",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 2,
+    "label": "Fiche d’identité : que veut dire ce mot ?",
+    "prompt": "la nacionalidad",
+    "answer": "la nationalité",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le prénom",
+      "le nom de famille",
+      "l'âge"
+    ],
+    "writable": false,
+    "translation": "Un mot de la fiche d’identité (encadré Ayuda).",
+    "explanation": "la nacionalidad = la nationalité (fiche de don Quijote).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-lee-antonia-edad",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 2,
+    "label": "Complète la fiche d’identité",
+    "prompt": "Ficha — Nombre: Antonia. Apellido: Quijana. Edad: ___",
+    "answer": "veinte años",
+    "accept": [],
+    "distractors": [
+      "cuarenta años",
+      "cincuenta años",
+      "tres años"
+    ],
+    "writable": false,
+    "translation": "Fiche — Prénom : Antonia. Nom : Quijana. Âge : ___",
+    "explanation": "Vive con su sobrina de veinte años, Antonia Quijana.",
+    "source": "dq2"
+  },
+  {
+    "id": "ficha-lee-antonia-apellido",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 2,
+    "label": "Complète la fiche d’identité",
+    "prompt": "Ficha — Nombre: Antonia. Apellido: ___",
+    "answer": "Quijana",
+    "accept": [],
+    "distractors": [
+      "Panza",
+      "Lorenzo",
+      "Toboso"
+    ],
+    "writable": false,
+    "translation": "Fiche — Prénom : Antonia. Nom de famille : ___",
+    "explanation": "Su sobrina de veinte años, Antonia Quijana.",
+    "source": "dq2"
+  },
+  {
+    "id": "ficha-lee-aldonza-apellido",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 2,
+    "label": "Complète la fiche d’identité",
+    "prompt": "Ficha — Nombre: Aldonza. Apellido: ___",
+    "answer": "Lorenzo",
+    "accept": [],
+    "distractors": [
+      "Quijana",
+      "Panza",
+      "Rucio"
+    ],
+    "writable": false,
+    "translation": "Fiche — Prénom : Aldonza. Nom de famille : ___",
+    "explanation": "Se llama en realidad Aldonza Lorenzo.",
+    "source": "dq2"
+  },
+  {
+    "id": "ficha-lee-aldonza-lugar",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 2,
+    "label": "Complète la fiche d’identité",
+    "prompt": "Ficha — Nombre: Aldonza. Lugar de residencia: ___",
+    "answer": "el Toboso",
+    "accept": [],
+    "distractors": [
+      "un pueblo de Francia",
+      "una ciudad de México",
+      "la casa de don Quijote"
+    ],
+    "writable": false,
+    "translation": "Fiche — Prénom : Aldonza. Lieu de résidence : ___",
+    "explanation": "Vive en el pueblo del Toboso.",
+    "source": "dq2"
+  },
+  {
+    "id": "ficha-lee-sancho-apellido",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 1,
+    "label": "Complète la fiche d’identité",
+    "prompt": "Ficha — Nombre: Sancho. Apellido: ___",
+    "answer": "Panza",
+    "accept": [],
+    "distractors": [
+      "Quijana",
+      "Lorenzo",
+      "Rucio"
+    ],
+    "writable": false,
+    "translation": "Fiche — Prénom : Sancho. Nom de famille : ___",
+    "explanation": "Me llamo Sancho Panza.",
+    "source": "dq2"
+  },
+  {
+    "id": "ficha-lee-quijote-edad",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 1,
+    "label": "Complète la fiche d’identité",
+    "prompt": "Ficha de don Quijote — Edad: ___",
+    "answer": "cincuenta años",
+    "accept": [],
+    "distractors": [
+      "veinte años",
+      "cuarenta años",
+      "tres años"
+    ],
+    "writable": false,
+    "translation": "Fiche de don Quichotte — Âge : ___",
+    "explanation": "Tengo 50 años (page Observa).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-lee-quijote-lugar",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "ficha"
+    ],
+    "level": 1,
+    "label": "Complète la fiche d’identité",
+    "prompt": "Ficha de don Quijote — Lugar de residencia: ___",
+    "answer": "un pueblo de la Mancha",
+    "accept": [],
+    "distractors": [
+      "el Toboso",
+      "una ciudad de Francia",
+      "la casa de Sancho"
+    ],
+    "writable": false,
+    "translation": "Fiche de don Quichotte — Lieu de résidence : ___",
+    "explanation": "Vivo en un pueblo de la Mancha (page Observa).",
+    "source": "dq1"
+  },
+  {
+    "id": "ficha-quijote-nombre",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "hors-documents"
+    ],
+    "level": 3,
+    "label": "Complète la fiche d’identité",
+    "prompt": "Ficha de don Quijote — Nombre: ___ Apellido: Quijano",
+    "answer": "Alonso",
+    "accept": [],
+    "distractors": [
+      "Sancho",
+      "Antonio",
+      "Lorenzo"
+    ],
+    "writable": false,
+    "translation": "Fiche de don Quichotte — Prénom : ___ Nom : Quijano",
+    "explanation": "Dans le roman, le nom civil de don Quichotte est Alonso Quijano. Ce n’est dans aucun document de la séquence.",
+    "source": "dq1",
+    "disabled": true
+  },
+  {
+    "id": "ficha-quijote-nacionalidad",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "hors-documents"
+    ],
+    "level": 2,
+    "label": "Complète la fiche d’identité",
+    "prompt": "Ficha de don Quijote — Nacionalidad: ___",
+    "answer": "española",
+    "accept": [],
+    "distractors": [
+      "francesa",
+      "inglesa",
+      "mexicana"
+    ],
+    "writable": false,
+    "translation": "Fiche de don Quichotte — Nationalité : ___",
+    "explanation": "Don Quijote vit dans la Manche, en Espagne : il est espagnol. Le mot « española » n’est pas dans les documents.",
+    "source": "dq1",
+    "disabled": true
+  },
+  {
+    "id": "pres-me-llamo",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 1,
+    "prompt": "Me ___ Sancho Panza.",
+    "answer": "llamo",
+    "accept": [],
+    "distractors": [
+      "llama",
+      "llamas",
+      "soy"
+    ],
+    "writable": true,
+    "translation": "Je m’appelle Sancho Panza.",
+    "explanation": "Me llamo = je m’appelle (llamarse, yo).",
+    "source": "dq1"
+  },
+  {
+    "id": "pres-soy-quijote",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 1,
+    "prompt": "___ don Quijote.",
+    "answer": "Soy",
+    "accept": [],
+    "distractors": [
+      "Es",
+      "Eres",
+      "Tengo"
+    ],
+    "writable": true,
+    "translation": "Je suis don Quichotte.",
+    "explanation": "Soy = je suis (SER, yo). Page Observa : Soy don Quijote.",
+    "source": "dq1"
+  },
+  {
+    "id": "pres-tengo-50",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 1,
+    "prompt": "___ 50 años.",
+    "answer": "Tengo",
+    "accept": [],
+    "distractors": [
+      "Soy",
+      "Tiene",
+      "Estoy"
+    ],
+    "writable": true,
+    "translation": "J’ai 50 ans.",
+    "explanation": "L’âge se dit avec TENER : tengo 50 años (page Observa).",
+    "source": "dq1"
+  },
+  {
+    "id": "pres-vivo-pueblo",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 1,
+    "prompt": "___ en un pueblo de la Mancha.",
+    "answer": "Vivo",
+    "accept": [],
+    "distractors": [
+      "Vive",
+      "Soy",
+      "Tengo"
+    ],
+    "writable": true,
+    "translation": "J’habite dans un village de la Manche.",
+    "explanation": "Vivo = j’habite (vivir, yo : -o). Page Observa.",
+    "source": "dq1"
+  },
+  {
+    "id": "pres-soy-de",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 2,
+    "prompt": "Soy ___ La Mancha.",
+    "answer": "de",
+    "accept": [],
+    "distractors": [
+      "en",
+      "a",
+      "con"
+    ],
+    "writable": true,
+    "translation": "Je suis de la Manche.",
+    "explanation": "Ser de = être originaire de (Enquête 2 : Soy de La Mancha).",
+    "source": "intro"
+  },
+  {
+    "id": "pres-tengo-anos",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 2,
+    "prompt": "Tengo cincuenta ___.",
+    "answer": "años",
+    "accept": [],
+    "distractors": [
+      "libros",
+      "pueblos",
+      "caballos"
+    ],
+    "writable": true,
+    "translation": "J’ai cinquante ans.",
+    "explanation": "años = ans, avec un Ñ.",
+    "source": "intro"
+  },
+  {
+    "id": "pres-se-llama-rucio",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentar"
+    ],
+    "level": 1,
+    "prompt": "___ llama Rucio.",
+    "answer": "Se",
+    "accept": [],
+    "distractors": [
+      "Me",
+      "Te",
+      "Es"
+    ],
+    "writable": true,
+    "translation": "Il s’appelle Rucio.",
+    "explanation": "Pour présenter quelqu’un : se llama = il / elle s’appelle.",
+    "source": "dq2"
+  },
+  {
+    "id": "pres-este-es",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentar"
+    ],
+    "level": 2,
+    "prompt": "Este ___ el caballero don Quijote de la Mancha.",
+    "answer": "es",
+    "accept": [],
+    "distractors": [
+      "soy",
+      "eres",
+      "está"
+    ],
+    "writable": true,
+    "translation": "Voici le chevalier don Quichotte de la Manche.",
+    "explanation": "Pour présenter quelqu’un : este es… = voici… (dialogue de Dulcinea).",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pres-aldonza-vive",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentar"
+    ],
+    "level": 1,
+    "prompt": "Aldonza ___ en el Toboso.",
+    "answer": "vive",
+    "accept": [],
+    "distractors": [
+      "vivo",
+      "vives",
+      "es"
+    ],
+    "writable": true,
+    "translation": "Aldonza habite au Toboso.",
+    "explanation": "vivir, ella : -e → vive.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pres-antonia-tiene",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentar"
+    ],
+    "level": 1,
+    "prompt": "Antonia Quijana ___ veinte años.",
+    "answer": "tiene",
+    "accept": [],
+    "distractors": [
+      "tengo",
+      "es",
+      "está"
+    ],
+    "writable": true,
+    "translation": "Antonia a vingt ans.",
+    "explanation": "L’âge : TENER, ella tiene.",
+    "source": "dq2"
+  },
+  {
+    "id": "pres-sancho-es",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentar"
+    ],
+    "level": 2,
+    "prompt": "Sancho ___ el vecino de don Quijote.",
+    "answer": "es",
+    "accept": [],
+    "distractors": [
+      "está",
+      "tiene",
+      "eres"
+    ],
+    "writable": true,
+    "translation": "Sancho est le voisin de don Quichotte.",
+    "explanation": "Pour dire qui est quelqu’un : SER, él es.",
+    "source": "dq2"
+  },
+  {
+    "id": "pres-yo-soy-escudero",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 2,
+    "prompt": "Yo soy Sancho Panza, el ___.",
+    "answer": "escudero",
+    "accept": [],
+    "distractors": [
+      "escudo",
+      "caballero",
+      "caballo"
+    ],
+    "writable": true,
+    "translation": "Je suis Sancho Panza, l’écuyer.",
+    "explanation": "el escudero = l’écuyer ; el escudo = le bouclier (même famille de mots).",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pres-no-soy-princesa",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 3,
+    "prompt": "En el Toboso vivo, sí, pero ¡no ___ princesa!",
+    "answer": "soy",
+    "accept": [],
+    "distractors": [
+      "es",
+      "estoy",
+      "tengo"
+    ],
+    "writable": true,
+    "translation": "J’habite au Toboso, oui, mais je ne suis pas princesse !",
+    "explanation": "Aldonza parle d’elle : yo soy → no soy.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pres-me-llamo-aldonza",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 3,
+    "prompt": "Me llamo ___. ¡Dejadnos pasar!",
+    "answer": "Aldonza",
+    "accept": [],
+    "distractors": [
+      "Dulcinea",
+      "Antonia",
+      "Sancho"
+    ],
+    "writable": true,
+    "translation": "Je m’appelle Aldonza. Laissez-nous passer !",
+    "explanation": "Dans le dialogue, elle dit : « Me llamo Aldonza ».",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pres-escribe-llamo",
+    "type": "ecrit",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 3,
+    "prompt": "Écris en espagnol : « Je m’appelle Sancho. »",
+    "promptLang": "fr",
+    "answer": "Me llamo Sancho",
+    "accept": [
+      "Yo me llamo Sancho"
+    ],
+    "distractors": [
+      "Se llama Sancho",
+      "Te llamas Sancho",
+      "Me llama Sancho"
+    ],
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "",
+    "explanation": "Réponse : Me llamo Sancho. Le pronom sujet (yo, él, ella) est facultatif.",
+    "source": "dq1"
+  },
+  {
+    "id": "pres-escribe-anos",
+    "type": "ecrit",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 3,
+    "prompt": "Écris en espagnol : « J’ai cinquante ans. »",
+    "promptLang": "fr",
+    "answer": "Tengo cincuenta años",
+    "accept": [
+      "Tengo 50 años",
+      "Yo tengo cincuenta años"
+    ],
+    "distractors": [
+      "Soy cincuenta años",
+      "Tiene cincuenta años",
+      "Estoy cincuenta años"
+    ],
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "",
+    "explanation": "Réponse : Tengo cincuenta años. Le pronom sujet (yo, él, ella) est facultatif.",
+    "source": "dq1"
+  },
+  {
+    "id": "pres-escribe-se-llama",
+    "type": "ecrit",
+    "theme": "identidad",
+    "notions": [
+      "presentar"
+    ],
+    "level": 3,
+    "prompt": "Écris en espagnol : « Il s’appelle Rucio. »",
+    "promptLang": "fr",
+    "answer": "Se llama Rucio",
+    "accept": [],
+    "distractors": [
+      "Me llamo Rucio",
+      "Es llama Rucio",
+      "Te llamas Rucio"
+    ],
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "",
+    "explanation": "Réponse : Se llama Rucio. Le pronom sujet (yo, él, ella) est facultatif.",
+    "source": "dq1"
+  },
+  {
+    "id": "pres-escribe-vive",
+    "type": "ecrit",
+    "theme": "identidad",
+    "notions": [
+      "presentar"
+    ],
+    "level": "jefe",
+    "prompt": "Écris en espagnol : « Elle habite au Toboso. »",
+    "promptLang": "fr",
+    "answer": "Vive en el Toboso",
+    "accept": [
+      "Ella vive en el Toboso"
+    ],
+    "distractors": [
+      "Vivo en el Toboso",
+      "Es en el Toboso",
+      "Vives en el Toboso"
+    ],
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "",
+    "explanation": "Réponse : Vive en el Toboso. Le pronom sujet (yo, él, ella) est facultatif.",
+    "source": "dq1"
+  },
+  {
+    "id": "pres-escribe-soy-de",
+    "type": "ecrit",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": "jefe",
+    "prompt": "Écris en espagnol : « Je suis de la Manche. »",
+    "promptLang": "fr",
+    "answer": "Soy de La Mancha",
+    "accept": [
+      "Yo soy de La Mancha"
+    ],
+    "distractors": [
+      "Estoy de La Mancha",
+      "Es de La Mancha",
+      "Soy en La Mancha"
+    ],
+    "check": {
+      "optionalSubject": true
+    },
+    "translation": "",
+    "explanation": "Réponse : Soy de La Mancha. Le pronom sujet (yo, él, ella) est facultatif.",
+    "source": "dq1"
+  },
+  {
+    "id": "num-veinte",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "numeros"
+    ],
+    "level": 1,
+    "label": "Les nombres",
+    "prompt": "Comment dit-on 20 en espagnol ?",
+    "promptLang": "fr",
+    "answer": "veinte",
+    "accept": [],
+    "distractors": [
+      "cuarenta",
+      "cincuenta",
+      "tres"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "20 = veinte. Exemple : Antonia tiene veinte años.",
+    "source": "dq2"
+  },
+  {
+    "id": "num-cuarenta",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "numeros"
+    ],
+    "level": 1,
+    "label": "Les nombres",
+    "prompt": "Comment dit-on 40 en espagnol ?",
+    "promptLang": "fr",
+    "answer": "cuarenta",
+    "accept": [],
+    "distractors": [
+      "veinte",
+      "cincuenta",
+      "tres"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "40 = cuarenta. Exemple : La sirvienta tiene unos cuarenta años.",
+    "source": "dq2"
+  },
+  {
+    "id": "num-cincuenta",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "numeros"
+    ],
+    "level": 1,
+    "label": "Les nombres",
+    "prompt": "Comment dit-on 50 en espagnol ?",
+    "promptLang": "fr",
+    "answer": "cincuenta",
+    "accept": [],
+    "distractors": [
+      "cuarenta",
+      "veinte",
+      "tres"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "50 = cincuenta. Exemple : Tengo cincuenta años.",
+    "source": "intro"
+  },
+  {
+    "id": "num-tres",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "numeros"
+    ],
+    "level": 1,
+    "label": "Les nombres",
+    "prompt": "Comment dit-on 3 en espagnol ?",
+    "promptLang": "fr",
+    "answer": "tres",
+    "accept": [],
+    "distractors": [
+      "veinte",
+      "cuarenta",
+      "cincuenta"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "3 = tres. Exemple : Sancho se acerca a tres jóvenes del pueblo.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "sancho-burbuja-escudero",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 1,
+    "label": "¿Qué dice Sancho Panza? Completa.",
+    "prompt": "Me llamo Sancho Panza y soy un ___.",
+    "answer": "escudero",
+    "accept": [],
+    "distractors": [
+      "caballero",
+      "escudo",
+      "vecino"
+    ],
+    "writable": true,
+    "translation": "Je m’appelle Sancho Panza et je suis un écuyer.",
+    "explanation": "el escudero = l’écuyer (encadré Ayuda).",
+    "source": "dq1"
+  },
+  {
+    "id": "sancho-burbuja-pueblo",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 1,
+    "label": "¿Qué dice Sancho Panza? Completa.",
+    "prompt": "Vivo en un ___ de la Mancha.",
+    "answer": "pueblo",
+    "accept": [],
+    "distractors": [
+      "ciudad",
+      "molino",
+      "castillo"
+    ],
+    "writable": true,
+    "translation": "J’habite dans un village de la Manche.",
+    "explanation": "un pueblo = un village (encadré Ayuda).",
+    "source": "dq1"
+  },
+  {
+    "id": "sancho-burbuja-burro",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "presentarse"
+    ],
+    "level": 1,
+    "label": "¿Qué dice Sancho Panza? Completa.",
+    "prompt": "Tengo un ___ que se llama Rucio.",
+    "answer": "burro",
+    "accept": [],
+    "distractors": [
+      "caballo",
+      "galgo",
+      "libro"
+    ],
+    "writable": true,
+    "translation": "J’ai un âne qui s’appelle Rucio.",
+    "explanation": "Rucio es un burro (texte « ¿Quién es él?, ¿y ella? »).",
+    "source": "dq1"
+  },
+  {
+    "id": "sancho-burbuja-justicia",
+    "type": "qcm",
+    "theme": "identidad",
+    "notions": [
+      "hors-documents"
+    ],
+    "level": 2,
+    "label": "¿Qué dice Sancho Panza? Completa.",
+    "prompt": "Mi caballero defiende el honor y la ___.",
+    "answer": "justicia",
+    "accept": [],
+    "distractors": [
+      "lanza",
+      "casa",
+      "princesa"
+    ],
+    "writable": true,
+    "translation": "Mon chevalier défend l’honneur et la justice.",
+    "explanation": "L’image de la balance = la justicia. Ce mot n’est dans aucun document : question à valider.",
+    "source": "dq1",
+    "disabled": true
+  }
+]

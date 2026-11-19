@@ -29,7 +29,7 @@ export interface Settings {
 }
 
 export const DEFAULT_SETTINGS: Settings = {
-  themes: null, types: null, chrono: true, chronoFactor: 1, writeFactor: 1, accents: 'casi',
+  themes: null, types: null, chrono: false, chronoFactor: 1, writeFactor: 1, accents: 'casi',
 };
 
 export type { Mode } from './questions';
@@ -204,7 +204,7 @@ const TYPE_WEIGHT: Partial<Record<QuestionType, number>> = { ordre: 2.2, associa
 
 export const MAX_ASCENSION = 10;
 
-/** Effets cumulatifs de chaque « Nivel de Calavera ». */
+/** Effets cumulatifs de chaque « Nivel de caballero ». */
 export const ASCENSION_RULES: string[] = [
   'Le chemin normal.',
   'Les ennemis ont 1 PV de plus.',
@@ -212,7 +212,7 @@ export const ASCENSION_RULES: string[] = [
   'Une aide de départ en moins.',
   'Les élites ont 2 PV et 1 attaque de plus.',
   'Les combats rapportent moins de monedas.',
-  "La Ofrenda soigne moins (−10 points).",
+  "Le repos soigne moins (−10 points).",
   'Les jefes ont 3 PV de plus.',
   'Davantage de questions à écrire.',
   '3 PV de moins au départ.',
@@ -950,14 +950,14 @@ export class Game {
           s.hp += h;
           if (h && !fb.fx.includes('playerHeal')) fb.fx.push('playerHeal');
           fb.fx.push('alma');
-          fb.lines.push(`Alma liberada : tu avais raté cette question, tu la réussis.${h ? ' +1 PV.' : ''}`);
+          fb.lines.push(`Página recuperada : tu avais raté cette question, tu la réussis.${h ? ' +1 PV.' : ''}`);
         }
         if (this.relicCount('luckyCards') && how !== 'oracle') {
           s.luckyCount++;
           const every = this.relicValue('luckyCards', 4) / this.relicCount('luckyCards');
           if (s.luckyCount % every === 0) {
             const id = this.gainRandom('aide');
-            if (id) fb.lines.push(`Lotería ! Tu gagnes : ${this.itemById.get(id)!.name}.`);
+            if (id) fb.lines.push(`${this.content.items.find(i => i.effect === 'luckyCards')?.name ?? 'Bonus'} : tu gagnes ${this.itemById.get(id)!.name}.`);
           }
         }
       }
@@ -972,11 +972,11 @@ export class Game {
           const a = Math.min(c.abanico, dmg);
           c.abanico -= a;
           dmg -= a;
-          fb.lines.push(c.abanico > 0 ? `L'abanico se déchire (${c.abanico} restant).` : "L'abanico est brisé !");
+          fb.lines.push(c.abanico > 0 ? `La capa se déchire (${c.abanico} restant).` : 'La capa est déchirée !');
         } else {
           dmg = 0;
           fb.fx.push('abanico');
-          fb.lines.push("L'abanico bloque les réponses en QCM : écris pour le briser !");
+          fb.lines.push('La capa bloque les réponses en QCM : écris pour la déchirer !');
         }
       }
       if (dmg > 0 && c.shield > 0) {
@@ -1063,14 +1063,14 @@ export class Game {
     s.reviveUsed = true;
     s.hp = Math.ceil(s.maxHp / 2);
     fb.fx?.push('revive');
-    fb.alert = `La Calavera de la suerte te ramène sur le chemin avec ${s.hp} PV !`;
+    fb.alert = `${this.content.items.find(i => i.effect === 'revive')?.name ?? 'Ta relique'} te remet debout avec ${s.hp} PV !`;
   }
 
   private enemyStrikes(fb: Feedback) {
     const s = this.state, c = s.combat!, e = this.enemy!, it = c.intent;
     if (c.canceled) {
       fb.fx.push('canceled');
-      fb.lines.push(`L'encens apaise ${e.name} : il ne fait rien ce tour-ci.`);
+      fb.lines.push(`${e.name} est arrêté : il ne fait rien ce tour-ci.`);
       return;
     }
     const a = s.ascension;
@@ -1284,7 +1284,7 @@ export class Game {
     if (s.screen !== 'rest' || !s.rest || s.rest.result) return;
     const before = s.hp;
     s.hp = Math.min(s.maxHp, s.hp + this.restHealAmount());
-    s.rest.result = { text: 'Tu te reposes près de la ofrenda.', lines: [`+${s.hp - before} PV`] };
+    s.rest.result = { text: 'Tu te reposes un moment.', lines: [`+${s.hp - before} PV`] };
     this.commit();
   }
 
@@ -1293,7 +1293,7 @@ export class Game {
     if (s.screen !== 'rest' || !s.rest || s.rest.result || !this.upgradable().includes(id)) return;
     s.upgrades[id] = true;
     const it = this.itemById.get(id)!;
-    s.rest.result = { text: `Tu déposes ton ${it.name} sur la ofrenda. Il brille…`, lines: [it.upgrade ?? `${it.name} amélioré`] };
+    s.rest.result = { text: `Tu prends soin de ton objet « ${it.name} ». Il brille…`, lines: [it.upgrade ?? `${it.name} amélioré`] };
     this.commit();
   }
 

@@ -83,14 +83,14 @@ export function intentInfo(game: Game, it: Intent): { ico: string; text: string;
     case 'poison': return { ico: '☠️', text: `Poison ${it.value ?? 3}`, sub: `si tu te trompes : −1 PV par question · −${base * mult} PV` };
     case 'fog': return { ico: '🌫️', text: 'Brouillard', sub: `pouvoirs bloqués pour cette question · ${hit(base)}` };
     case 'stealItem': return { ico: '🎒', text: 'Vol de pouvoir', sub: `si tu te trompes, il te prend une aide · −${base * mult} PV` };
-    case 'listen': return { ico: '🔊', text: 'Canto', sub: `la question est à écouter · ${hit(base)}` };
+    case 'listen': return { ico: '🔊', text: '¿Me oyes?', sub: `la question est à écouter · ${hit(base)}` };
   }
 }
 
 export const MODIFIERS: Record<string, { ico: string; label: string; desc: string }> = {
   soloEscrito: { ico: '✍️', label: 'Solo escrito', desc: 'Toutes les réponses sont à écrire.' },
   prisa: { ico: '⚡', label: 'Prisa', desc: 'Le chrono est divisé par deux.' },
-  niebla: { ico: '🌫️', label: 'Niebla', desc: 'Traductor et Chuleta sont inutilisables.' },
+  niebla: { ico: '🌫️', label: 'Niebla', desc: 'Pas de traduction ni de règle : ces aides sont inutilisables.' },
 };
 
 /* ---------- objets ---------- */
@@ -195,8 +195,8 @@ export function Hud({ game, hit, noHp }: { game: Game; hit?: boolean; noHp?: boo
       <span class="chip" title="Monedas">🪙 {s.gold}</span>
       {s.poison > 0 && <span class="chip veneno" title="Poison : −1 PV par question">☠️ {s.poison}</span>}
       {game.pendingCount > 0 && (
-        <span class="chip almas" title="Almas pendientes : des questions ratées qui reviendront. Réussis-les pour les libérer (+1 PV chacune)." aria-label={`${game.pendingCount} almas pendientes`}>
-          👻 {game.pendingCount}
+        <span class="chip almas" title="Páginas perdidas : des questions ratées qui reviendront. Réussis-les pour les retrouver (+1 PV chacune)." aria-label={`${game.pendingCount} páginas perdidas`}>
+          📄 {game.pendingCount}
         </span>
       )}
       {act && (

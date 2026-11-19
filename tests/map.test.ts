@@ -11,7 +11,7 @@ describe('carte à embranchements', () => {
     expect(generateMap(new Rng('X-1'), cfg())).toEqual(generateMap(new Rng('X-1'), cfg()));
   });
 
-  it('structure : combats au départ, Ofrenda avant le jefe, un seul jefe à la fin', () => {
+  it('structure : combats au départ, En casa avant le jefe, un seul jefe à la fin', () => {
     for (const m of maps) {
       const last = m.floors - 1;
       expect(m.nodes.filter(n => n.floor === 0).every(n => n.type === 'combat')).toBe(true);

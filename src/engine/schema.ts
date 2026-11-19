@@ -1,6 +1,6 @@
 /**
  * Schémas du contenu (zod). Le moteur ne suppose rien du thème de la séquence :
- * tout ce qui est propre au Día de Muertos vit dans content/sequences/<id>/.
+ * tout ce qui est propre à la séquence vit dans content/sequences/<id>/.
  */
 import { z } from 'zod';
 

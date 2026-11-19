@@ -36,10 +36,10 @@ describe('correction tolérante', () => {
     expect(checkAnswer('somos bailando', ['estamos bailando'])).toBe('ko');
   });
   it('articles facultatifs (vocabulaire)', () => {
-    expect(checkAnswer('vela', ['la vela'], { ignoreArticles: true })).toBe('ok');
-    expect(checkAnswer('las velas', ['la vela'], { ignoreArticles: true })).toBe('ko');
-    expect(checkAnswer('pan de muerto', ['el pan de muerto'], { ignoreArticles: true })).toBe('ok');
-    expect(checkAnswer('vela', ['la vela'], { ignoreArticles: false })).toBe('ko');
+    expect(checkAnswer('lanza', ['la lanza'], { ignoreArticles: true })).toBe('ok');
+    expect(checkAnswer('las lanzas', ['la lanza'], { ignoreArticles: true })).toBe('ko');
+    expect(checkAnswer('molino', ['el molino'], { ignoreArticles: true })).toBe('ok');
+    expect(checkAnswer('lanza', ['la lanza'], { ignoreArticles: false })).toBe('ko');
   });
   it('pronom sujet facultatif', () => {
     expect(checkAnswer('nosotros estamos decorando el altar', ['Estamos decorando el altar'])).toBe('ok');

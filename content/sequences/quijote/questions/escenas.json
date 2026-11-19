@@ -1,0 +1,288 @@
+[
+  {
+    "id": "esc-donde-1",
+    "type": "scene",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "Place les personnages sur la carte",
+    "prompt": "Dulcinea vive en el Toboso. Don Quijote vive en un pueblo de la Mancha.",
+    "scene": {
+      "decor": "mancha",
+      "items": [
+        {
+          "object": "dulcinea",
+          "col": "toboso"
+        },
+        {
+          "object": "quijote",
+          "col": "pueblo"
+        }
+      ]
+    },
+    "translation": "Dulcinée habite au Toboso. Don Quichotte habite dans un village de la Manche.",
+    "explanation": "vivir en = habiter à. Dulcinea (Aldonza) y las aldeanas viven en el Toboso ; don Quijote vive en un pueblo de la Mancha con su sobrina, una sirvienta y un galgo ; Sancho es su vecino.",
+    "source": "dq2"
+  },
+  {
+    "id": "esc-donde-2",
+    "type": "scene",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "Place les personnages sur la carte",
+    "prompt": "Antonia vive con don Quijote. Las aldeanas viven en el Toboso.",
+    "scene": {
+      "decor": "mancha",
+      "items": [
+        {
+          "object": "antonia",
+          "col": "pueblo"
+        },
+        {
+          "object": "aldeanas",
+          "col": "toboso"
+        }
+      ]
+    },
+    "translation": "Antonia habite avec don Quichotte. Les villageoises habitent au Toboso.",
+    "explanation": "vivir en = habiter à. Dulcinea (Aldonza) y las aldeanas viven en el Toboso ; don Quijote vive en un pueblo de la Mancha con su sobrina, una sirvienta y un galgo ; Sancho es su vecino.",
+    "source": "dq2"
+  },
+  {
+    "id": "esc-donde-3",
+    "type": "scene",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "Place les personnages sur la carte",
+    "prompt": "El galgo vive con don Quijote. Dulcinea vive en el Toboso.",
+    "scene": {
+      "decor": "mancha",
+      "items": [
+        {
+          "object": "galgo",
+          "col": "pueblo"
+        },
+        {
+          "object": "dulcinea",
+          "col": "toboso"
+        }
+      ]
+    },
+    "translation": "Le lévrier habite avec don Quichotte. Dulcinée habite au Toboso.",
+    "explanation": "vivir en = habiter à. Dulcinea (Aldonza) y las aldeanas viven en el Toboso ; don Quijote vive en un pueblo de la Mancha con su sobrina, una sirvienta y un galgo ; Sancho es su vecino.",
+    "source": "dq2"
+  },
+  {
+    "id": "esc-donde-4",
+    "type": "scene",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "label": "Place les personnages sur la carte",
+    "prompt": "Sancho es el vecino de don Quijote. Las aldeanas son del Toboso.",
+    "scene": {
+      "decor": "mancha",
+      "items": [
+        {
+          "object": "sancho",
+          "col": "pueblo"
+        },
+        {
+          "object": "aldeanas",
+          "col": "toboso"
+        }
+      ]
+    },
+    "translation": "Sancho est le voisin de don Quichotte. Les villageoises sont du Toboso.",
+    "explanation": "vivir en = habiter à. Dulcinea (Aldonza) y las aldeanas viven en el Toboso ; don Quijote vive en un pueblo de la Mancha con su sobrina, una sirvienta y un galgo ; Sancho es su vecino.",
+    "source": "dq2"
+  },
+  {
+    "id": "esc-donde-5",
+    "type": "scene",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "label": "Place les personnages sur la carte",
+    "prompt": "Don Quijote vive con su sobrina y con una sirvienta. Dulcinea no vive con él.",
+    "scene": {
+      "decor": "mancha",
+      "items": [
+        {
+          "object": "antonia",
+          "col": "pueblo"
+        },
+        {
+          "object": "sirvienta",
+          "col": "pueblo"
+        },
+        {
+          "object": "dulcinea",
+          "col": "toboso"
+        }
+      ]
+    },
+    "translation": "Don Quichotte habite avec sa nièce et une servante. Dulcinée n’habite pas avec lui.",
+    "explanation": "vivir en = habiter à. Dulcinea (Aldonza) y las aldeanas viven en el Toboso ; don Quijote vive en un pueblo de la Mancha con su sobrina, una sirvienta y un galgo ; Sancho es su vecino.",
+    "source": "dq2"
+  },
+  {
+    "id": "esc-donde-6",
+    "type": "scene",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 3,
+    "label": "Place les personnages sur la carte",
+    "prompt": "Aldonza Lorenzo vive en el pueblo del Toboso. La sirvienta y el galgo viven con don Quijote.",
+    "scene": {
+      "decor": "mancha",
+      "items": [
+        {
+          "object": "dulcinea",
+          "col": "toboso"
+        },
+        {
+          "object": "sirvienta",
+          "col": "pueblo"
+        },
+        {
+          "object": "galgo",
+          "col": "pueblo"
+        }
+      ]
+    },
+    "translation": "Aldonza Lorenzo habite dans le village du Toboso. La servante et le lévrier habitent avec don Quichotte.",
+    "explanation": "vivir en = habiter à. Dulcinea (Aldonza) y las aldeanas viven en el Toboso ; don Quijote vive en un pueblo de la Mancha con su sobrina, una sirvienta y un galgo ; Sancho es su vecino.",
+    "source": "dq2"
+  },
+  {
+    "id": "esc-donde-7",
+    "type": "scene",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 3,
+    "label": "Place les personnages sur la carte",
+    "prompt": "Sancho Panza vive en un pueblo de la Mancha, como don Quijote. Tres jóvenes viven en el Toboso.",
+    "scene": {
+      "decor": "mancha",
+      "items": [
+        {
+          "object": "sancho",
+          "col": "pueblo"
+        },
+        {
+          "object": "quijote",
+          "col": "pueblo"
+        },
+        {
+          "object": "aldeanas",
+          "col": "toboso"
+        }
+      ]
+    },
+    "translation": "Sancho Panza habite dans un village de la Manche, comme don Quichotte. Trois jeunes filles habitent au Toboso.",
+    "explanation": "vivir en = habiter à. Dulcinea (Aldonza) y las aldeanas viven en el Toboso ; don Quijote vive en un pueblo de la Mancha con su sobrina, una sirvienta y un galgo ; Sancho es su vecino.",
+    "source": "dq2"
+  },
+  {
+    "id": "esc-donde-8",
+    "type": "scene",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "Place les personnages sur la carte",
+    "prompt": "Sancho vive en un pueblo de la Mancha. Aldonza vive en el Toboso.",
+    "scene": {
+      "decor": "mancha",
+      "items": [
+        {
+          "object": "sancho",
+          "col": "pueblo"
+        },
+        {
+          "object": "dulcinea",
+          "col": "toboso"
+        }
+      ]
+    },
+    "translation": "Sancho habite dans un village de la Manche. Aldonza habite au Toboso.",
+    "explanation": "vivir en = habiter à. Dulcinea (Aldonza) y las aldeanas viven en el Toboso ; don Quijote vive en un pueblo de la Mancha con su sobrina, una sirvienta y un galgo ; Sancho es su vecino.",
+    "source": "dq2"
+  },
+  {
+    "id": "esc-donde-9",
+    "type": "scene",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "label": "Place les personnages sur la carte",
+    "prompt": "La sirvienta vive con don Quijote. Las tres jóvenes son del Toboso.",
+    "scene": {
+      "decor": "mancha",
+      "items": [
+        {
+          "object": "sirvienta",
+          "col": "pueblo"
+        },
+        {
+          "object": "aldeanas",
+          "col": "toboso"
+        }
+      ]
+    },
+    "translation": "La servante habite avec don Quichotte. Les trois jeunes filles sont du Toboso.",
+    "explanation": "vivir en = habiter à. Dulcinea (Aldonza) y las aldeanas viven en el Toboso ; don Quijote vive en un pueblo de la Mancha con su sobrina, una sirvienta y un galgo ; Sancho es su vecino.",
+    "source": "dq2"
+  },
+  {
+    "id": "esc-donde-10",
+    "type": "scene",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 3,
+    "label": "Place les personnages sur la carte",
+    "prompt": "Don Quijote no vive solo: vive con su galgo y con su sobrina. Dulcinea vive en el Toboso.",
+    "scene": {
+      "decor": "mancha",
+      "items": [
+        {
+          "object": "galgo",
+          "col": "pueblo"
+        },
+        {
+          "object": "antonia",
+          "col": "pueblo"
+        },
+        {
+          "object": "dulcinea",
+          "col": "toboso"
+        }
+      ]
+    },
+    "translation": "Don Quichotte ne vit pas seul : il vit avec son lévrier et sa nièce. Dulcinée habite au Toboso.",
+    "explanation": "vivir en = habiter à. Dulcinea (Aldonza) y las aldeanas viven en el Toboso ; don Quijote vive en un pueblo de la Mancha con su sobrina, una sirvienta y un galgo ; Sancho es su vecino.",
+    "source": "dq2"
+  }
+]

@@ -1,0 +1,998 @@
+[
+  {
+    "id": "pers-vecino-companero",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Quién es el vecino y fiel compañero de don Quijote?",
+    "answer": "Sancho Panza",
+    "accept": [],
+    "distractors": [
+      "Rocinante",
+      "Antonia Quijana",
+      "Aldonza Lorenzo"
+    ],
+    "writable": false,
+    "translation": "Qui est le voisin et fidèle compagnon de don Quichotte ?",
+    "explanation": "A Sancho lo conoces, es vecino y fiel compañero de don Quijote.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-como-es-sancho",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Cómo es Sancho?",
+    "answer": "Realista y sencillo",
+    "accept": [],
+    "distractors": [
+      "Joven y rápido",
+      "Bella y joven",
+      "Cansado y solo"
+    ],
+    "writable": false,
+    "translation": "Comment est Sancho ?",
+    "explanation": "Es realista y sencillo.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-sancho-explica",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "prompt": "¿Qué explica siempre Sancho a don Quijote?",
+    "answer": "Cómo es el mundo en realidad",
+    "accept": [],
+    "distractors": [
+      "Cómo se llama Dulcinea",
+      "Dónde vive Rocinante",
+      "Cuántos años tiene"
+    ],
+    "writable": false,
+    "translation": "Qu’est-ce que Sancho explique toujours à don Quichotte ?",
+    "explanation": "Siempre explica a don Quijote cómo es el mundo en realidad.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-sancho-caballo",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Sancho tiene caballo?",
+    "answer": "No, tiene un burro",
+    "accept": [],
+    "distractors": [
+      "Sí, tiene un caballo",
+      "No, tiene un galgo",
+      "Sí, se llama Rocinante"
+    ],
+    "writable": false,
+    "translation": "Sancho a-t-il un cheval ?",
+    "explanation": "No, la modesta montura de Sancho Panza es un burro.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-burro-nombre",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Cómo se llama el burro de Sancho?",
+    "answer": "Rucio",
+    "accept": [],
+    "distractors": [
+      "Rocinante",
+      "Toboso",
+      "Quijano"
+    ],
+    "writable": true,
+    "translation": "Comment s’appelle l’âne de Sancho ?",
+    "explanation": "Es un burro: se llama Rucio.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-rucio-amigo",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "prompt": "¿De quién es muy amigo Rucio?",
+    "answer": "De Rocinante",
+    "accept": [],
+    "distractors": [
+      "De Dulcinea",
+      "Del galgo",
+      "De la sirvienta"
+    ],
+    "writable": false,
+    "translation": "De qui Rucio est-il très ami ?",
+    "explanation": "¡Es muy amigo de Rocinante!",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-dulcinea-nombre",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Cómo se llama en realidad Dulcinea?",
+    "answer": "Aldonza Lorenzo",
+    "accept": [
+      "Aldonza"
+    ],
+    "distractors": [
+      "Antonia Quijana",
+      "Dulcinea Panza",
+      "Lorenza del Toboso"
+    ],
+    "writable": true,
+    "translation": "Comment s’appelle Dulcinée en réalité ?",
+    "explanation": "Se llama en realidad Aldonza Lorenzo.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-dulcinea-vecina",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "prompt": "¿Quién es también vecina de don Quijote?",
+    "answer": "Aldonza Lorenzo",
+    "accept": [],
+    "distractors": [
+      "Antonia Quijana",
+      "La sirvienta",
+      "Una princesa"
+    ],
+    "writable": false,
+    "translation": "Qui est aussi voisine de don Quichotte ?",
+    "explanation": "Se llama en realidad Aldonza Lorenzo. También es vecina de don Quijote.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-dulcinea-donde",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Dónde vive Dulcinea?",
+    "answer": "En el pueblo del Toboso",
+    "accept": [],
+    "distractors": [
+      "En una ciudad",
+      "En la casa de don Quijote",
+      "En el pueblo de Sancho"
+    ],
+    "writable": false,
+    "translation": "Où habite Dulcinée ?",
+    "explanation": "Vive en el pueblo del Toboso.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-dulcinea-por-que",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "prompt": "¿Por qué don Quijote la llama «Dulcinea del Toboso»?",
+    "answer": "Porque vive en el pueblo del Toboso",
+    "accept": [],
+    "distractors": [
+      "Porque es una princesa",
+      "Porque tiene veinte años",
+      "Porque es su sobrina"
+    ],
+    "writable": false,
+    "translation": "Pourquoi don Quichotte l’appelle-t-il « Dulcinée du Toboso » ?",
+    "explanation": "Decide llamarla Dulcinea del Toboso, porque vive en el pueblo del Toboso.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-dulcinea-dama",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "prompt": "Para don Quijote, ¿quién es Dulcinea?",
+    "answer": "Una bella dama",
+    "accept": [],
+    "distractors": [
+      "Una sirvienta",
+      "Su sobrina",
+      "Una aldeana cansada"
+    ],
+    "writable": false,
+    "translation": "Pour don Quichotte, qui est Dulcinée ?",
+    "explanation": "Para él, es una bella dama.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-dulcinea-edad",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "prompt": "¿Cuántos años tiene Dulcinea?",
+    "answer": "Es un misterio, pero es joven",
+    "accept": [],
+    "distractors": [
+      "Tiene veinte años",
+      "Tiene cincuenta años",
+      "Tiene unos cuarenta años"
+    ],
+    "writable": false,
+    "translation": "Quel âge a Dulcinée ?",
+    "explanation": "—¿Cuántos años tiene? —¡Es un misterio! Pero es joven.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-con-quien-vive",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Con quién vive don Quijote?",
+    "answer": "Con su sobrina, una sirvienta y un galgo",
+    "accept": [],
+    "distractors": [
+      "Solo",
+      "Con Sancho y Rucio",
+      "Con Dulcinea y Rocinante"
+    ],
+    "writable": false,
+    "translation": "Avec qui vit don Quichotte ?",
+    "explanation": "Vive con su sobrina…, con una sirvienta… y con un galgo rápido.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-antonia-quien",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Quién es Antonia Quijana?",
+    "answer": "La sobrina de don Quijote",
+    "accept": [],
+    "distractors": [
+      "La sirvienta de don Quijote",
+      "La vecina de Sancho",
+      "Una princesa del Toboso"
+    ],
+    "writable": false,
+    "translation": "Qui est Antonia Quijana ?",
+    "explanation": "Vive con su sobrina de veinte años, Antonia Quijana.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-sobrina-edad",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Cuántos años tiene la sobrina de don Quijote?",
+    "answer": "Veinte años",
+    "accept": [
+      "20 años",
+      "veinte"
+    ],
+    "distractors": [
+      "Cuarenta años",
+      "Cincuenta años",
+      "Tres años"
+    ],
+    "writable": true,
+    "translation": "Quel âge a la nièce de don Quichotte ?",
+    "explanation": "Su sobrina de veinte años.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-sirvienta-edad",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "prompt": "¿Cuántos años tiene la sirvienta?",
+    "answer": "Unos cuarenta años",
+    "accept": [],
+    "distractors": [
+      "Veinte años",
+      "Cincuenta años",
+      "Es un misterio"
+    ],
+    "writable": false,
+    "translation": "Quel âge a la servante ?",
+    "explanation": "Una sirvienta de unos cuarenta años (unos = environ).",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-galgo-como",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "prompt": "¿Cómo es el galgo de don Quijote?",
+    "answer": "Rápido y fiel",
+    "accept": [],
+    "distractors": [
+      "Lento y cansado",
+      "Joven y bello",
+      "Realista y sencillo"
+    ],
+    "writable": false,
+    "translation": "Comment est le lévrier de don Quichotte ?",
+    "explanation": "Un galgo rápido, ¡su fiel perro!",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-quijote-solo",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 3,
+    "prompt": "¿Vive solo don Quijote?",
+    "answer": "No, vive con su sobrina, una sirvienta y un galgo",
+    "accept": [],
+    "distractors": [
+      "Sí, vive solo",
+      "No, vive con Sancho",
+      "No, vive con Dulcinea"
+    ],
+    "writable": false,
+    "translation": "Don Quichotte vit-il seul ?",
+    "explanation": "—¿Vive solo don Quijote? —No, vive con su sobrina…",
+    "source": "dq1"
+  },
+  {
+    "id": "pers-montura",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 3,
+    "prompt": "¿Cuál es la modesta montura de Sancho Panza?",
+    "answer": "Un burro",
+    "accept": [
+      "burro"
+    ],
+    "distractors": [
+      "Un caballo",
+      "Un galgo",
+      "Un molino"
+    ],
+    "writable": true,
+    "translation": "Quelle est la modeste monture de Sancho Panza ?",
+    "explanation": "La modesta montura de Sancho Panza es un burro.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-quijote-edad",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Cuántos años tiene don Quijote?",
+    "answer": "Cincuenta años",
+    "accept": [
+      "50 años",
+      "cincuenta",
+      "50"
+    ],
+    "distractors": [
+      "Veinte años",
+      "Cuarenta años",
+      "Tres años"
+    ],
+    "writable": true,
+    "translation": "Quel âge a don Quichotte ?",
+    "explanation": "Tengo 50 años (page Observa).",
+    "source": "dq1"
+  },
+  {
+    "id": "pers-quijote-donde",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Dónde vive don Quijote?",
+    "answer": "En un pueblo de la Mancha",
+    "accept": [],
+    "distractors": [
+      "En el Toboso",
+      "En una ciudad de Francia",
+      "En casa de Sancho"
+    ],
+    "writable": false,
+    "translation": "Où habite don Quichotte ?",
+    "explanation": "Vivo en un pueblo de la Mancha (page Observa).",
+    "source": "dq1"
+  },
+  {
+    "id": "pers-quijote-gusta",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Qué le gusta a don Quijote?",
+    "answer": "Los libros",
+    "accept": [
+      "libros"
+    ],
+    "distractors": [
+      "Los gigantes",
+      "Los molinos",
+      "Los burros"
+    ],
+    "writable": true,
+    "translation": "Qu’est-ce que don Quichotte aime ?",
+    "explanation": "Me gustan los libros (Enquête 2).",
+    "source": "intro"
+  },
+  {
+    "id": "pers-quijote-no-gusta",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "prompt": "¿Qué no le gusta a don Quijote?",
+    "answer": "Los gigantes",
+    "accept": [
+      "gigantes"
+    ],
+    "distractors": [
+      "Los libros",
+      "Los caballos",
+      "El queso"
+    ],
+    "writable": true,
+    "translation": "Qu’est-ce que don Quichotte n’aime pas ?",
+    "explanation": "No me gustan los gigantes (Enquête 2).",
+    "source": "intro"
+  },
+  {
+    "id": "pers-caballero-defiende",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "prompt": "Según Sancho, ¿qué defiende su caballero?",
+    "answer": "El honor",
+    "accept": [
+      "honor"
+    ],
+    "distractors": [
+      "El molino",
+      "El pueblo",
+      "El queso"
+    ],
+    "writable": true,
+    "translation": "D’après Sancho, que défend son chevalier ?",
+    "explanation": "Mi caballero defiende el honor…",
+    "source": "dq1"
+  },
+  {
+    "id": "pers-mancha-pais",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 1,
+    "prompt": "La Mancha es una región de…",
+    "answer": "España",
+    "accept": [
+      "En España"
+    ],
+    "distractors": [
+      "Francia",
+      "México",
+      "Inglaterra"
+    ],
+    "writable": true,
+    "translation": "La Manche (la Mancha) est une région de…",
+    "explanation": "¡Fíjate! : La Mancha est une région du centre de l’Espagne.",
+    "source": "dq1"
+  },
+  {
+    "id": "pers-mancha-region",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 2,
+    "prompt": "¿Cómo se llama la región de La Mancha en el mapa?",
+    "answer": "Castilla-La Mancha",
+    "accept": [],
+    "distractors": [
+      "Castilla-León",
+      "Andalucía-La Mancha",
+      "La Mancha del Toboso"
+    ],
+    "writable": false,
+    "translation": "Comment s’appelle la région de la Manche sur la carte ?",
+    "explanation": "Sur la carte du document : ESPAÑA, CASTILLA-LA MANCHA.",
+    "source": "dq1"
+  },
+  {
+    "id": "pers-cervantes",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 1,
+    "prompt": "¿Quién escribe Don Quijote de la Mancha?",
+    "answer": "Miguel de Cervantes",
+    "accept": [
+      "Cervantes"
+    ],
+    "distractors": [
+      "Sancho Panza",
+      "Antonia Quijana",
+      "Aldonza Lorenzo"
+    ],
+    "writable": true,
+    "translation": "Qui écrit Don Quichotte de la Manche ?",
+    "explanation": "Adaptado de Miguel de Cervantes (escritor español), Don Quijote de la Mancha.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pers-ano",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 2,
+    "prompt": "¿En qué año es Don Quijote de la Mancha de Cervantes?",
+    "answer": "1605",
+    "accept": [],
+    "distractors": [
+      "1705",
+      "1505",
+      "2013"
+    ],
+    "writable": true,
+    "translation": "De quelle année date Don Quichotte de la Manche de Cervantès ?",
+    "explanation": "Miguel de Cervantes, Don Quijote de la Mancha, 1605.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pers-cervantes-nacion",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 1,
+    "prompt": "Miguel de Cervantes es un escritor…",
+    "answer": "español",
+    "accept": [],
+    "distractors": [
+      "inglés",
+      "francés",
+      "mexicano"
+    ],
+    "writable": true,
+    "translation": "Miguel de Cervantès est un écrivain…",
+    "explanation": "Miguel de Cervantes (escritor español).",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pers-siglo",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 3,
+    "prompt": "¿A partir de qué siglo hay versiones teatrales del Quijote?",
+    "answer": "El siglo XVII",
+    "accept": [],
+    "distractors": [
+      "El siglo XV",
+      "El siglo XX",
+      "El siglo XXI"
+    ],
+    "writable": false,
+    "translation": "À partir de quel siècle y a-t-il des versions théâtrales du Quichotte ?",
+    "explanation": "Autores… escriben ya a partir del siglo XVII versiones teatrales de la obra.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pers-autores",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 3,
+    "prompt": "¿De dónde son los autores de las versiones teatrales?",
+    "answer": "Españoles, ingleses o franceses",
+    "accept": [],
+    "distractors": [
+      "Solo españoles",
+      "Mexicanos o argentinos",
+      "Solo franceses"
+    ],
+    "writable": false,
+    "translation": "D’où viennent les auteurs des versions théâtrales ?",
+    "explanation": "Autores españoles, ingleses o franceses escriben… versiones teatrales.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pers-adaptaciones",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 2,
+    "prompt": "¿Para qué hay adaptaciones del Quijote, incluso?",
+    "answer": "Para cine o televisión",
+    "accept": [],
+    "distractors": [
+      "Para la radio y los videojuegos",
+      "Solo para el teatro",
+      "Para la pintura y la escultura"
+    ],
+    "writable": false,
+    "translation": "Pour quoi y a-t-il même des adaptations du Quichotte ?",
+    "explanation": "¡Hay adaptaciones en todas las épocas, incluso para cine o televisión!",
+    "source": "dulcinea"
+  },
+  {
+    "id": "dul-tipo-arte",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 1,
+    "prompt": "La foto de la escena: ¿a qué tipo de arte corresponde?",
+    "answer": "Al teatro",
+    "accept": [
+      "teatro",
+      "el teatro"
+    ],
+    "distractors": [
+      "A la pintura",
+      "A la música",
+      "Al cine"
+    ],
+    "writable": true,
+    "translation": "La photo de la scène : à quel type d’art correspond-elle ?",
+    "explanation": "« Teatro » : c’est une pièce (Compañía Ptclam y el Globo Rojo, 2021).",
+    "source": "dulcinea"
+  },
+  {
+    "id": "dul-cuantas-jovenes",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 1,
+    "prompt": "¿A cuántas jóvenes del pueblo se acerca Sancho?",
+    "answer": "A tres",
+    "accept": [
+      "tres",
+      "3",
+      "a 3"
+    ],
+    "distractors": [
+      "A dos",
+      "A cuatro",
+      "A una"
+    ],
+    "writable": true,
+    "translation": "De combien de jeunes filles du village Sancho s’approche-t-il ?",
+    "explanation": "Se acerca a tres jóvenes del pueblo.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "dul-sancho-presenta",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 1,
+    "prompt": "En la escena, ¿cómo se presenta Sancho?",
+    "answer": "Yo soy Sancho Panza, el escudero",
+    "accept": [],
+    "distractors": [
+      "Yo soy don Quijote, el caballero",
+      "Me llamo Aldonza",
+      "Soy el mago del Toboso"
+    ],
+    "writable": false,
+    "translation": "Dans la scène, comment Sancho se présente-t-il ?",
+    "explanation": "Yo soy Sancho Panza, el escudero, y este es el caballero don Quijote de la Mancha.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "dul-aldonza-princesa",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 2,
+    "prompt": "¿Aldonza dice que es una princesa?",
+    "answer": "No: «¡No soy princesa!»",
+    "accept": [],
+    "distractors": [
+      "Sí: «Soy la princesa del Toboso»",
+      "Sí: «Soy una reina»",
+      "No: «Soy una duquesa»"
+    ],
+    "writable": false,
+    "translation": "Aldonza dit-elle qu’elle est une princesse ?",
+    "explanation": "En el Toboso vivo, sí, pero ¡no soy princesa!",
+    "source": "dulcinea"
+  },
+  {
+    "id": "dul-aldonza-quiere",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 2,
+    "prompt": "¿Qué quieren las aldeanas?",
+    "answer": "Pasar: tienen prisa",
+    "accept": [],
+    "distractors": [
+      "Bailar con Sancho",
+      "Comer queso",
+      "Ver a don Quijote"
+    ],
+    "writable": false,
+    "translation": "Que veulent les villageoises ?",
+    "explanation": "¡Dejadnos pasar! ¡Tenemos prisa!",
+    "source": "dulcinea"
+  },
+  {
+    "id": "dul-burla",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 2,
+    "prompt": "Según las aldeanas, ¿quién se burla de ellas?",
+    "answer": "Sancho",
+    "accept": [],
+    "distractors": [
+      "Don Quijote",
+      "Aldonza",
+      "El mago"
+    ],
+    "writable": false,
+    "translation": "D’après les villageoises, qui se moque d’elles ?",
+    "explanation": "¡Pues Sancho con su panza, se burla de nosotras!",
+    "source": "dulcinea"
+  },
+  {
+    "id": "dul-quijote-inclinado",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 2,
+    "prompt": "¿Cómo está don Quijote delante de Dulcinea?",
+    "answer": "Inclinado",
+    "accept": [],
+    "distractors": [
+      "Cansado",
+      "Solo",
+      "En casa"
+    ],
+    "writable": false,
+    "translation": "Comment est don Quichotte devant Dulcinée ?",
+    "explanation": "Don Quijote (inclinado delante de Dulcinea).",
+    "source": "dulcinea"
+  },
+  {
+    "id": "dul-mago",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 3,
+    "prompt": "Según don Quijote, ¿por qué Dulcinea parece una simple aldeana?",
+    "answer": "Porque un mago la hace parecer una aldeana",
+    "accept": [],
+    "distractors": [
+      "Porque es una aldeana de verdad",
+      "Porque tiene prisa",
+      "Porque vive en el Toboso"
+    ],
+    "writable": false,
+    "translation": "D’après don Quichotte, pourquoi Dulcinée ressemble-t-elle à une simple villageoise ?",
+    "explanation": "Un mago te hace parecer una simple aldeana.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "dul-unico-amor",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 2,
+    "prompt": "¿Qué dice don Quijote a Dulcinea?",
+    "answer": "Tú eres mi único amor",
+    "accept": [],
+    "distractors": [
+      "Tú eres mi sobrina",
+      "Tú eres mi escudero",
+      "Tú eres un gigante"
+    ],
+    "writable": false,
+    "translation": "Que dit don Quichotte à Dulcinée ?",
+    "explanation": "Tú eres mi único amor…",
+    "source": "dulcinea"
+  },
+  {
+    "id": "dul-quien-dice",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 2,
+    "prompt": "¿Quién dice: «Yo no soy Dulcinea»?",
+    "answer": "Aldonza",
+    "accept": [
+      "Aldonza Lorenzo"
+    ],
+    "distractors": [
+      "Sancho",
+      "Don Quijote",
+      "La aldeana 3"
+    ],
+    "writable": true,
+    "translation": "Qui dit : « Je ne suis pas Dulcinée » ?",
+    "explanation": "ALDONZA: ¡Ay, por favor! Yo no soy Dulcinea.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pers-jefe-dulcinea",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": "jefe",
+    "prompt": "¿Quién es Dulcinea del Toboso en realidad?",
+    "answer": "Aldonza Lorenzo, una vecina joven del Toboso",
+    "accept": [],
+    "distractors": [
+      "Antonia Quijana, la sobrina de don Quijote",
+      "Una princesa de una ciudad",
+      "La sirvienta de don Quijote"
+    ],
+    "writable": false,
+    "translation": "Qui est Dulcinée du Toboso en réalité ?",
+    "explanation": "Se llama en realidad Aldonza Lorenzo. También es vecina de don Quijote… vive en el pueblo del Toboso… es joven.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-jefe-casa",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": "jefe",
+    "prompt": "En la casa de don Quijote, ¿quién tiene veinte años y quién tiene unos cuarenta?",
+    "answer": "La sobrina tiene veinte años y la sirvienta unos cuarenta",
+    "accept": [],
+    "distractors": [
+      "La sirvienta tiene veinte años y la sobrina unos cuarenta",
+      "Don Quijote tiene veinte años y Sancho cuarenta",
+      "Las dos tienen veinte años"
+    ],
+    "writable": false,
+    "translation": "Chez don Quichotte, qui a vingt ans et qui a environ quarante ans ?",
+    "explanation": "Vive con su sobrina de veinte años… con una sirvienta de unos cuarenta años.",
+    "source": "dq2"
+  },
+  {
+    "id": "pers-jefe-comico",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": "jefe",
+    "prompt": "¿Por qué es cómica la escena del Toboso?",
+    "answer": "Don Quijote ve a una princesa, pero Aldonza es una aldeana con prisa",
+    "accept": [],
+    "distractors": [
+      "Sancho es un gigante",
+      "Las aldeanas son princesas de verdad",
+      "Don Quijote no está en la escena"
+    ],
+    "writable": false,
+    "translation": "Pourquoi la scène du Toboso est-elle comique ?",
+    "explanation": "Sancho les appelle « reina, princesa y duquesa » ; Aldonza répond « ¡no soy princesa! » et veut passer : elle a hâte (tenemos prisa).",
+    "source": "dulcinea"
+  },
+  {
+    "id": "pers-jefe-adaptaciones",
+    "type": "qcm",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": "jefe",
+    "prompt": "¿Qué dice el texto sobre las adaptaciones del Quijote?",
+    "answer": "Hay adaptaciones en todas las épocas",
+    "accept": [],
+    "distractors": [
+      "Solo hay una adaptación",
+      "No hay adaptaciones",
+      "Solo hay adaptaciones en España"
+    ],
+    "writable": false,
+    "translation": "Que dit le texte sur les adaptations du Quichotte ?",
+    "explanation": "Existen muchas adaptaciones del Quijote… ¡Pero hay adaptaciones en todas las épocas!",
+    "source": "dulcinea"
+  }
+]

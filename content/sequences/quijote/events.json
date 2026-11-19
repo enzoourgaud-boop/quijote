@@ -1,0 +1,832 @@
+[
+  {
+    "id": "sirvienta-queso",
+    "emoji": "👩",
+    "title": "La sirvienta y el queso",
+    "text": "La sirvienta de don Quijote está en casa. Tiene un queso muy grande. —¿Me ayudas? —te pregunta.",
+    "textFr": "La servante de don Quijote est à la maison. Elle a un très gros fromage. « Tu m'aides ? » te demande-t-elle.",
+    "gloss": [
+      [
+        "la sirvienta",
+        "la servante"
+      ],
+      [
+        "está en casa",
+        "est à la maison"
+      ],
+      [
+        "¿Me ayudas?",
+        "Tu m'aides ?"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "Sí, te ayudo.",
+        "labelFr": "Oui, je t'aide.",
+        "quiz": {
+          "themes": [
+            "conjugacion"
+          ]
+        },
+        "success": {
+          "text": "¡Muy bien! La sirvienta te da queso.",
+          "textFr": "Très bien ! La servante te donne du fromage.",
+          "effects": [
+            {
+              "type": "hp",
+              "value": 5
+            }
+          ]
+        },
+        "failure": {
+          "text": "El queso está en el suelo… pero está bueno.",
+          "textFr": "Le fromage est par terre… mais il est bon.",
+          "effects": [
+            {
+              "type": "hp",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "label": "No, gracias.",
+        "labelFr": "Non, merci.",
+        "outcome": {
+          "text": "La sirvienta sonríe. Sigues tu camino.",
+          "textFr": "La servante sourit. Tu continues ton chemin.",
+          "effects": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "teatro-ambulante",
+    "emoji": "🎭",
+    "title": "El teatro ambulante",
+    "text": "En la plaza del pueblo hay un teatro. Los actores interpretan una escena de don Quijote. —¡Elige un papel!",
+    "textFr": "Sur la place du village, il y a un théâtre. Les acteurs jouent une scène de don Quijote. « Choisis un rôle ! »",
+    "gloss": [
+      [
+        "hay un teatro",
+        "il y a un théâtre"
+      ],
+      [
+        "¡Elige un papel!",
+        "Choisis un rôle !"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "¡Sí, elijo un papel!",
+        "labelFr": "Oui, je choisis un rôle !",
+        "quiz": {
+          "themes": [
+            "personajes"
+          ]
+        },
+        "success": {
+          "text": "Interpretas muy bien tu papel. La gente te da monedas.",
+          "textFr": "Tu joues très bien ton rôle. Les gens te donnent des monedas.",
+          "effects": [
+            {
+              "type": "gold",
+              "value": 6
+            }
+          ]
+        },
+        "failure": {
+          "text": "Olvidas tu papel… Pero la gente es simpática.",
+          "textFr": "Tu oublies ton texte… Mais les gens sont gentils.",
+          "effects": [
+            {
+              "type": "gold",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "label": "Miro el teatro.",
+        "labelFr": "Je regarde le théâtre.",
+        "outcome": {
+          "text": "La escena es muy cómica. Te sientes mejor.",
+          "textFr": "La scène est très drôle. Tu te sens mieux.",
+          "effects": [
+            {
+              "type": "hp",
+              "value": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "vecino-simpatico",
+    "emoji": "🧑",
+    "title": "El vecino simpático",
+    "text": "El vecino de don Quijote es muy simpático. —Tengo una lanza muy buena. ¿Me das uno de tus objetos?",
+    "textFr": "Le voisin de don Quijote est très sympathique. « J'ai une très bonne lance. Tu me donnes un de tes objets ? »",
+    "gloss": [
+      [
+        "el vecino",
+        "le voisin"
+      ],
+      [
+        "¿Me das…?",
+        "Tu me donnes… ?"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "Sí, te doy un objeto.",
+        "labelFr": "Oui, je te donne un objet.",
+        "outcome": {
+          "text": "El vecino te da su lanza. ¡Gracias, vecino!",
+          "textFr": "Le voisin te donne sa lance. Merci, voisin !",
+          "effects": [
+            {
+              "type": "loseItem"
+            },
+            {
+              "type": "item",
+              "id": "lanza"
+            }
+          ]
+        },
+        "require": {
+          "aide": 1
+        }
+      },
+      {
+        "label": "Gracias, adiós.",
+        "labelFr": "Merci, au revoir.",
+        "outcome": {
+          "text": "Hablas un poco con el vecino. Te sientes mejor.",
+          "textFr": "Tu parles un peu avec le voisin. Tu te sens mieux.",
+          "effects": [
+            {
+              "type": "hp",
+              "value": 3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "trato-mago",
+    "emoji": "🪄",
+    "title": "El trato del mago",
+    "text": "Un mago te mira. —Te doy un regalo mágico… pero me das un poco de tu energía.",
+    "textFr": "Un magicien te regarde. « Je te donne un cadeau magique… mais tu me donnes un peu de ton énergie. »",
+    "gloss": [
+      [
+        "un mago",
+        "un magicien"
+      ],
+      [
+        "te doy",
+        "je te donne"
+      ],
+      [
+        "me das",
+        "tu me donnes"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "Acepto el trato.",
+        "labelFr": "J'accepte le marché.",
+        "outcome": {
+          "text": "El mago desaparece y te deja un regalo.",
+          "textFr": "Le magicien disparaît et te laisse un cadeau.",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -4
+            },
+            {
+              "type": "item",
+              "kind": "reliquia",
+              "rarity": "rara"
+            }
+          ]
+        }
+      },
+      {
+        "label": "No, gracias, señor mago.",
+        "labelFr": "Non merci, monsieur le magicien.",
+        "outcome": {
+          "text": "El mago se va. ¡Qué misterio!",
+          "textFr": "Le magicien s'en va. Quel mystère !",
+          "effects": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "es-un-misterio",
+    "emoji": "🎁",
+    "title": "¡Es un misterio!",
+    "text": "Un señor tiene una caja. —¿Qué hay en la caja? ¡Es un misterio! Cuesta 3 monedas.",
+    "textFr": "Un monsieur a une boîte. « Qu'y a-t-il dans la boîte ? C'est un mystère ! Ça coûte 3 monedas. »",
+    "gloss": [
+      [
+        "una caja",
+        "une boîte"
+      ],
+      [
+        "¡Es un misterio!",
+        "C'est un mystère !"
+      ],
+      [
+        "cuesta",
+        "ça coûte"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "¡Abro la caja!",
+        "labelFr": "J'ouvre la boîte !",
+        "outcome": {
+          "text": "Abres la caja…",
+          "textFr": "Tu ouvres la boîte…",
+          "effects": [
+            {
+              "type": "gold",
+              "value": -3
+            },
+            {
+              "type": "random",
+              "outcomes": [
+                {
+                  "text": "¡Un regalo!",
+                  "textFr": "Un cadeau !",
+                  "effects": [
+                    {
+                      "type": "item",
+                      "kind": "reliquia"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hay dos objetos.",
+                  "textFr": "Il y a deux objets.",
+                  "effects": [
+                    {
+                      "type": "item",
+                      "kind": "aide"
+                    },
+                    {
+                      "type": "item",
+                      "kind": "aide"
+                    }
+                  ]
+                },
+                {
+                  "text": "Hay 8 monedas.",
+                  "textFr": "Il y a 8 monedas.",
+                  "effects": [
+                    {
+                      "type": "gold",
+                      "value": 8
+                    }
+                  ]
+                },
+                {
+                  "text": "No hay nada. ¡Qué pena!",
+                  "textFr": "Il n'y a rien. Dommage !",
+                  "effects": []
+                }
+              ]
+            }
+          ]
+        },
+        "require": {
+          "gold": 3
+        }
+      },
+      {
+        "label": "Solo miro.",
+        "labelFr": "Je regarde seulement.",
+        "outcome": {
+          "text": "Miras un momento y sigues tu camino.",
+          "textFr": "Tu regardes un moment et tu continues ton chemin.",
+          "effects": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "rocinante-cansado",
+    "emoji": "🐎",
+    "title": "Rocinante está cansado",
+    "text": "Rocinante, el caballo de don Quijote, está muy cansado. Rucio está con él: ¡es muy amigo de Rocinante! —¿Nos ayudas?",
+    "textFr": "Rocinante, le cheval de don Quijote, est très fatigué. Rucio est avec lui : c'est un grand ami de Rocinante ! « Tu nous aides ? »",
+    "gloss": [
+      [
+        "está cansado",
+        "est fatigué"
+      ],
+      [
+        "es muy amigo de",
+        "est très ami avec"
+      ],
+      [
+        "¿Nos ayudas?",
+        "Tu nous aides ?"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "Sí, ayudo a Rocinante.",
+        "labelFr": "Oui, j'aide Rocinante.",
+        "quiz": {
+          "themes": [
+            "personajes"
+          ]
+        },
+        "success": {
+          "text": "¡Gracias! La sirvienta de don Quijote viene contigo.",
+          "textFr": "Merci ! La servante de don Quijote vient avec toi.",
+          "effects": [
+            {
+              "type": "item",
+              "id": "sirvienta"
+            }
+          ]
+        },
+        "failure": {
+          "text": "No pasa nada. Rocinante descansa un poco.",
+          "textFr": "Ce n'est pas grave. Rocinante se repose un peu.",
+          "effects": [
+            {
+              "type": "hp",
+              "value": 2
+            }
+          ]
+        }
+      },
+      {
+        "label": "Sigo mi camino.",
+        "labelFr": "Je continue mon chemin.",
+        "outcome": {
+          "text": "Saludas a Rocinante y a Rucio, y sigues.",
+          "textFr": "Tu salues Rocinante et Rucio, et tu continues.",
+          "effects": []
+        }
+      }
+    ],
+    "acts": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "aldeanas-toboso",
+    "emoji": "👒",
+    "title": "Las aldeanas del Toboso",
+    "text": "Tres jóvenes del pueblo tienen prisa. —¡Dejadnos pasar! ¿Quién eres? ¿Y quién es este señor?",
+    "textFr": "Trois jeunes filles du village sont pressées. « Laissez-nous passer ! Qui es-tu ? Et qui est ce monsieur ? »",
+    "gloss": [
+      [
+        "tienen prisa",
+        "sont pressées"
+      ],
+      [
+        "¡Dejadnos pasar!",
+        "Laissez-nous passer !"
+      ],
+      [
+        "este señor",
+        "ce monsieur"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "Os presento a don Quijote.",
+        "labelFr": "Je vous présente don Quijote.",
+        "quiz": {
+          "themes": [
+            "identidad",
+            "conjugacion"
+          ]
+        },
+        "success": {
+          "text": "—¡Ah, don Quijote de la Mancha! —Las aldeanas te dan un regalo.",
+          "textFr": "« Ah, don Quijote de la Mancha ! » Les villageoises te donnent un cadeau.",
+          "effects": [
+            {
+              "type": "item",
+              "kind": "aide"
+            }
+          ]
+        },
+        "failure": {
+          "text": "Las aldeanas se burlan de ti y se van con 2 de tus monedas.",
+          "textFr": "Les villageoises se moquent de toi et partent avec 2 de tes monedas.",
+          "effects": [
+            {
+              "type": "gold",
+              "value": -2
+            }
+          ]
+        }
+      },
+      {
+        "label": "Por favor, pasad.",
+        "labelFr": "Je vous en prie, passez.",
+        "outcome": {
+          "text": "—¡Gracias! —Las aldeanas se van.",
+          "textFr": "« Merci ! » Les villageoises s'en vont.",
+          "effects": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "queso-mancha",
+    "emoji": "🧀",
+    "title": "El queso de La Mancha",
+    "text": "En el pueblo, un señor tiene muchos quesos. —Un queso cuesta 4 monedas.",
+    "textFr": "Au village, un monsieur a beaucoup de fromages. « Un fromage coûte 4 monedas. »",
+    "gloss": [
+      [
+        "muchos quesos",
+        "beaucoup de fromages"
+      ],
+      [
+        "cuesta",
+        "coûte"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "Compro un queso.",
+        "labelFr": "J'achète un fromage.",
+        "outcome": {
+          "text": "¡Qué bueno! Te sientes más fuerte.",
+          "textFr": "Délicieux ! Tu reprends des forces.",
+          "effects": [
+            {
+              "type": "gold",
+              "value": -4
+            },
+            {
+              "type": "maxHp",
+              "value": 2
+            },
+            {
+              "type": "hp",
+              "value": 4
+            }
+          ]
+        },
+        "require": {
+          "gold": 4
+        }
+      },
+      {
+        "label": "Solo miro los quesos.",
+        "labelFr": "Je regarde seulement les fromages.",
+        "outcome": {
+          "text": "Mmm… El señor te da un poco de queso.",
+          "textFr": "Mmm… Le monsieur te donne un petit bout de fromage.",
+          "effects": [
+            {
+              "type": "hp",
+              "value": 1
+            }
+          ]
+        }
+      }
+    ],
+    "acts": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "gigante-o-molino",
+    "emoji": "🌀",
+    "title": "¿Gigante o molino?",
+    "text": "Don Quijote mira un molino y dice: —¡Es un gigante! El gigante te habla: —Contesta a mi pregunta… ¡o te ataco!",
+    "textFr": "Don Quijote regarde un moulin et dit : « C'est un géant ! » Le géant te parle : « Réponds à ma question… ou je t'attaque ! »",
+    "gloss": [
+      [
+        "un molino",
+        "un moulin"
+      ],
+      [
+        "las aspas",
+        "les ailes du moulin"
+      ],
+      [
+        "contesta",
+        "réponds"
+      ],
+      [
+        "te ataco",
+        "je t'attaque"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "Contesto.",
+        "labelFr": "Je réponds.",
+        "success": {
+          "text": "—¡Muy bien! —El gigante es, en realidad, un molino. Encuentras un regalo.",
+          "textFr": "« Très bien ! » Le géant est, en réalité, un moulin. Tu trouves un cadeau.",
+          "effects": [
+            {
+              "type": "gold",
+              "value": 4
+            },
+            {
+              "type": "item",
+              "kind": "reliquia",
+              "rarity": "comun"
+            }
+          ]
+        },
+        "failure": {
+          "text": "¡Ay! Las aspas del molino te golpean.",
+          "textFr": "Aïe ! Les ailes du moulin te frappent.",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -3
+            }
+          ]
+        },
+        "quiz": {
+          "write": true
+        }
+      },
+      {
+        "label": "¡Corro!",
+        "labelFr": "Je cours !",
+        "outcome": {
+          "text": "Corres muy rápido… y te caes.",
+          "textFr": "Tu cours très vite… et tu tombes.",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "libro-don-quijote",
+    "emoji": "📕",
+    "title": "El libro de don Quijote",
+    "text": "En el camino hay un libro. Es un libro de don Quijote: ¡le gustan los libros!",
+    "textFr": "Sur le chemin, il y a un livre. C'est un livre de don Quijote : il aime les livres !",
+    "gloss": [
+      [
+        "hay un libro",
+        "il y a un livre"
+      ],
+      [
+        "le gustan los libros",
+        "il aime les livres"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "Leo el libro.",
+        "labelFr": "Je lis le livre.",
+        "outcome": {
+          "text": "Lees un poco. Uno de tus objetos es más fuerte.",
+          "textFr": "Tu lis un peu. Un de tes objets devient plus puissant.",
+          "effects": [
+            {
+              "type": "upgrade"
+            }
+          ]
+        }
+      },
+      {
+        "label": "Sigo mi camino.",
+        "labelFr": "Je continue mon chemin.",
+        "outcome": {
+          "text": "En el camino, encuentras 3 monedas.",
+          "textFr": "Sur le chemin, tu trouves 3 monedas.",
+          "effects": [
+            {
+              "type": "gold",
+              "value": 3
+            }
+          ]
+        }
+      }
+    ],
+    "acts": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "ficha-perdida",
+    "emoji": "🪪",
+    "title": "La ficha perdida",
+    "text": "Antonia, la sobrina de don Quijote, tiene una ficha de identidad. —¿Me ayudas a completar la ficha?",
+    "textFr": "Antonia, la nièce de don Quijote, a une fiche d'identité. « Tu m'aides à compléter la fiche ? »",
+    "gloss": [
+      [
+        "la sobrina",
+        "la nièce"
+      ],
+      [
+        "la ficha de identidad",
+        "la fiche d'identité"
+      ],
+      [
+        "completar",
+        "compléter"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "Sí, completo la ficha.",
+        "labelFr": "Oui, je complète la fiche.",
+        "quiz": {
+          "themes": [
+            "identidad"
+          ]
+        },
+        "success": {
+          "text": "¡Gracias! Antonia te da un regalo.",
+          "textFr": "Merci ! Antonia te donne un cadeau.",
+          "effects": [
+            {
+              "type": "hp",
+              "value": 3
+            },
+            {
+              "type": "gold",
+              "value": 3
+            }
+          ]
+        },
+        "failure": {
+          "text": "—No es así… pero gracias —dice Antonia.",
+          "textFr": "« Ce n'est pas ça… mais merci », dit Antonia.",
+          "effects": []
+        }
+      },
+      {
+        "label": "Ahora no.",
+        "labelFr": "Pas maintenant.",
+        "outcome": {
+          "text": "Antonia sigue con su ficha.",
+          "textFr": "Antonia continue de remplir sa fiche.",
+          "effects": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "burlon-camino",
+    "emoji": "😜",
+    "title": "El burlón del camino",
+    "text": "Un señor se burla de don Quijote. —¡Un objeto por 5 monedas! ¿Compras?",
+    "textFr": "Un monsieur se moque de don Quijote. « Un objet pour 5 monedas ! Tu achètes ? »",
+    "gloss": [
+      [
+        "se burla de",
+        "se moque de"
+      ],
+      [
+        "¿Compras?",
+        "Tu achètes ?"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "Compro.",
+        "labelFr": "J'achète.",
+        "outcome": {
+          "text": "El señor te da dos objetos. ¡Qué buen precio!",
+          "textFr": "Le monsieur te donne deux objets. Quel bon prix !",
+          "effects": [
+            {
+              "type": "gold",
+              "value": -5
+            },
+            {
+              "type": "item",
+              "kind": "aide"
+            },
+            {
+              "type": "item",
+              "kind": "aide"
+            }
+          ]
+        },
+        "require": {
+          "gold": 5
+        }
+      },
+      {
+        "label": "¡No me gusta! Peleo.",
+        "labelFr": "Ça ne me plaît pas ! Je me bats.",
+        "outcome": {
+          "text": "El señor se enfada y te ataca.",
+          "textFr": "Le monsieur se fâche et t'attaque.",
+          "effects": [
+            {
+              "type": "fight",
+              "kind": "normal"
+            }
+          ]
+        }
+      },
+      {
+        "label": "Me voy.",
+        "labelFr": "Je m'en vais.",
+        "outcome": {
+          "text": "Te vas sin comprar nada.",
+          "textFr": "Tu t'en vas sans rien acheter.",
+          "effects": []
+        }
+      }
+    ]
+  },
+  {
+    "id": "caballero-pregunta",
+    "emoji": "🛡️",
+    "title": "El caballero que pregunta",
+    "text": "Un caballero está en el camino. —¿Quién eres? ¿Cómo te llamas? ¡Preséntate… o pelea!",
+    "textFr": "Un chevalier est sur le chemin. « Qui es-tu ? Comment t'appelles-tu ? Présente-toi… ou bats-toi ! »",
+    "gloss": [
+      [
+        "¿Quién eres?",
+        "Qui es-tu ?"
+      ],
+      [
+        "¡Preséntate!",
+        "Présente-toi !"
+      ],
+      [
+        "pelea",
+        "bats-toi"
+      ]
+    ],
+    "choices": [
+      {
+        "label": "Me presento.",
+        "labelFr": "Je me présente.",
+        "quiz": {
+          "themes": [
+            "identidad"
+          ],
+          "write": true
+        },
+        "success": {
+          "text": "—¡Encantado! —El caballero te da su caballo: Rocinante.",
+          "textFr": "« Enchanté ! » Le chevalier te confie son cheval : Rocinante.",
+          "effects": [
+            {
+              "type": "item",
+              "id": "rocinante"
+            }
+          ]
+        },
+        "failure": {
+          "text": "El caballero no te comprende y te golpea con su escudo.",
+          "textFr": "Le chevalier ne te comprend pas et te frappe avec son bouclier.",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -2
+            }
+          ]
+        }
+      },
+      {
+        "label": "¡Peleo!",
+        "labelFr": "Je me bats !",
+        "outcome": {
+          "text": "El caballero te ataca.",
+          "textFr": "Le chevalier t'attaque.",
+          "effects": [
+            {
+              "type": "fight",
+              "kind": "elite"
+            }
+          ]
+        }
+      }
+    ],
+    "acts": [
+      2,
+      3
+    ]
+  }
+]

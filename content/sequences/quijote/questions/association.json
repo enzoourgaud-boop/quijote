@@ -1,0 +1,369 @@
+[
+  {
+    "id": "aso-enquete",
+    "type": "association",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Associe chaque mot à son image",
+    "prompt": "Relie chaque mot espagnol à la bonne image.",
+    "promptLang": "fr",
+    "pairs": [
+      [
+        "el molino",
+        "svg:molino"
+      ],
+      [
+        "la lanza",
+        "svg:lanza"
+      ],
+      [
+        "el gigante",
+        "svg:gigante"
+      ],
+      [
+        "el libro",
+        "📖"
+      ]
+    ],
+    "translation": "",
+    "explanation": "el molino = le moulin · la lanza = la lance · el gigante = le géant · el libro = le livre",
+    "source": "intro"
+  },
+  {
+    "id": "aso-objetos",
+    "type": "association",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Associe chaque mot à son image",
+    "prompt": "Relie chaque mot espagnol à la bonne image.",
+    "promptLang": "fr",
+    "pairs": [
+      [
+        "el caballo",
+        "🐎"
+      ],
+      [
+        "el escudo",
+        "🛡️"
+      ],
+      [
+        "el queso",
+        "🧀"
+      ],
+      [
+        "el libro",
+        "📖"
+      ]
+    ],
+    "translation": "",
+    "explanation": "el caballo = le cheval · el escudo = le bouclier · el queso = le fromage · el libro = le livre",
+    "source": "dq1"
+  },
+  {
+    "id": "aso-lugares",
+    "type": "association",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Associe chaque mot à son image",
+    "prompt": "Relie chaque mot espagnol à la bonne image.",
+    "promptLang": "fr",
+    "pairs": [
+      [
+        "la casa",
+        "🏠"
+      ],
+      [
+        "el pueblo",
+        "🏘️"
+      ],
+      [
+        "la ciudad",
+        "🏙️"
+      ],
+      [
+        "el perro",
+        "🐕"
+      ]
+    ],
+    "translation": "",
+    "explanation": "la casa = la maison · el pueblo = le village · la ciudad = la ville · el perro = le chien",
+    "source": "dq1"
+  },
+  {
+    "id": "aso-personas",
+    "type": "association",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Associe chaque mot à son image",
+    "prompt": "Relie chaque mot espagnol à la bonne image.",
+    "promptLang": "fr",
+    "pairs": [
+      [
+        "la princesa",
+        "👸"
+      ],
+      [
+        "la reina",
+        "👑"
+      ],
+      [
+        "el mago",
+        "🧙"
+      ],
+      [
+        "el caballo",
+        "🐎"
+      ]
+    ],
+    "translation": "",
+    "explanation": "la princesa = la princesse · la reina = la reine · el mago = le magicien · el caballo = le cheval",
+    "source": "dulcinea"
+  },
+  {
+    "id": "aso-artes",
+    "type": "association",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Associe chaque mot à son image",
+    "prompt": "Relie chaque mot espagnol à la bonne image.",
+    "promptLang": "fr",
+    "pairs": [
+      [
+        "el teatro",
+        "🎭"
+      ],
+      [
+        "la pintura",
+        "🎨"
+      ],
+      [
+        "la música",
+        "🎵"
+      ],
+      [
+        "la televisión",
+        "📺"
+      ],
+      [
+        "el cine",
+        "🎬"
+      ]
+    ],
+    "translation": "",
+    "explanation": "el teatro = le théâtre · la pintura = la peinture · la música = la musique · la televisión = la télévision · el cine = le cinéma",
+    "source": "dulcinea"
+  },
+  {
+    "id": "aso-mancha",
+    "type": "association",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Associe chaque mot à son image",
+    "prompt": "Relie chaque mot espagnol à la bonne image.",
+    "promptLang": "fr",
+    "pairs": [
+      [
+        "el molino",
+        "svg:molino"
+      ],
+      [
+        "el caballo",
+        "🐎"
+      ],
+      [
+        "el queso",
+        "🧀"
+      ],
+      [
+        "el mundo",
+        "🌍"
+      ]
+    ],
+    "translation": "",
+    "explanation": "el molino = le moulin · el caballo = le cheval · el queso = le fromage · el mundo = le monde",
+    "source": "dq2"
+  },
+  {
+    "id": "aso-casa",
+    "type": "association",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Associe chaque mot à son image",
+    "prompt": "Relie chaque mot espagnol à la bonne image.",
+    "promptLang": "fr",
+    "pairs": [
+      [
+        "la casa",
+        "🏠"
+      ],
+      [
+        "el queso",
+        "🧀"
+      ],
+      [
+        "el mundo",
+        "🌍"
+      ],
+      [
+        "la música",
+        "🎵"
+      ]
+    ],
+    "translation": "",
+    "explanation": "la casa = la maison · el queso = le fromage · el mundo = le monde · la música = la musique",
+    "source": "conjugacion"
+  },
+  {
+    "id": "aso-quijote",
+    "type": "association",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Associe chaque mot à son image",
+    "prompt": "Relie chaque mot espagnol à la bonne image.",
+    "promptLang": "fr",
+    "pairs": [
+      [
+        "el gigante",
+        "svg:gigante"
+      ],
+      [
+        "el molino",
+        "svg:molino"
+      ],
+      [
+        "el caballo",
+        "🐎"
+      ],
+      [
+        "el escudo",
+        "🛡️"
+      ]
+    ],
+    "translation": "",
+    "explanation": "el gigante = le géant · el molino = le moulin · el caballo = le cheval · el escudo = le bouclier",
+    "source": "intro"
+  },
+  {
+    "id": "aso-varios",
+    "type": "association",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Associe chaque mot à son image",
+    "prompt": "Relie chaque mot espagnol à la bonne image.",
+    "promptLang": "fr",
+    "pairs": [
+      [
+        "el perro",
+        "🐕"
+      ],
+      [
+        "la princesa",
+        "👸"
+      ],
+      [
+        "el libro",
+        "📖"
+      ],
+      [
+        "la lanza",
+        "svg:lanza"
+      ]
+    ],
+    "translation": "",
+    "explanation": "el perro = le chien · la princesa = la princesse · el libro = le livre · la lanza = la lance",
+    "source": "dq2"
+  },
+  {
+    "id": "aso-teatro",
+    "type": "association",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Associe chaque mot à son image",
+    "prompt": "Relie chaque mot espagnol à la bonne image.",
+    "promptLang": "fr",
+    "pairs": [
+      [
+        "el teatro",
+        "🎭"
+      ],
+      [
+        "el cine",
+        "🎬"
+      ],
+      [
+        "la reina",
+        "👑"
+      ],
+      [
+        "el mago",
+        "🧙"
+      ]
+    ],
+    "translation": "",
+    "explanation": "el teatro = le théâtre · el cine = le cinéma · la reina = la reine · el mago = le magicien",
+    "source": "dulcinea"
+  },
+  {
+    "id": "aso-ciudad",
+    "type": "association",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Associe chaque mot à son image",
+    "prompt": "Relie chaque mot espagnol à la bonne image.",
+    "promptLang": "fr",
+    "pairs": [
+      [
+        "la ciudad",
+        "🏙️"
+      ],
+      [
+        "el pueblo",
+        "🏘️"
+      ],
+      [
+        "la pintura",
+        "🎨"
+      ],
+      [
+        "la televisión",
+        "📺"
+      ]
+    ],
+    "translation": "",
+    "explanation": "la ciudad = la ville · el pueblo = le village · la pintura = la peinture · la televisión = la télévision",
+    "source": "dq1"
+  }
+]

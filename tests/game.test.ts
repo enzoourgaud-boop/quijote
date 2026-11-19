@@ -4,7 +4,7 @@ import { DEFAULT_SETTINGS, Game } from '../src/engine/game';
 import { content } from './helpers';
 import { simulate } from './sim';
 
-const S = { ...DEFAULT_SETTINGS };
+const S = { ...DEFAULT_SETTINGS, chrono: true }; // chrono coupé par défaut : on l'active pour tester son effet
 
 /** Partie démarrée directement sur un combat (contre l'ennemi donné, sinon le premier de la carte). */
 function fight(seed: string, settings = S, enemy?: string): Game {
@@ -131,31 +131,31 @@ describe('moteur de partie', () => {
   });
 
   it('les thèmes désactivés ne sont jamais posés', () => {
-    const g = Game.newRun(content(), { ...S, themes: ['cultura'] }, 'THEME-1');
-    autoplay(g, 600, () => false, () => expect(g.question!.theme).toBe('cultura'));
+    const g = Game.newRun(content(), { ...S, themes: ['personajes'] }, 'THEME-1');
+    autoplay(g, 600, () => false, () => expect(g.question!.theme).toBe('personajes'));
   });
 
   it('les questions désactivées ne sont jamais posées', () => {
     const disabled = new Set(content().questions.filter(q => q.disabled).map(q => q.id));
     expect(disabled.size).toBeGreaterThan(0);
     for (let i = 0; i < 30; i++) {
-      const g = Game.newRun(content(), { ...S, themes: ['cultura'] }, `DIS-${i}`);
+      const g = Game.newRun(content(), { ...S, themes: ['personajes'] }, `DIS-${i}`);
       autoplay(g, 200, k => k % 3 === 0, () => expect(disabled.has(g.question!.id)).toBe(false));
     }
   });
 
-  it('l’Oráculo donne la réponse et blesse l’ennemi', () => {
+  it('« En realidad… » donne la réponse et blesse l’ennemi', () => {
     const g = fight('ORA-1');
-    g.state.inv.oraculo = 1;
-    expect(g.usePower('oraculo')).toBe(true);
+    g.state.inv['en-realidad'] = 1;
+    expect(g.usePower('en-realidad')).toBe(true);
     expect(g.state.combat!.fb!.outcome).toBe('oracle');
-    expect(g.state.inv.oraculo).toBe(0);
+    expect(g.state.inv['en-realidad']).toBe(0);
   });
 
-  it('Tijeras retire deux mauvaises réponses en QCM', () => {
+  it('¡Fíjate! retire deux mauvaises réponses en QCM', () => {
     for (let i = 0; i < 50; i++) {
       const g = fight(`TIJ-${i}`, { ...S, writeFactor: 0, types: ['qcm'] });
-      expect(g.usePower('tijeras')).toBe(true);
+      expect(g.usePower('fijate')).toBe(true);
       const c = g.state.combat!;
       expect(c.hidden).toHaveLength(2);
       expect(c.hidden).not.toContain(canonicalValue(g.question!));
@@ -173,7 +173,7 @@ describe('moteur de partie', () => {
   });
 
   it('un élite « Solo escrito » ne pose que des questions écrites', () => {
-    const g = fight('ELITE-1', S, 'pinata-furiosa');
+    const g = fight('ELITE-1', S, 'caballero-enmascarado');
     for (let i = 0; i < 15 && g.state.screen === 'combat'; i++) {
       if (g.state.combat!.fb) {
         g.proceed();
@@ -184,8 +184,8 @@ describe('moteur de partie', () => {
     }
   });
 
-  it('la Catrina change de phase quand ses PV baissent', () => {
-    const g = fight('CAT-1', { ...S, writeFactor: 10 }, 'catrina');
+  it('El Mago change de phase quand ses PV baissent', () => {
+    const g = fight('CAT-1', { ...S, writeFactor: 10 }, 'mago');
     const seen = new Set<number>();
     for (let i = 0; i < 80 && g.state.screen === 'combat'; i++) {
       seen.add(g.state.combat!.phase);
@@ -196,8 +196,8 @@ describe('moteur de partie', () => {
     expect(g.state.result).toBe('win');
   });
 
-  it('l’abanico de la Catrina bloque les QCM', () => {
-    const g = fight('ABA-1', { ...S, writeFactor: 0.0001 }, 'catrina');
+  it('la capa del Mago bloque les QCM', () => {
+    const g = fight('ABA-1', { ...S, writeFactor: 0.0001 }, 'mago');
     const c = g.state.combat!;
     expect(c.abanico).toBeGreaterThan(0);
     if (c.q.mode === 'qcm') {
@@ -207,11 +207,11 @@ describe('moteur de partie', () => {
     }
   });
 
-  it('le pouvoir Cambio change la question sans pénalité', () => {
+  it('le pouvoir ¡Dejadnos pasar! change la question sans pénalité', () => {
     const g = fight('CAM-1');
-    g.state.inv.cambio = 1;
+    g.state.inv['dejadnos-pasar'] = 1;
     const id = g.state.combat!.q.id, hp = g.state.hp;
-    g.usePower('cambio');
+    g.usePower('dejadnos-pasar');
     expect(g.state.combat!.q.id).not.toBe(id);
     expect(g.state.hp).toBe(hp);
     expect(g.state.combat!.fb).toBeNull();

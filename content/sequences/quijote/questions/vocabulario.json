@@ -1,0 +1,2849 @@
+[
+  {
+    "id": "voc-caballo-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le cheval",
+    "promptLang": "fr",
+    "emoji": "🐎",
+    "answer": "el caballo",
+    "accept": [],
+    "distractors": [
+      "el molino",
+      "el gigante",
+      "el escudo"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el caballo = le cheval. Exemple : ¿Sancho no tiene caballo?",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-caballo-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el caballo",
+    "emoji": "🐎",
+    "answer": "le cheval",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le moulin",
+      "le géant",
+      "le bouclier"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el caballo = le cheval. Exemple : ¿Sancho no tiene caballo?",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-molino-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le moulin",
+    "promptLang": "fr",
+    "answer": "el molino",
+    "accept": [],
+    "distractors": [
+      "la lanza",
+      "el libro",
+      "el burro"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el molino = le moulin. Exemple : La Mancha est célèbre pour ses moulins à vent (¡Fíjate!).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-molino-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el molino",
+    "answer": "le moulin",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la lance",
+      "le livre",
+      "l'âne"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el molino = le moulin. Exemple : La Mancha est célèbre pour ses moulins à vent (¡Fíjate!).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-lanza-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la lance",
+    "promptLang": "fr",
+    "answer": "la lanza",
+    "accept": [],
+    "distractors": [
+      "el gigante",
+      "el escudo",
+      "el perro"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la lanza = la lance. Exemple : Enquête 1 : 12-1-14-27-1 = LANZA.",
+    "source": "intro"
+  },
+  {
+    "id": "voc-lanza-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la lanza",
+    "answer": "la lance",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le géant",
+      "le bouclier",
+      "le chien"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la lanza = la lance. Exemple : Enquête 1 : 12-1-14-27-1 = LANZA.",
+    "source": "intro"
+  },
+  {
+    "id": "voc-gigante-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le géant",
+    "promptLang": "fr",
+    "answer": "el gigante",
+    "accept": [],
+    "distractors": [
+      "el libro",
+      "el burro",
+      "el galgo"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el gigante = le géant. Exemple : No me gustan los gigantes.",
+    "source": "intro"
+  },
+  {
+    "id": "voc-gigante-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el gigante",
+    "answer": "le géant",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le livre",
+      "l'âne",
+      "le lévrier"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el gigante = le géant. Exemple : No me gustan los gigantes.",
+    "source": "intro"
+  },
+  {
+    "id": "voc-libro-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le livre",
+    "promptLang": "fr",
+    "emoji": "📖",
+    "answer": "el libro",
+    "accept": [],
+    "distractors": [
+      "el escudo",
+      "el perro",
+      "el pueblo"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el libro = le livre. Exemple : Me gustan los libros.",
+    "source": "intro"
+  },
+  {
+    "id": "voc-libro-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el libro",
+    "emoji": "📖",
+    "answer": "le livre",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le bouclier",
+      "le chien",
+      "le village"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el libro = le livre. Exemple : Me gustan los libros.",
+    "source": "intro"
+  },
+  {
+    "id": "voc-escudo-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le bouclier",
+    "promptLang": "fr",
+    "emoji": "🛡️",
+    "answer": "el escudo",
+    "accept": [],
+    "distractors": [
+      "el burro",
+      "el galgo",
+      "la ciudad"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el escudo = le bouclier. Exemple : Encadré Ayuda : un escudo = un bouclier.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-escudo-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el escudo",
+    "emoji": "🛡️",
+    "answer": "le bouclier",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "l'âne",
+      "le lévrier",
+      "la ville"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el escudo = le bouclier. Exemple : Encadré Ayuda : un escudo = un bouclier.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-burro-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "l'âne",
+    "promptLang": "fr",
+    "answer": "el burro",
+    "accept": [],
+    "distractors": [
+      "el perro",
+      "el pueblo",
+      "la casa"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el burro = l'âne. Exemple : La modesta montura de Sancho Panza es un burro.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-burro-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el burro",
+    "answer": "l'âne",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le chien",
+      "le village",
+      "la maison"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el burro = l'âne. Exemple : La modesta montura de Sancho Panza es un burro.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-perro-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le chien",
+    "promptLang": "fr",
+    "emoji": "🐕",
+    "answer": "el perro",
+    "accept": [],
+    "distractors": [
+      "el galgo",
+      "la ciudad",
+      "el queso"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el perro = le chien. Exemple : Un galgo rápido, ¡su fiel perro!",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-perro-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el perro",
+    "emoji": "🐕",
+    "answer": "le chien",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le lévrier",
+      "la ville",
+      "le fromage"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el perro = le chien. Exemple : Un galgo rápido, ¡su fiel perro!",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-galgo-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le lévrier",
+    "promptLang": "fr",
+    "answer": "el galgo",
+    "accept": [],
+    "distractors": [
+      "el pueblo",
+      "la casa",
+      "el mundo"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el galgo = le lévrier. Exemple : Don Quijote vive con un galgo rápido.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-galgo-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el galgo",
+    "answer": "le lévrier",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le village",
+      "la maison",
+      "le monde"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el galgo = le lévrier. Exemple : Don Quijote vive con un galgo rápido.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-pueblo-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le village",
+    "promptLang": "fr",
+    "emoji": "🏘️",
+    "answer": "el pueblo",
+    "accept": [],
+    "distractors": [
+      "la ciudad",
+      "el queso",
+      "la montura"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el pueblo = le village. Exemple : Vivo en un pueblo de la Mancha.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-pueblo-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el pueblo",
+    "emoji": "🏘️",
+    "answer": "le village",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la ville",
+      "le fromage",
+      "la monture"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el pueblo = le village. Exemple : Vivo en un pueblo de la Mancha.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-ciudad-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la ville",
+    "promptLang": "fr",
+    "emoji": "🏙️",
+    "answer": "la ciudad",
+    "accept": [],
+    "distractors": [
+      "la casa",
+      "el mundo",
+      "el teatro"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la ciudad = la ville. Exemple : Encadré Ayuda : una ciudad = une ville.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-ciudad-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la ciudad",
+    "emoji": "🏙️",
+    "answer": "la ville",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la maison",
+      "le monde",
+      "le théâtre"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la ciudad = la ville. Exemple : Encadré Ayuda : una ciudad = une ville.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-casa-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la maison",
+    "promptLang": "fr",
+    "emoji": "🏠",
+    "answer": "la casa",
+    "accept": [],
+    "distractors": [
+      "el queso",
+      "la montura",
+      "la pintura"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la casa = la maison. Exemple : Yo estoy en casa.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "voc-casa-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la casa",
+    "emoji": "🏠",
+    "answer": "la maison",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le fromage",
+      "la monture",
+      "la peinture"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la casa = la maison. Exemple : Yo estoy en casa.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "voc-queso-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le fromage",
+    "promptLang": "fr",
+    "emoji": "🧀",
+    "answer": "el queso",
+    "accept": [],
+    "distractors": [
+      "el mundo",
+      "el teatro",
+      "la música"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el queso = le fromage. Exemple : Tú comes queso.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "voc-queso-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el queso",
+    "emoji": "🧀",
+    "answer": "le fromage",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le monde",
+      "le théâtre",
+      "la musique"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el queso = le fromage. Exemple : Tú comes queso.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "voc-mundo-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le monde",
+    "promptLang": "fr",
+    "emoji": "🌍",
+    "answer": "el mundo",
+    "accept": [],
+    "distractors": [
+      "la montura",
+      "la pintura",
+      "la televisión"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el mundo = le monde. Exemple : Sancho explica cómo es el mundo en realidad.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-mundo-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el mundo",
+    "emoji": "🌍",
+    "answer": "le monde",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la monture",
+      "la peinture",
+      "la télévision"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el mundo = le monde. Exemple : Sancho explica cómo es el mundo en realidad.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-montura-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la monture",
+    "promptLang": "fr",
+    "answer": "la montura",
+    "accept": [],
+    "distractors": [
+      "el teatro",
+      "la música",
+      "el cine"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la montura = la monture. Exemple : La modesta montura de Sancho Panza es un burro.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-montura-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la montura",
+    "answer": "la monture",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le théâtre",
+      "la musique",
+      "le cinéma"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la montura = la monture. Exemple : La modesta montura de Sancho Panza es un burro.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-teatro-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le théâtre",
+    "promptLang": "fr",
+    "emoji": "🎭",
+    "answer": "el teatro",
+    "accept": [],
+    "distractors": [
+      "la pintura",
+      "la televisión",
+      "la panza"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el teatro = le théâtre. Exemple : Hay versiones teatrales del Quijote.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-teatro-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el teatro",
+    "emoji": "🎭",
+    "answer": "le théâtre",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la peinture",
+      "la télévision",
+      "la panse, le ventre"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el teatro = le théâtre. Exemple : Hay versiones teatrales del Quijote.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-pintura-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la peinture",
+    "promptLang": "fr",
+    "emoji": "🎨",
+    "answer": "la pintura",
+    "accept": [],
+    "distractors": [
+      "la música",
+      "el cine",
+      "el caballo"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la pintura = la peinture. Exemple : ¿A qué tipo de arte corresponde? pintura, música, teatro.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-pintura-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la pintura",
+    "emoji": "🎨",
+    "answer": "la peinture",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la musique",
+      "le cinéma",
+      "le cheval"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la pintura = la peinture. Exemple : ¿A qué tipo de arte corresponde? pintura, música, teatro.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-musica-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la musique",
+    "promptLang": "fr",
+    "emoji": "🎵",
+    "answer": "la música",
+    "accept": [],
+    "distractors": [
+      "la televisión",
+      "la panza",
+      "el molino"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la música = la musique. Exemple : ¿A qué tipo de arte corresponde? pintura, música, teatro.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-musica-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la música",
+    "emoji": "🎵",
+    "answer": "la musique",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la télévision",
+      "la panse, le ventre",
+      "le moulin"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la música = la musique. Exemple : ¿A qué tipo de arte corresponde? pintura, música, teatro.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-television-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la télévision",
+    "promptLang": "fr",
+    "emoji": "📺",
+    "answer": "la televisión",
+    "accept": [],
+    "distractors": [
+      "el cine",
+      "el caballo",
+      "la lanza"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la televisión = la télévision. Exemple : Hay adaptaciones incluso para cine o televisión.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-television-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la televisión",
+    "emoji": "📺",
+    "answer": "la télévision",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le cinéma",
+      "le cheval",
+      "la lance"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la televisión = la télévision. Exemple : Hay adaptaciones incluso para cine o televisión.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-cine-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le cinéma",
+    "promptLang": "fr",
+    "emoji": "🎬",
+    "answer": "el cine",
+    "accept": [],
+    "distractors": [
+      "la panza",
+      "el molino",
+      "el gigante"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el cine = le cinéma. Exemple : Hay adaptaciones incluso para cine o televisión.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-cine-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el cine",
+    "emoji": "🎬",
+    "answer": "le cinéma",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la panse, le ventre",
+      "le moulin",
+      "le géant"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el cine = le cinéma. Exemple : Hay adaptaciones incluso para cine o televisión.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-panza-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la panse, le ventre",
+    "promptLang": "fr",
+    "answer": "la panza",
+    "accept": [],
+    "distractors": [
+      "el caballo",
+      "la lanza",
+      "el libro"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la panza = la panse, le ventre. Exemple : ¡Pues Sancho con su panza, se burla de nosotras!",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-panza-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-objetos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la panza",
+    "answer": "la panse, le ventre",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le cheval",
+      "la lance",
+      "le livre"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la panza = la panse, le ventre. Exemple : ¡Pues Sancho con su panza, se burla de nosotras!",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-caballero-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le chevalier",
+    "promptLang": "fr",
+    "answer": "el caballero",
+    "accept": [],
+    "distractors": [
+      "el escudero",
+      "la sobrina",
+      "el compañero"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el caballero = le chevalier. Exemple : Mi caballero defiende el honor.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-caballero-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el caballero",
+    "answer": "le chevalier",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "l'écuyer",
+      "la nièce",
+      "le compagnon"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el caballero = le chevalier. Exemple : Mi caballero defiende el honor.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-escudero-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "l'écuyer",
+    "promptLang": "fr",
+    "answer": "el escudero",
+    "accept": [],
+    "distractors": [
+      "el vecino",
+      "la sirvienta",
+      "el amigo"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el escudero = l'écuyer. Exemple : Yo soy Sancho Panza, el escudero.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-escudero-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el escudero",
+    "answer": "l'écuyer",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le voisin",
+      "la servante",
+      "l'ami"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el escudero = l'écuyer. Exemple : Yo soy Sancho Panza, el escudero.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-vecino-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le voisin",
+    "promptLang": "fr",
+    "answer": "el vecino",
+    "accept": [],
+    "distractors": [
+      "la sobrina",
+      "el compañero",
+      "la dama"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el vecino = le voisin. Exemple : Sancho es vecino y fiel compañero de don Quijote.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-vecino-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el vecino",
+    "answer": "le voisin",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la nièce",
+      "le compagnon",
+      "la dame"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el vecino = le voisin. Exemple : Sancho es vecino y fiel compañero de don Quijote.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-sobrina-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la nièce",
+    "promptLang": "fr",
+    "answer": "la sobrina",
+    "accept": [],
+    "distractors": [
+      "la sirvienta",
+      "el amigo",
+      "la princesa"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la sobrina = la nièce. Exemple : Vive con su sobrina de veinte años.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-sobrina-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la sobrina",
+    "answer": "la nièce",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la servante",
+      "l'ami",
+      "la princesse"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la sobrina = la nièce. Exemple : Vive con su sobrina de veinte años.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-sirvienta-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la servante",
+    "promptLang": "fr",
+    "answer": "la sirvienta",
+    "accept": [],
+    "distractors": [
+      "el compañero",
+      "la dama",
+      "la reina"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la sirvienta = la servante. Exemple : Una sirvienta de unos cuarenta años.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-sirvienta-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la sirvienta",
+    "answer": "la servante",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le compagnon",
+      "la dame",
+      "la reine"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la sirvienta = la servante. Exemple : Una sirvienta de unos cuarenta años.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-companero-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le compagnon",
+    "promptLang": "fr",
+    "answer": "el compañero",
+    "accept": [],
+    "distractors": [
+      "el amigo",
+      "la princesa",
+      "la duquesa"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el compañero = le compagnon. Exemple : Sancho es el fiel compañero de don Quijote.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-companero-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el compañero",
+    "answer": "le compagnon",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "l'ami",
+      "la princesse",
+      "la duchesse"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el compañero = le compagnon. Exemple : Sancho es el fiel compañero de don Quijote.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-amigo-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "l'ami",
+    "promptLang": "fr",
+    "answer": "el amigo",
+    "accept": [],
+    "distractors": [
+      "la dama",
+      "la reina",
+      "la aldeana"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el amigo = l'ami. Exemple : ¡Es muy amigo de Rocinante!",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-amigo-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el amigo",
+    "answer": "l'ami",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la dame",
+      "la reine",
+      "la villageoise"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el amigo = l'ami. Exemple : ¡Es muy amigo de Rocinante!",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-dama-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la dame",
+    "promptLang": "fr",
+    "answer": "la dama",
+    "accept": [],
+    "distractors": [
+      "la princesa",
+      "la duquesa",
+      "el mago"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la dama = la dame. Exemple : Para él, es una bella dama.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-dama-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la dama",
+    "answer": "la dame",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la princesse",
+      "la duchesse",
+      "le magicien"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la dama = la dame. Exemple : Para él, es una bella dama.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-princesa-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la princesse",
+    "promptLang": "fr",
+    "emoji": "👸",
+    "answer": "la princesa",
+    "accept": [],
+    "distractors": [
+      "la reina",
+      "la aldeana",
+      "el señor"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la princesa = la princesse. Exemple : ¡No soy princesa!",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-princesa-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la princesa",
+    "emoji": "👸",
+    "answer": "la princesse",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la reine",
+      "la villageoise",
+      "le monsieur"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la princesa = la princesse. Exemple : ¡No soy princesa!",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-reina-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la reine",
+    "promptLang": "fr",
+    "emoji": "👑",
+    "answer": "la reina",
+    "accept": [],
+    "distractors": [
+      "la duquesa",
+      "el mago",
+      "el escritor"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la reina = la reine. Exemple : Reina, princesa y duquesa del Toboso…",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-reina-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la reina",
+    "emoji": "👑",
+    "answer": "la reine",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la duchesse",
+      "le magicien",
+      "l'écrivain"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la reina = la reine. Exemple : Reina, princesa y duquesa del Toboso…",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-duquesa-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la duchesse",
+    "promptLang": "fr",
+    "answer": "la duquesa",
+    "accept": [],
+    "distractors": [
+      "la aldeana",
+      "el señor",
+      "el autor"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la duquesa = la duchesse. Exemple : Reina, princesa y duquesa del Toboso…",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-duquesa-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la duquesa",
+    "answer": "la duchesse",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "la villageoise",
+      "le monsieur",
+      "l'auteur"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la duquesa = la duchesse. Exemple : Reina, princesa y duquesa del Toboso…",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-aldeana-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "la villageoise",
+    "promptLang": "fr",
+    "answer": "la aldeana",
+    "accept": [],
+    "distractors": [
+      "el mago",
+      "el escritor",
+      "el caballero"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "la aldeana = la villageoise. Exemple : Un mago te hace parecer una simple aldeana.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-aldeana-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "la aldeana",
+    "answer": "la villageoise",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le magicien",
+      "l'écrivain",
+      "le chevalier"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "la aldeana = la villageoise. Exemple : Un mago te hace parecer una simple aldeana.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-mago-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le magicien",
+    "promptLang": "fr",
+    "emoji": "🧙",
+    "answer": "el mago",
+    "accept": [],
+    "distractors": [
+      "el señor",
+      "el autor",
+      "el escudero"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el mago = le magicien. Exemple : Un mago te hace parecer una simple aldeana.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-mago-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el mago",
+    "emoji": "🧙",
+    "answer": "le magicien",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le monsieur",
+      "l'auteur",
+      "l'écuyer"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el mago = le magicien. Exemple : Un mago te hace parecer una simple aldeana.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-senor-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "le monsieur",
+    "promptLang": "fr",
+    "answer": "el señor",
+    "accept": [],
+    "distractors": [
+      "el escritor",
+      "el caballero",
+      "el vecino"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "el señor = le monsieur. Exemple : ¡Mira este señor!",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-senor-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el señor",
+    "answer": "le monsieur",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "l'écrivain",
+      "le chevalier",
+      "le voisin"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el señor = le monsieur. Exemple : ¡Mira este señor!",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-escritor-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "l'écrivain",
+    "promptLang": "fr",
+    "answer": "el escritor",
+    "accept": [],
+    "distractors": [
+      "el autor",
+      "el escudero",
+      "la sobrina"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el escritor = l'écrivain. Exemple : Miguel de Cervantes, escritor español.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-escritor-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el escritor",
+    "answer": "l'écrivain",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "l'auteur",
+      "l'écuyer",
+      "la nièce"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el escritor = l'écrivain. Exemple : Miguel de Cervantes, escritor español.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-autor-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "l'auteur",
+    "promptLang": "fr",
+    "answer": "el autor",
+    "accept": [],
+    "distractors": [
+      "el caballero",
+      "el vecino",
+      "la sirvienta"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el autor = l'auteur. Exemple : Autores españoles, ingleses o franceses escriben versiones teatrales.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-autor-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-personas"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "el autor",
+    "answer": "l'auteur",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "le chevalier",
+      "le voisin",
+      "la servante"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "el autor = l'auteur. Exemple : Autores españoles, ingleses o franceses escriben versiones teatrales.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-fiel-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "fidèle",
+    "promptLang": "fr",
+    "answer": "fiel",
+    "accept": [],
+    "distractors": [
+      "realista",
+      "joven",
+      "bella"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "fiel = fidèle. Exemple : Léxico del vídeo : fiel = fidèle.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-fiel-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "fiel",
+    "answer": "fidèle",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "réaliste",
+      "jeune",
+      "belle"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "fiel = fidèle. Exemple : Léxico del vídeo : fiel = fidèle.",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-realista-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "réaliste",
+    "promptLang": "fr",
+    "answer": "realista",
+    "accept": [],
+    "distractors": [
+      "sencillo",
+      "rápido",
+      "cansado"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "realista = réaliste. Exemple : Sancho es realista y sencillo.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-realista-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "realista",
+    "answer": "réaliste",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "simple, sans prétention",
+      "rapide",
+      "fatigué"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "realista = réaliste. Exemple : Sancho es realista y sencillo.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-sencillo-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "simple, sans prétention",
+    "promptLang": "fr",
+    "answer": "sencillo",
+    "accept": [],
+    "distractors": [
+      "joven",
+      "bella",
+      "simpático"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "sencillo = simple, sans prétention. Exemple : Sancho es realista y sencillo.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-sencillo-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "sencillo",
+    "answer": "simple, sans prétention",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "jeune",
+      "belle",
+      "sympathique"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "sencillo = simple, sans prétention. Exemple : Sancho es realista y sencillo.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-joven-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "jeune",
+    "promptLang": "fr",
+    "answer": "joven",
+    "accept": [],
+    "distractors": [
+      "rápido",
+      "cansado",
+      "solo"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "joven = jeune. Exemple : ¡Es un misterio! Pero es joven.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-joven-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "joven",
+    "answer": "jeune",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "rapide",
+      "fatigué",
+      "seul"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "joven = jeune. Exemple : ¡Es un misterio! Pero es joven.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-rapido-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "rapide",
+    "promptLang": "fr",
+    "answer": "rápido",
+    "accept": [],
+    "distractors": [
+      "bella",
+      "simpático",
+      "modesta"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "rápido = rapide. Exemple : Un galgo rápido.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-rapido-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "rápido",
+    "answer": "rapide",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "belle",
+      "sympathique",
+      "modeste"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "rápido = rapide. Exemple : Un galgo rápido.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-bella-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "belle",
+    "promptLang": "fr",
+    "answer": "bella",
+    "accept": [],
+    "distractors": [
+      "cansado",
+      "solo",
+      "único"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "bella = belle. Exemple : Para él, es una bella dama.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-bella-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "bella",
+    "answer": "belle",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "fatigué",
+      "seul",
+      "unique"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "bella = belle. Exemple : Para él, es una bella dama.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-cansado-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "fatigué",
+    "promptLang": "fr",
+    "answer": "cansado",
+    "accept": [],
+    "distractors": [
+      "simpático",
+      "modesta",
+      "cómico"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "cansado = fatigué. Exemple : Don Quijote está cansado.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "voc-cansado-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "cansado",
+    "answer": "fatigué",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "sympathique",
+      "modeste",
+      "comique"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "cansado = fatigué. Exemple : Don Quijote está cansado.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "voc-simpatico-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "sympathique",
+    "promptLang": "fr",
+    "answer": "simpático",
+    "accept": [],
+    "distractors": [
+      "solo",
+      "único",
+      "fiel"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "simpático = sympathique. Exemple : El vecino es muy simpático.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "voc-simpatico-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "simpático",
+    "answer": "sympathique",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "seul",
+      "unique",
+      "fidèle"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "simpático = sympathique. Exemple : El vecino es muy simpático.",
+    "source": "conjugacion"
+  },
+  {
+    "id": "voc-solo-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "seul",
+    "promptLang": "fr",
+    "answer": "solo",
+    "accept": [],
+    "distractors": [
+      "modesta",
+      "cómico",
+      "realista"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "solo = seul. Exemple : ¿Vive solo don Quijote?",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-solo-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "solo",
+    "answer": "seul",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "modeste",
+      "comique",
+      "réaliste"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "solo = seul. Exemple : ¿Vive solo don Quijote?",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-modesta-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 3,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "modeste",
+    "promptLang": "fr",
+    "answer": "modesta",
+    "accept": [],
+    "distractors": [
+      "único",
+      "fiel",
+      "sencillo"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "modesta = modeste. Exemple : La modesta montura de Sancho Panza.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-modesta-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "modesta",
+    "answer": "modeste",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "unique",
+      "fidèle",
+      "simple, sans prétention"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "modesta = modeste. Exemple : La modesta montura de Sancho Panza.",
+    "source": "dq2"
+  },
+  {
+    "id": "voc-unico-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 3,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "unique",
+    "promptLang": "fr",
+    "answer": "único",
+    "accept": [],
+    "distractors": [
+      "cómico",
+      "realista",
+      "joven"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "único = unique. Exemple : Tú eres mi único amor.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-unico-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "único",
+    "answer": "unique",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "comique",
+      "réaliste",
+      "jeune"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "único = unique. Exemple : Tú eres mi único amor.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-comico-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 3,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "comique",
+    "promptLang": "fr",
+    "answer": "cómico",
+    "accept": [],
+    "distractors": [
+      "fiel",
+      "sencillo",
+      "rápido"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "cómico = comique. Exemple : Explica los aspectos cómicos de la escena.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-comico-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-adjetivos"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "cómico",
+    "answer": "comique",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "fidèle",
+      "simple, sans prétention",
+      "rapide"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "cómico = comique. Exemple : Explica los aspectos cómicos de la escena.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-hay-que-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-video"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "hay que",
+    "answer": "il faut",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "toujours prêt",
+      "Laissez-nous passer !",
+      "il se moque de nous"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "hay que = il faut (traduction donnée par le document).",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-hay-que-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-video"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "il faut",
+    "promptLang": "fr",
+    "answer": "hay que",
+    "accept": [],
+    "distractors": [
+      "siempre listo",
+      "¡Dejadnos pasar!",
+      "se burla de nosotras"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "hay que = il faut (traduction donnée par le document).",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-siempre-listo-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-video"
+    ],
+    "level": 2,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "siempre listo",
+    "answer": "toujours prêt",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "aider",
+      "Nous sommes pressées !",
+      "il faut"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "siempre listo = toujours prêt (traduction donnée par le document).",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-siempre-listo-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-video"
+    ],
+    "level": 2,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "toujours prêt",
+    "promptLang": "fr",
+    "answer": "siempre listo",
+    "accept": [],
+    "distractors": [
+      "ayudar",
+      "¡Tenemos prisa!",
+      "hay que"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "siempre listo = toujours prêt (traduction donnée par le document).",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-ayudar-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-video"
+    ],
+    "level": 1,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "ayudar",
+    "answer": "aider",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "Laissez-nous passer !",
+      "il se moque de nous",
+      "toujours prêt"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "ayudar = aider (traduction donnée par le document).",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-ayudar-es",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-video"
+    ],
+    "level": 1,
+    "label": "Comment dit-on en espagnol ?",
+    "prompt": "aider",
+    "promptLang": "fr",
+    "answer": "ayudar",
+    "accept": [],
+    "distractors": [
+      "¡Dejadnos pasar!",
+      "se burla de nosotras",
+      "siempre listo"
+    ],
+    "writable": true,
+    "translation": "",
+    "explanation": "ayudar = aider (traduction donnée par le document).",
+    "source": "dq1"
+  },
+  {
+    "id": "voc-dejadnos-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-video"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "¡Dejadnos pasar!",
+    "answer": "Laissez-nous passer !",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "Nous sommes pressées !",
+      "il faut",
+      "aider"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "¡Dejadnos pasar! = Laissez-nous passer ! (traduction donnée par le document).",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-tenemos-prisa-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-video"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "¡Tenemos prisa!",
+    "answer": "Nous sommes pressées !",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "il se moque de nous",
+      "toujours prêt",
+      "Laissez-nous passer !"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "¡Tenemos prisa! = Nous sommes pressées ! (traduction donnée par le document).",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-se-burla-fr",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "voc-video"
+    ],
+    "level": 3,
+    "label": "Que veut dire ce mot ?",
+    "prompt": "se burla de nosotras",
+    "answer": "il se moque de nous",
+    "answerLang": "fr",
+    "accept": [],
+    "distractors": [
+      "il faut",
+      "aider",
+      "Nous sommes pressées !"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "se burla de nosotras = il se moque de nous (traduction donnée par le document).",
+    "source": "dulcinea"
+  },
+  {
+    "id": "voc-codigo-caballo",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 1,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "3 – 1 – 2 – 1 – 12 – 12 – 16",
+    "promptLang": "fr",
+    "answer": "caballo",
+    "accept": [],
+    "distractors": [
+      "cabello",
+      "caballero",
+      "castillo"
+    ],
+    "translation": "",
+    "explanation": "3=C, 1=A, 2=B, 1=A, 12=L, 12=L, 16=O → CABALLO (le cheval). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-molino",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 1,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "13 – 16 – 12 – 9 – 14 – 16",
+    "promptLang": "fr",
+    "answer": "molino",
+    "accept": [],
+    "distractors": [
+      "camino",
+      "vecino",
+      "mono"
+    ],
+    "translation": "",
+    "explanation": "13=M, 16=O, 12=L, 9=I, 14=N, 16=O → MOLINO (le moulin). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-lanza",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 1,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "12 – 1 – 14 – 27 – 1",
+    "promptLang": "fr",
+    "answer": "lanza",
+    "accept": [],
+    "distractors": [
+      "panza",
+      "danza",
+      "plaza"
+    ],
+    "translation": "",
+    "explanation": "12=L, 1=A, 14=N, 27=Z, 1=A → LANZA (la lance). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-gigante",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 1,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "7 – 9 – 7 – 1 – 14 – 21 – 5",
+    "promptLang": "fr",
+    "answer": "gigante",
+    "accept": [],
+    "distractors": [
+      "guante",
+      "elegante",
+      "gitano"
+    ],
+    "translation": "",
+    "explanation": "7=G, 9=I, 7=G, 1=A, 14=N, 21=T, 5=E → GIGANTE (le géant). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-libro",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 1,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "12 – 9 – 2 – 19 – 16",
+    "promptLang": "fr",
+    "answer": "libro",
+    "accept": [],
+    "distractors": [
+      "litro",
+      "lobo",
+      "libre"
+    ],
+    "translation": "",
+    "explanation": "12=L, 9=I, 2=B, 19=R, 16=O → LIBRO (le livre). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-burro",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 2,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "2 – 22 – 19 – 19 – 16",
+    "promptLang": "fr",
+    "answer": "burro",
+    "accept": [],
+    "distractors": [
+      "barro",
+      "perro",
+      "churro"
+    ],
+    "translation": "",
+    "explanation": "2=B, 22=U, 19=R, 19=R, 16=O → BURRO (l'âne). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-queso",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 2,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "18 – 22 – 5 – 20 – 16",
+    "promptLang": "fr",
+    "answer": "queso",
+    "accept": [],
+    "distractors": [
+      "beso",
+      "peso",
+      "hueso"
+    ],
+    "translation": "",
+    "explanation": "18=Q, 22=U, 5=E, 20=S, 16=O → QUESO (le fromage). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-mago",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 2,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "13 – 1 – 7 – 16",
+    "promptLang": "fr",
+    "answer": "mago",
+    "accept": [],
+    "distractors": [
+      "lago",
+      "amigo",
+      "mano"
+    ],
+    "translation": "",
+    "explanation": "13=M, 1=A, 7=G, 16=O → MAGO (le magicien). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-escudo",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 2,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "5 – 20 – 3 – 22 – 4 – 16",
+    "promptLang": "fr",
+    "answer": "escudo",
+    "accept": [],
+    "distractors": [
+      "escudero",
+      "estudio",
+      "mundo"
+    ],
+    "translation": "",
+    "explanation": "5=E, 20=S, 3=C, 22=U, 4=D, 16=O → ESCUDO (le bouclier). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-pueblo",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 2,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "17 – 22 – 5 – 2 – 12 – 16",
+    "promptLang": "fr",
+    "answer": "pueblo",
+    "accept": [],
+    "distractors": [
+      "puente",
+      "puerto",
+      "mueble"
+    ],
+    "translation": "",
+    "explanation": "17=P, 22=U, 5=E, 2=B, 12=L, 16=O → PUEBLO (le village). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-senor",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 3,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "20 – 5 – 15 – 16 – 19",
+    "promptLang": "fr",
+    "answer": "señor",
+    "accept": [],
+    "distractors": [
+      "señora",
+      "sabor",
+      "senado"
+    ],
+    "translation": "",
+    "explanation": "20=S, 5=E, 15=Ñ, 16=O, 19=R → SEÑOR (le monsieur). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-espana",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 3,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "5 – 20 – 17 – 1 – 15 – 1",
+    "promptLang": "fr",
+    "answer": "españa",
+    "accept": [],
+    "distractors": [
+      "escena",
+      "montaña",
+      "campaña"
+    ],
+    "translation": "",
+    "explanation": "5=E, 20=S, 17=P, 1=A, 15=Ñ, 1=A → ESPAÑA (l'Espagne). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-codigo-companero",
+    "type": "ecrit",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 3,
+    "label": "Mot codé : A=1 … N=14, Ñ=15, O=16 … Z=27",
+    "prompt": "3 – 16 – 13 – 17 – 1 – 15 – 5 – 19 – 16",
+    "promptLang": "fr",
+    "answer": "compañero",
+    "accept": [],
+    "distractors": [
+      "compañera",
+      "campanero",
+      "carpintero"
+    ],
+    "translation": "",
+    "explanation": "3=C, 16=O, 13=M, 17=P, 1=A, 15=Ñ, 5=E, 19=R, 16=O → COMPAÑERO (le compagnon). Dans l’alphabet espagnol, le Ñ (15) vient juste après le N (14).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-alfabeto-ene",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 1,
+    "prompt": "Dans l’alphabet espagnol, quelle lettre vient juste après le N ?",
+    "promptLang": "fr",
+    "answer": "Ñ",
+    "accept": [],
+    "distractors": [
+      "O",
+      "M",
+      "L"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "L’alphabet espagnol a une lettre en plus : N (14), Ñ (15), O (16).",
+    "source": "intro"
+  },
+  {
+    "id": "voc-alfabeto-total",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 2,
+    "prompt": "Combien de lettres compte l’alphabet espagnol de l’Enquête 1 ?",
+    "promptLang": "fr",
+    "answer": "27",
+    "accept": [],
+    "distractors": [
+      "26",
+      "28",
+      "25"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "De A=1 à Z=27 : 27 lettres, avec le Ñ.",
+    "source": "intro"
+  },
+  {
+    "id": "voc-alfabeto-espana",
+    "type": "qcm",
+    "theme": "vocabulario",
+    "notions": [
+      "alfabeto"
+    ],
+    "level": 2,
+    "prompt": "Quel mot s’écrit avec un Ñ ?",
+    "promptLang": "fr",
+    "answer": "España",
+    "accept": [],
+    "distractors": [
+      "Mancha",
+      "Quijote",
+      "Toboso"
+    ],
+    "writable": false,
+    "translation": "",
+    "explanation": "España s’écrit avec un Ñ (15 dans le code de l’Enquête 1).",
+    "source": "intro"
+  }
+]

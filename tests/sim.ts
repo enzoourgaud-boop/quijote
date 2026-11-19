@@ -71,7 +71,7 @@ export function simulate(content: Content, seed: string, accuracy: number, setti
           sec += T.feedback;
           break;
         }
-        if (s.hp <= 5 && (s.inv.chocolate ?? 0) > 0) g.usePower('chocolate');
+        if (s.hp <= 5 && (s.inv.queso ?? 0) > 0) g.usePower('queso');
         g.answer(reply(c));
         break;
       }

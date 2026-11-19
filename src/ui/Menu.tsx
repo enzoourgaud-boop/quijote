@@ -1,4 +1,4 @@
-/** Écrans de menu : profils, accueil, collection de lotería, succès, carnet, bilan de fin. */
+/** Écrans de menu : profils, accueil, album, succès, carnet, bilan de fin. */
 import qrcode from 'qrcode-generator';
 import { useEffect, useRef, useState } from 'preact/hooks';
 import { codeDataFromRun, encodeCode } from '../engine/code';
@@ -140,7 +140,7 @@ export function Title({ content, profile, meta, saved, settings, onSettings, onS
         </button>
         <nav class="menu-meta" aria-label="Ma progression">
           <button class="btn sec" onClick={() => onNav('carnet')}>📓 Mon carnet</button>
-          <button class="btn sec" onClick={() => onNav('collection')}>🃏 Lotería {meta.cards.length}/{totalCards}</button>
+          <button class="btn sec" onClick={() => onNav('collection')}>📚 Álbum {meta.cards.length}/{totalCards}</button>
           <button class="btn sec" onClick={() => onNav('achievements')}>🏆 Succès {meta.achievements.length}/{ACHIEVEMENTS.length}</button>
         </nav>
       </div>
@@ -219,18 +219,18 @@ export function Title({ content, profile, meta, saved, settings, onSettings, onS
 
       <div class="opciones">
         <label class="nivel">
-          <span>Nivel de Calavera</span>
+          <span>Nivel de caballero</span>
           <select value={asc} onChange={e => { const v = Number((e.target as HTMLSelectElement).value); setAsc(v); saveAsc(v); }} disabled={meta.maxAscension === 0}>
             {Array.from({ length: meta.maxAscension + 1 }, (_, i) => (
               <option key={i} value={i}>
-                {i === 0 ? '0 · normal' : `${i} ${'💀'.repeat(Math.min(i, 5))}`}
+                {i === 0 ? '0 · normal' : `${i} ${'🛡️'.repeat(Math.min(i, 5))}`}
               </option>
             ))}
           </select>
         </label>
         <span class="muted reglas-asc">
           {asc === 0
-            ? meta.maxAscension === 0 ? 'Gagne une partie pour débloquer le Nivel de Calavera 1.' : 'Le chemin normal.'
+            ? meta.maxAscension === 0 ? 'Gagne une partie pour débloquer le Nivel de caballero 1.' : 'Le chemin normal.'
             : `En plus : ${ASCENSION_RULES.slice(1, asc + 1).join(' ')}`}
         </span>
         <label>
@@ -247,8 +247,8 @@ export function Title({ content, profile, meta, saved, settings, onSettings, onS
       </div>
       {pending > 0 && (
         <p class="almas-aviso">
-          <span aria-hidden="true">👻</span> <b>{pending} alma{pending > 1 ? 's' : ''} pendiente{pending > 1 ? 's' : ''}</b> : {pending > 1 ? 'des questions ratées t\'attendent' : 'une question ratée t\'attend'} au
-          début de la partie. Chaque âme libérée donne +1 PV.
+          <span aria-hidden="true">📄</span> <b>{pending} página{pending > 1 ? 's' : ''} perdida{pending > 1 ? 's' : ''}</b> : {pending > 1 ? 'des questions ratées t\'attendent' : 'une question ratée t\'attend'} au
+          début de la partie. Chaque page retrouvée donne +1 PV.
         </p>
       )}
       <div class="fila">
@@ -269,10 +269,10 @@ export function Title({ content, profile, meta, saved, settings, onSettings, onS
           <b>Lis l'intention</b>La bulle de l'ennemi annonce ce qu'il fera si tu te trompes.
         </div>
         <div>
-          <b>Tes erreurs reviennent</b>Une question ratée devient une « alma pendiente » : elle t'attend au début de la partie suivante. La réussir te rend 1 PV.
+          <b>Tes erreurs reviennent</b>Une question ratée devient une « página perdida » du livre de don Quijote : elle t'attend au début de la partie suivante. La réussir te rend 1 PV.
         </div>
         <div>
-          <b>Collectionne</b>Chaque ennemi vaincu et chaque objet trouvé t'offre une carte de lotería.
+          <b>Collectionne</b>Chaque ennemi vaincu et chaque objet trouvé t'offre une carte pour ton album.
         </div>
       </div>
       <p class="pie-prof">
@@ -304,7 +304,7 @@ export function CollectionScreen({ content, meta, onBack }: { content: Content; 
   return (
     <section class="screen">
       <div class="fila"><button class="btn sec" onClick={onBack}>← Retour</button></div>
-      <h1>La Lotería</h1>
+      <h1>El álbum</h1>
       <p class="lead">
         {meta.cards.length} carte{meta.cards.length > 1 ? 's' : ''} sur {cards.length}. Bats un ennemi ou trouve un objet pour gagner sa carte.
       </p>
@@ -446,13 +446,13 @@ export function Over({ game, unlocks, onMenu, onReplay }: { game: Game; unlocks:
         <div><b>{s.stats.ok}</b>bonnes réponses</div>
         <div><b>{pct} %</b>de réussite</div>
         <div><b>{minutes} min</b>de partie</div>
-        {(s.stats.freed ?? 0) > 0 && <div><b>{s.stats.freed}</b>{s.stats.freed === 1 ? 'alma liberada' : 'almas liberadas'}</div>}
+        {(s.stats.freed ?? 0) > 0 && <div><b>{s.stats.freed}</b>{s.stats.freed === 1 ? 'página recuperada' : 'páginas recuperadas'}</div>}
       </div>
 
       {unlocks && (unlocks.cards.length > 0 || unlocks.achievements.length > 0 || unlocks.characters.length > 0 || unlocks.ascension !== null) && (
         <div class="desbloqueos">
           <h2>Nouveau !</h2>
-          {unlocks.ascension !== null && <p class="nuevo">💀 Nivel de Calavera {unlocks.ascension} débloqué : {ASCENSION_RULES[unlocks.ascension]}</p>}
+          {unlocks.ascension !== null && <p class="nuevo">🛡️ Nivel de caballero {unlocks.ascension} débloqué : {ASCENSION_RULES[unlocks.ascension]}</p>}
           {unlocks.characters.map(id => {
             const c = seq.characters.find(x => x.id === id)!;
             return <p class="nuevo" key={id}><PlayerPreview palette={c.palette} size={36} /> Nouveau personnage : <b>{c.name}, {c.title}</b></p>;
@@ -460,7 +460,7 @@ export function Over({ game, unlocks, onMenu, onReplay }: { game: Game; unlocks:
           {unlocks.achievements.map(a => <p class="nuevo" key={a.id}>{a.icon} Succès : <b>{a.name}</b> <span class="muted">({a.desc})</span></p>)}
           {unlocks.cards.length > 0 && (
             <div>
-              <p class="nuevo">🃏 {unlocks.cards.length} nouvelle{unlocks.cards.length > 1 ? 's' : ''} carte{unlocks.cards.length > 1 ? 's' : ''} de lotería :</p>
+              <p class="nuevo">📚 {unlocks.cards.length} nouvelle{unlocks.cards.length > 1 ? 's' : ''} carte{unlocks.cards.length > 1 ? 's' : ''} pour l’album :</p>
               <div class="cartas-nuevas">
                 {unlocks.cards.map(k => {
                   const c = cards.find(x => x.key === k);
@@ -481,7 +481,7 @@ export function Over({ game, unlocks, onMenu, onReplay }: { game: Game; unlocks:
             Montre ce code (ou ce QR) à ton professeur, ou recopie-le. Il contient seulement ton résultat{missed.length ? ' et les notions à revoir' : ''}, rien d’autre.
           </p>
           {missed.length > 0 && <p class="muted">Notions à revoir : {missed.join(' · ')}.</p>}
-          {ch && <p class="muted">Personnage : {ch.name} · Nivel de Calavera {s.ascension} · graine {s.seed}</p>}
+          {ch && <p class="muted">Personnage : {ch.name} · Nivel de caballero {s.ascension} · graine {s.seed}</p>}
         </div>
       </div>
 
@@ -494,7 +494,7 @@ export function Over({ game, unlocks, onMenu, onReplay }: { game: Game; unlocks:
         <>
           <h2>Carnet d'erreurs</h2>
           <p class="muted">
-            👻 Les questions que tu n'as pas encore réussies sont tes <b>almas pendientes</b> : elles t'attendront au début de ta prochaine partie. Chaque âme libérée te donnera +1 PV.
+            📄 Les questions que tu n'as pas encore réussies sont tes <b>páginas perdidas</b> : elles t'attendront au début de ta prochaine partie. Chaque page retrouvée te donnera +1 PV.
           </p>
           <ul class="carnet">
             {s.errors.map(e => (

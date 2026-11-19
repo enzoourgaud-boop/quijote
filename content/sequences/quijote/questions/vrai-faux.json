@@ -1,0 +1,348 @@
+[
+  {
+    "id": "vf-sancho-vecino",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Sancho es el vecino de don Quijote.",
+    "answer": "verdadero",
+    "translation": "Sancho est le voisin de don Quichotte.",
+    "explanation": "Verdadero : es vecino y fiel compañero de don Quijote.",
+    "source": "dq2"
+  },
+  {
+    "id": "vf-sancho-caballo",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Sancho tiene un caballo.",
+    "answer": "falso",
+    "translation": "Sancho a un cheval.",
+    "explanation": "Falso : la montura de Sancho es un burro, Rucio.",
+    "source": "dq2"
+  },
+  {
+    "id": "vf-rucio-amigo",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Rucio es muy amigo de Rocinante.",
+    "answer": "verdadero",
+    "translation": "Rucio est très ami avec Rocinante.",
+    "explanation": "Verdadero : ¡Es muy amigo de Rocinante!",
+    "source": "dq2"
+  },
+  {
+    "id": "vf-dulcinea-aldonza",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Dulcinea se llama en realidad Aldonza Lorenzo.",
+    "answer": "verdadero",
+    "translation": "Dulcinée s’appelle en réalité Aldonza Lorenzo.",
+    "explanation": "Verdadero.",
+    "source": "dq2"
+  },
+  {
+    "id": "vf-dulcinea-ciudad",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 2,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Dulcinea vive en una ciudad.",
+    "answer": "falso",
+    "translation": "Dulcinée habite dans une ville.",
+    "explanation": "Falso : vive en el pueblo del Toboso (un pueblo = un village).",
+    "source": "dq2"
+  },
+  {
+    "id": "vf-dulcinea-edad",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 2,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Dulcinea tiene veinte años.",
+    "answer": "falso",
+    "translation": "Dulcinée a vingt ans.",
+    "explanation": "Falso : su edad es un misterio, pero es joven. La que tiene veinte años es Antonia, la sobrina.",
+    "source": "dq2"
+  },
+  {
+    "id": "vf-quijote-solo",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Don Quijote vive solo.",
+    "answer": "falso",
+    "translation": "Don Quichotte vit seul.",
+    "explanation": "Falso : vive con su sobrina, una sirvienta y un galgo.",
+    "source": "dq2"
+  },
+  {
+    "id": "vf-antonia-sobrina",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Antonia Quijana es la sobrina de don Quijote.",
+    "answer": "verdadero",
+    "translation": "Antonia Quijana est la nièce de don Quichotte.",
+    "explanation": "Verdadero : su sobrina de veinte años, Antonia Quijana.",
+    "source": "dq2"
+  },
+  {
+    "id": "vf-antonia-cuarenta",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 2,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Antonia Quijana tiene cuarenta años.",
+    "answer": "falso",
+    "translation": "Antonia Quijana a quarante ans.",
+    "explanation": "Falso : tiene veinte años. La sirvienta tiene unos cuarenta años.",
+    "source": "dq2"
+  },
+  {
+    "id": "vf-galgo-rapido",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "El galgo de don Quijote es rápido.",
+    "answer": "verdadero",
+    "translation": "Le lévrier de don Quichotte est rapide.",
+    "explanation": "Verdadero : un galgo rápido, ¡su fiel perro!",
+    "source": "dq2"
+  },
+  {
+    "id": "vf-sancho-realista",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Sancho es realista y sencillo.",
+    "answer": "verdadero",
+    "translation": "Sancho est réaliste et simple.",
+    "explanation": "Verdadero.",
+    "source": "dq2"
+  },
+  {
+    "id": "vf-quijote-gigantes",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "A don Quijote le gustan los gigantes.",
+    "answer": "falso",
+    "translation": "Don Quichotte aime les géants.",
+    "explanation": "Falso : «No me gustan los gigantes». Le gustan los libros.",
+    "source": "intro"
+  },
+  {
+    "id": "vf-quijote-cincuenta",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Don Quijote tiene cincuenta años.",
+    "answer": "verdadero",
+    "translation": "Don Quichotte a cinquante ans.",
+    "explanation": "Verdadero : «Tengo 50 años».",
+    "source": "dq1"
+  },
+  {
+    "id": "vf-mancha-molinos",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "En La Mancha hay molinos.",
+    "answer": "verdadero",
+    "translation": "Dans la Manche, il y a des moulins.",
+    "explanation": "Verdadero : La Mancha est célèbre pour ses moulins à vent (¡Fíjate!).",
+    "source": "dq1"
+  },
+  {
+    "id": "vf-mancha-francia",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "La Mancha es una región de Francia.",
+    "answer": "falso",
+    "translation": "La Manche est une région de France.",
+    "explanation": "Falso : es una región de España (Castilla-La Mancha). Attention : la Manche française n’a rien à voir !",
+    "source": "dq1"
+  },
+  {
+    "id": "vf-cervantes-ingles",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 2,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Miguel de Cervantes es un escritor inglés.",
+    "answer": "falso",
+    "translation": "Miguel de Cervantès est un écrivain anglais.",
+    "explanation": "Falso : es un escritor español.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "vf-1605",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 2,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Don Quijote de la Mancha es de 1605.",
+    "answer": "verdadero",
+    "translation": "Don Quichotte de la Manche date de 1605.",
+    "explanation": "Verdadero : Miguel de Cervantes, Don Quijote de la Mancha, 1605.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "vf-adaptaciones-cine",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "mancha-cervantes"
+    ],
+    "level": 2,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Hay adaptaciones del Quijote para el cine.",
+    "answer": "verdadero",
+    "translation": "Il y a des adaptations du Quichotte pour le cinéma.",
+    "explanation": "Verdadero : incluso para cine o televisión.",
+    "source": "dulcinea"
+  },
+  {
+    "id": "vf-aldonza-princesa",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 2,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Aldonza dice: «Soy una princesa».",
+    "answer": "falso",
+    "translation": "Aldonza dit : « Je suis une princesse ».",
+    "explanation": "Falso : dice «¡No soy princesa!».",
+    "source": "dulcinea"
+  },
+  {
+    "id": "vf-aldeanas-prisa",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 2,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Las aldeanas tienen prisa.",
+    "answer": "verdadero",
+    "translation": "Les villageoises sont pressées.",
+    "explanation": "Verdadero : «¡Tenemos prisa!»",
+    "source": "dulcinea"
+  },
+  {
+    "id": "vf-escena-pintura",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 2,
+    "label": "¿Verdadero o falso?",
+    "prompt": "La escena de «¡Hermosa Dulcinea!» es una pintura.",
+    "answer": "falso",
+    "translation": "La scène de « ¡Hermosa Dulcinea! » est une peinture.",
+    "explanation": "Falso : es teatro (una compañía de teatro, 2021).",
+    "source": "dulcinea"
+  },
+  {
+    "id": "vf-sancho-escudero",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "teatro-dulcinea"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Sancho Panza es el escudero de don Quijote.",
+    "answer": "verdadero",
+    "translation": "Sancho Panza est l’écuyer de don Quichotte.",
+    "explanation": "Verdadero : «yo soy Sancho Panza, el escudero».",
+    "source": "dulcinea"
+  },
+  {
+    "id": "vf-rocinante-caballo",
+    "type": "vrai-faux",
+    "theme": "personajes",
+    "notions": [
+      "personajes"
+    ],
+    "level": 1,
+    "label": "¿Verdadero o falso?",
+    "prompt": "Rocinante es el caballo de don Quijote.",
+    "answer": "verdadero",
+    "translation": "Rocinante est le cheval de don Quichotte.",
+    "explanation": "Verdadero. Attention : le texte ne le dit pas en toutes lettres ; on le déduit de la carte « Rocinante ».",
+    "source": "dq2",
+    "disabled": true
+  }
+]

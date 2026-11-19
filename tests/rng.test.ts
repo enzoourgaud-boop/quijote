@@ -3,15 +3,15 @@ import { cleanSeed, hashSeed, randomSeed, Rng } from '../src/engine/rng';
 
 describe('générateur à graine', () => {
   it('même graine → même suite', () => {
-    const a = new Rng('CALAVERA-42'), b = new Rng('CALAVERA-42');
+    const a = new Rng('MOLINO-42'), b = new Rng('MOLINO-42');
     expect(Array.from({ length: 50 }, () => a.next())).toEqual(Array.from({ length: 50 }, () => b.next()));
   });
   it('graines différentes → suites différentes', () => {
-    const a = new Rng('VELA-10'), b = new Rng('VELA-11');
+    const a = new Rng('LANZA-10'), b = new Rng('LANZA-11');
     expect(a.next()).not.toBe(b.next());
   });
   it('la graine ignore la casse et les espaces autour', () => {
-    expect(hashSeed(' calavera-42 ')).toBe(hashSeed('CALAVERA-42'));
+    expect(hashSeed(' molino-42 ')).toBe(hashSeed('MOLINO-42'));
   });
   it("l'état peut être sauvegardé puis repris", () => {
     const a = new Rng('X');
@@ -40,7 +40,7 @@ describe('générateur à graine', () => {
     for (let i = 0; i < 200; i++) expect(r.weighted(['a', 'b'], x => (x === 'a' ? 0 : 1))).toBe('b');
   });
   it('graine lisible', () => {
-    expect(randomSeed(() => 0)).toBe('CALAVERA-10');
+    expect(randomSeed(() => 0)).toBe('MOLINO-10');
     expect(cleanSeed(' mi graine ! ')).toBe('MI-GRAINE');
   });
 });
