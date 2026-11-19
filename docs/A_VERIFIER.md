@@ -6,7 +6,7 @@ Ce fichier liste tout ce qui, dans le jeu, **ne vient pas directement de tes doc
 - **corriger** : écris la correction à côté ;
 - **refuser** : barre la ligne ; l'élément sera retiré, ou la question restera désactivée.
 
-*Version de l'étape 0 (conception). La liste s'allongera à l'étape 1 avec les identifiants exacts des questions.*
+*Version de l'étape 0 (conception, version 2 : combat d'El Camino gardé). La liste s'allongera à l'étape 1 avec les identifiants exacts des questions.*
 
 ## 1. Corrigés que j'ai établis
 
@@ -34,31 +34,31 @@ Les questions correspondantes seront créées **désactivées** (`"disabled": tr
 
 ## 3. Mots espagnols hors documents utilisés dans le jeu
 
-Ils servent à l'habillage (intentions des ennemis, noms, histoire), **jamais comme réponse attendue**. Un mot touché affiche sa traduction.
+Ils servent à l'habillage (noms, histoire, réactions), **jamais comme réponse attendue**. Un mot touché affiche sa traduction.
 
-| ✔ | Mot ou expression | Où | Pourquoi |
+| ✔ | Mot ou expression | Où | Remarque |
 |---|---|---|---|
-| ☐ | *ataca a…* (attaque…) | intentions ennemies | Aucun verbe d'attaque dans les documents ; mot transparent pour un francophone. |
-| ☐ | *encantamiento*, *encantado* (enchantement, ensorcelé) | barre de vie des ennemis, histoire | Pour le mago. Le document dit seulement *un mago te hace parecer…* |
-| ☐ | *la máscara* (le masque) | protection des ennemis forts | |
-| ☐ | *las páginas perdidas*, *Recupera la página* | erreurs à rattraper | |
-| ☐ | *monedas* (pièces) | argent du jeu | Déjà utilisé dans El Camino. |
-| ☐ | *Encuentro*, *Tienda*, *Candado*, *Jefe*, *Gran encantamiento* | noms des salles | *En casa* vient de l'exercice 2. |
-| ☐ | *a la pluma* | carte améliorée (défi écrit) | Repris d'El Camino V2. |
-| ☐ | *Niveles de caballero*, *logros*, *álbum* | progression entre les parties | |
-| ☐ | *ataque*, *molino pequeño*, *la casa andante* | noms et réalités d'ennemis (section 4) | *pequeño* n'est pas dans les documents. |
-| ☐ | Formes féminines *cansada*, *simpática* | cartes Palabra avec *ella* ou un personnage féminin | Les documents n'ont que *cansado*, *simpático*. L'adjectif est affiché déjà accordé ; seul le verbe est demandé. |
+| ☐ | *encantado*, *encantada* (ensorcelé) | histoire, nom d'ennemi | Le document dit seulement *un mago te hace parecer…* |
+| ☐ | *la capa* (la cape) | protection d'El Mago (phase 1) | Remplace l'abanico de la Catrina. |
+| ☐ | *las páginas perdidas* | erreurs à rattraper | Remplace « almas pendientes ». |
+| ☐ | *monedas* (pièces) | argent du jeu | Déjà dans El Camino. |
+| ☐ | *Encuentro*, *Tienda*, *Cofre*, *Jefe*, *Élite*, *Combate* | noms des salles | *En casa* (repos) vient de l'exercice 2. |
+| ☐ | *Niveles de caballero*, *logros* | progression entre les parties | |
+| ☐ | *¡Bravo!*, *¡Uy!*, *¡Ay, caramba!*, *¡Qué pena!*, *¡Se acabó el tiempo!* | réactions après une réponse | *¡Órale!* et *¡Qué padre!* (mexicains) sont retirés. |
+| ☐ | *¿Me oyes?*, *¡Tengo prisa!*, *¡Mírame!*, *¡Soy un queso gigante!*… | répliques des ennemis | Construites avec les mots des documents ; liste complète à l'étape 1. |
+| ☐ | *¡A comer!* | repas acheté à la tienda | |
 
 ## 4. Noms et histoire inventés
 
 | ✔ | Élément | Détail |
 |---|---|---|
 | ☐ | **Titre** : *Molinos y gigantes* | Deux mots de l'Enquête 1. |
-| ☐ | **L'histoire** : un mago ensorcelle La Mancha ; l'escudero montre le monde *en realidad* | Prolonge deux phrases de tes documents (*Siempre explica a don Quijote cómo es el mundo en realidad* ; *un mago te hace parecer una simple aldeana*). Dans le roman, le mago n'existe que dans la tête de don Quijote. |
+| ☐ | **L'histoire** : un mago ensorcelle La Mancha ; tout redevient réel à la fin | Prolonge deux phrases de tes documents (*Siempre explica a don Quijote cómo es el mundo en realidad* ; *un mago te hace parecer una simple aldeana*). Dans le roman, le mago n'existe que dans la tête de don Quijote. |
 | ☐ | **Antonia et Aldonza jouables** | Elles n'accompagnent pas don Quijote dans tes documents ; c'est un choix de jeu. |
-| ☐ | **Noms d'ennemis** : El Libro Volador, El Queso Gigante, El Escudo Saltarín, La Lanza Loca, El Caballero Enmascarado, El Gran Libro, El Caballo Salvaje, El Molinito, La Casa Andante, El Perro Gigante, El Señor de la Ciudad, El Gigante, La Pintura Viva, La Música Encantada, El Burlón, El Teatro Ambulante, El Mago | *volador, saltarín, loca, enmascarado, gran, salvaje, molinito, andante, viva, encantada, burlón, ambulante* ne sont pas dans les documents. Ce que l'ennemi est *en realidad* l'est toujours. |
-| ☐ | **Répliques de don Quijote** en combat (*¡Tengo mi lanza!*…) | Construites avec les mots des documents. Liste complète à l'étape 2. |
-| ☐ | **Objets de caballero** : la panza de Sancho, el honor, mi único amor, la ficha de identidad… | Noms tirés des documents, effets inventés. |
+| ☐ | **Noms d'ennemis** : La Lanza Loca, El Escudo Saltarín, El Queso Gigante, El Libro Volador, El Caballero Enmascarado, El Gran Libro, El Perro Gigante, El Caballo Salvaje, El Molinito, La Casa Andante, El Caballero Rápido, El Gigante, La Pintura Viva, El Burlón, La Televisión Encantada, El Teatro Ambulante, El Mago | *loca, saltarín, volador, enmascarado, gran, salvaje, molinito, andante, viva, burlón, encantada, ambulante* ne sont pas dans les documents. Ce que l'ennemi est *en realidad* l'est toujours, sauf *molino pequeño* (*pequeño*). |
+| ☐ | **La Televisión Encantada** | Anachronisme voulu : le mago fait apparaître les adaptations du *Quijote* (*incluso para cine o televisión*, encadré de « ¡Hermosa Dulcinea! »). |
+| ☐ | **Noms d'objets** : Por favor, ¡Dejadnos pasar!, En realidad…, Fiel compañero, La Ñ amable, Mi único amor, El honor, El autor, ¡Qué importa!, Siempre listo, El mapa de España… | Expressions des documents ; leurs effets sont ceux des objets d'El Camino. |
+| ☐ | **Noms de rencontres** et leurs textes | Liste et textes complets à l'étape 1. |
 
 ## 5. Règles de grammaire formulées par moi
 
