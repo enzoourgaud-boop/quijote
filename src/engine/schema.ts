@@ -371,6 +371,16 @@ export const SequenceSchema = z
         width: z.tuple([z.number().int().min(1), z.number().int().min(1)]),
         restFloor: z.number().int().min(1),
         weights: z.object({ combat: z.number(), event: z.number(), elite: z.number(), shop: z.number(), chest: z.number(), rest: z.number() }).strict(),
+        /** Partie courte : les mêmes actes avec moins d'étages (8 à 10 minutes). */
+        short: z
+          .object({
+            floors: z.number().int().min(3).max(12),
+            restFloor: z.number().int().min(1),
+            /** Part des PV gardée par les jefes en partie courte (1 = tous). */
+            bossHp: z.number().min(0.2).max(1).default(1),
+          })
+          .strict()
+          .optional(),
       })
       .strict(),
     rooms: z.record(

@@ -4,14 +4,14 @@ Un jeu vidéo pour réviser l'espagnol en 5e (niveau A1) sur la séquence **« P
 
 **L'histoire.** Un mago a ensorcelé La Mancha : les livres volent, les fromages roulent, les moulins ressemblent à des géants. L'élève accompagne don Quijote du pueblo jusqu'au Toboso. Chaque ennemi vaincu redevient ce qu'il est *en realidad* : *¡No es un gigante, es un molino!*
 
-- **Durée :** une partie dure 15 à 25 minutes ; une partie courte de 8 à 10 minutes arrive à l'étape 2.
+- **Durée :** une partie dure 15 à 25 minutes ; une **partie courte** dure 8 à 10 minutes, pour une fin de séance.
 - **Appareils :** le jeu fonctionne dans le navigateur, sur les PC du collège, les tablettes et les téléphones.
 - **Vie privée :** il n'y a **ni serveur, ni compte élève, ni publicité**. Aucune donnée ne quitte l'appareil.
 - **Hors ligne :** une fois chargé, le jeu fonctionne **sans connexion** et peut s'installer comme une application.
 
 Le jeu reprend le moteur d'*El Camino de Cempasúchil* (même fonctionnement, mêmes règles de combat). Seuls changent le contenu, l'univers et les visuels.
 
-> **Où en est le projet.** Étape 1 (le jeu complet sur la séquence) sur la branche `etape-1-quijote`, captures dans [`docs/etape-1/`](docs/etape-1/). Conception : [`docs/CONCEPTION.md`](docs/CONCEPTION.md). Points à valider : [`docs/A_VERIFIER.md`](docs/A_VERIFIER.md).
+> **Où en est le projet.** Étape 1 (le jeu complet) validée et sur `main`. Étape 2 (la partie courte) sur la branche `etape-2-partie-courte`, captures dans [`docs/etape-2/`](docs/etape-2/). Conception : [`docs/CONCEPTION.md`](docs/CONCEPTION.md). Points à valider : [`docs/A_VERIFIER.md`](docs/A_VERIFIER.md).
 
 ---
 
@@ -64,7 +64,8 @@ Tu peux donner l'adresse aux élèves, ou en faire un QR code. Le plus simple : 
    - une réponse écrite, ou une phrase remise dans l'ordre, frappe plus fort ;
    - un accent oublié donne « ¡Casi! » : ni dégât, ni point.
 5. **Les questions :** sept formes différentes : QCM, réponse écrite, vrai/faux, phrase à remettre en ordre, association mot / image, placement des personnages sur la carte de La Mancha (« qui vit où ? »), écoute.
-6. **Les objets** viennent de la séquence. Les aides *Léxico* et *Ayuda* rappellent les encadrés du manuel ; *¡Fíjate!*, *Queso*, *Escudo*… Parmi les reliques : Rocinante, Rucio, *la lanza*, *la ficha de identidad*…
+6. **Partie courte :** sur l'accueil, « Durée de la partie » → **Partie courte**. Les trois actes sont raccourcis (un combat, un repos, le jefe) et les jefes sont moins résistants : la partie dure 8 à 10 minutes, et l'élève rencontre quand même les trois jefes.
+7. **Les objets** viennent de la séquence. Les aides *Léxico* et *Ayuda* rappellent les encadrés du manuel ; *¡Fíjate!*, *Queso*, *Escudo*… Parmi les reliques : Rocinante, Rucio, *la lanza*, *la ficha de identidad*…
 
 ---
 

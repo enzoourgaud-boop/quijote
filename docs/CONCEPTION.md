@@ -284,3 +284,19 @@ Pour chacune, ma recommandation. Un « oui à tout » suffit.
 - **Stockage séparé** : le jeu range ses données sous `molinos:` ; El Camino, à la même adresse github.io, garde les siennes (`camino:`).
 - **Chrono coupé par défaut** : avec les valeurs de combat d'El Camino, sans temps écoulé, le jeu est un peu plus facile. Simulation (300 parties par profil) : élève à 60 % → 36 % de victoires ; à 75 % → 91 % ; à 90 % → 100 %. Durée d'une partie gagnée : 16 à 23 minutes. Les *Niveles de caballero* rendent le jeu plus difficile après une victoire.
 - **Police** : Sancreek (style western) retirée ; les titres utilisent Pixelify Sans, déjà présente.
+
+## 12. Ajustements faits pendant l'étape 2 (partie courte)
+
+- **Choix sur l'accueil** : « Durée de la partie » → partie normale ou partie courte.
+- **Les trois actes, raccourcis** à 3 étages : un combat, un repos *En casa*, le jefe. Réglage dans `sequence.json` (`map.short.floors`, `map.short.restFloor`).
+- **Jefes moins résistants en partie courte seulement** (40 % de leurs PV, `map.short.bossHp`). Sans cela, la partie courte durait encore 10 à 14 minutes : les trois jefes, le Mago surtout, prennent l'essentiel du temps. Les règles du combat sont inchangées et la partie normale est identique.
+- **Simulation** (300 parties par profil) :
+
+  | Réussite | Victoires | Durée moyenne |
+  |---|---|---|
+  | 60 % | 45 % | 11,1 min |
+  | 75 % | 91 % | 9,6 min |
+  | 90 % | 100 % | 7,6 min |
+
+  Un élève fragile dépasse un peu les 10 minutes : il répond à davantage de questions.
+- **Correction** : l'aide de l'accueil (« Réponds pour attaquer ») et l'option « Pétales qui tombent » parlaient encore du Día de Muertos. L'aide affiche désormais les thèmes de la séquence, et l'option s'appelle « Pages qui volent sur l'accueil ».

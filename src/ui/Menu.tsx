@@ -119,12 +119,13 @@ export function ProfileScreen({ list, current, onPick, onCreate, onDelete, onBac
 
 export function Title({ content, profile, meta, saved, settings, onSettings, onStart, onResume, onNav, initialSeed, pending = 0, classe, onClassCode, onClearClass }: {
   content: Content; profile: Profile; meta: Meta; saved: RunState | null; settings: Settings;
-  onSettings: (s: Settings) => void; onStart: (o: { seed: string; character: string; ascension: number }) => void; onResume: () => void;
+  onSettings: (s: Settings) => void; onStart: (o: { seed: string; character: string; ascension: number; short: boolean }) => void; onResume: () => void;
   onNav: (screen: 'profiles' | 'collection' | 'achievements' | 'carnet' | 'prof') => void; initialSeed: string; pending?: number;
   classe: { code: string; seed: string } | null; onClassCode: (code: string) => string | null; onClearClass: () => void;
 }) {
   const seq = content.sequence;
   const [seed, setSeed] = useState(initialSeed);
+  const [short, setShort] = useState(false);
   const [classInput, setClassInput] = useState('');
   const [classErr, setClassErr] = useState<string | null>(null);
   const chars = seq.characters;
@@ -251,8 +252,19 @@ export function Title({ content, profile, meta, saved, settings, onSettings, onS
           début de la partie. Chaque page retrouvée donne +1 PV.
         </p>
       )}
+      <fieldset class="duracion">
+        <legend>Durée de la partie</legend>
+        <label>
+          <input type="radio" name="duracion" checked={!short} onChange={() => setShort(false)} />
+          <span>Partie normale <span class="muted">(15 à 25 min)</span></span>
+        </label>
+        <label>
+          <input type="radio" name="duracion" checked={short} onChange={() => setShort(true)} />
+          <span>Partie courte <span class="muted">(8 à 10 min, les trois actes raccourcis)</span></span>
+        </label>
+      </fieldset>
       <div class="fila">
-        <button class={`btn ${saved ? 'sec' : ''}`} onClick={() => onStart({ seed: cleanSeed(seed), character, ascension: asc })}>
+        <button class={`btn ${saved ? 'sec' : ''}`} onClick={() => onStart({ seed: cleanSeed(seed), character, ascension: asc, short })}>
           {saved ? 'Nouvelle partie' : 'Commencer le chemin'}
         </button>
         {meta.runs > 0 && (
@@ -263,7 +275,7 @@ export function Title({ content, profile, meta, saved, settings, onSettings, onS
       </div>
       <div class="reglas">
         <div>
-          <b>Réponds pour attaquer</b>Vocabulaire, conjugaison (estar + gérondif), grammaire (ser, estar, hay, décrire une image) et culture.
+          <b>Réponds pour attaquer</b>En espagnol, sur quatre thèmes : {content.sequence.themes.map(t => t.label).join(', ')}.
         </div>
         <div>
           <b>Lis l'intention</b>La bulle de l'ennemi annonce ce qu'il fera si tu te trompes.

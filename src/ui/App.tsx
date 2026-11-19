@@ -234,9 +234,9 @@ function Main({ content, fromPack, reload }: { content: Content; fromPack: boole
     storage.remove('classe');
     setClasse(null);
   };
-  const start = (o: { seed: string; character: string; ascension: number }) => {
+  const start = (o: { seed: string; character: string; ascension: number; short?: boolean }) => {
     if (!profile) return;
-    const g = attach(Game.newRun(content, settings, o.seed || randomSeed(), Date.now(), { character: o.character, ascension: o.ascension, pending: pending() }));
+    const g = attach(Game.newRun(content, settings, o.seed || randomSeed(), Date.now(), { character: o.character, ascension: o.ascension, pending: pending(), short: o.short }));
     profiles.saveRun(profile.id, g.state);
     setSaved(null);
     setUnlocks(null);

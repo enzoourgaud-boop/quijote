@@ -10,6 +10,6 @@ export default defineConfig({
   webServer: { command: 'npx vite preview --port 4173 --strictPort', url: 'http://localhost:4173/', reuseExistingServer: true },
   projects: [
     { name: 'ordinateur', use: { ...devices['Desktop Chrome'] } },
-    { name: 'telephone', use: { ...devices['Pixel 7'] }, grep: /partie entière|clavier|captures/ },
+    { name: 'telephone', use: { ...devices['Pixel 7'] }, grep: /partie entière|partie courte|clavier|captures/ },
   ],
 });

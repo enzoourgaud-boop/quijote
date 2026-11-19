@@ -236,6 +236,11 @@
       "shop": 9,
       "chest": 9,
       "rest": 3
+    },
+    "short": {
+      "floors": 3,
+      "restFloor": 1,
+      "bossHp": 0.4
     }
   },
   "rooms": {

@@ -148,8 +148,10 @@ export type Screen = 'warmup' | 'map' | 'combat' | 'reward' | 'shop' | 'rest' | 
 
 export interface RunState {
   v: 3;
-  /** Personnage choisi et niveau de difficulté (« Nivel de Calavera », 0 à 10). */
+  /** Personnage choisi et niveau de difficulté (« Nivel de caballero », 0 à 10). */
   character: string;
+  /** Partie courte : mêmes actes, moins d'étages. */
+  short?: boolean;
   ascension: number;
   /** Bonus du personnage. */
   bonus: { writeShare: number; restHeal: number };
@@ -203,6 +205,12 @@ export interface RunState {
 const TYPE_WEIGHT: Partial<Record<QuestionType, number>> = { ordre: 2.2, association: 2, scene: 1.8, ecoute: 1.6, 'vrai-faux': 1.3 };
 
 export const MAX_ASCENSION = 10;
+
+/** Carte d'un acte : normale, ou raccourcie pour la partie courte. */
+function mapConfig(content: Content, short: boolean) {
+  const m = content.sequence.map;
+  return short && m.short ? { ...m, ...m.short } : m;
+}
 
 /** Effets cumulatifs de chaque « Nivel de caballero ». */
 export const ASCENSION_RULES: string[] = [
@@ -297,7 +305,7 @@ export class Game {
   }
 
   /** Démarre une nouvelle partie à partir d'une graine. */
-  static newRun(content: Content, settings: Settings, seed: string, now = Date.now(), opts: { character?: string; ascension?: number; pending?: string[] } = {}): Game {
+  static newRun(content: Content, settings: Settings, seed: string, now = Date.now(), opts: { character?: string; ascension?: number; pending?: string[]; short?: boolean } = {}): Game {
     const rng = new Rng(seed);
     const p = content.sequence.player;
     const chars = content.sequence.characters;
@@ -314,9 +322,9 @@ export class Game {
     const hp = Math.max(5, p.hp + (ch?.bonus.hp ?? 0) - (asc >= 9 ? 3 : 0));
     const state: RunState = {
       v: 3, seed, rng: rng.state, screen: 'map', hp, maxHp: hp, gold: 0, act: 0,
-      character: ch?.id ?? '', ascension: asc, bonus: { writeShare: ch?.bonus.writeShare ?? 0, restHeal: ch?.bonus.restHeal ?? 0.3 },
+      character: ch?.id ?? '', ascension: asc, short: opts.short || undefined, bonus: { writeShare: ch?.bonus.writeShare ?? 0, restHeal: ch?.bonus.restHeal ?? 0.3 },
       defeated: [], obtained: Object.keys(relics),
-      map: generateMap(rng, content.sequence.map), node: null, path: [],
+      map: generateMap(rng, mapConfig(content, !!opts.short)), node: null, path: [],
       inv, relics, upgrades: {}, streak: 0, poison: 0, reviveUsed: false, luckyCount: 0,
       stats: { ok: 0, ko: 0, casi: 0, won: 0, written: 0, turns: 0, rooms: 0, startedAt: now, endedAt: 0, maxStreak: 0, perfectFights: 0, powersUsed: 0 },
       seen: {}, retry: [], errors: [], metEnemies: [], seenEvents: [],
@@ -564,7 +572,7 @@ export class Game {
   private nextAct() {
     const s = this.state;
     s.act++;
-    s.map = generateMap(this.rng, this.content.sequence.map);
+    s.map = generateMap(this.rng, mapConfig(this.content, !!s.short));
     s.node = null;
     s.path = [];
     s.metEnemies = [];
@@ -745,7 +753,10 @@ export class Game {
     s.poison = 0;
     const abanico = e.phases?.[0]?.abanico ?? 0;
     const a = s.ascension;
-    const hp = e.hp + (a >= 1 ? 1 : 0) + (a >= 4 && e.kind === 'elite' ? 2 : 0) + (a >= 7 && (e.kind === 'jefe' || e.kind === 'final') ? 3 : 0) + (a >= 10 && e.kind === 'final' ? 6 : 0);
+    let hp = e.hp + (a >= 1 ? 1 : 0) + (a >= 4 && e.kind === 'elite' ? 2 : 0) + (a >= 7 && (e.kind === 'jefe' || e.kind === 'final') ? 3 : 0) + (a >= 10 && e.kind === 'final' ? 6 : 0);
+    // partie courte : jefes moins résistants, pour tenir en 8 à 10 minutes (mêmes règles de combat)
+    const shortBoss = s.short ? this.content.sequence.map.short?.bossHp ?? 1 : 1;
+    if (e.kind === 'jefe' || e.kind === 'final') hp = Math.max(1, Math.round(hp * shortBoss));
     s.combat = {
       enemyId: e.id, hp, maxHp: hp, shield: 0, abanico: this.settings.writeFactor > 0 ? abanico : 0,
       phase: 0, turn: 0, intent: { kind: 'attack' }, canceled: false, attackBonus: e.phases?.[0]?.attackBonus ?? 0, weakTheme: null,

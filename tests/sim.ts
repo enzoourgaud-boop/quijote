@@ -21,6 +21,8 @@ export interface SimResult {
 export interface SimOptions {
   /** Questions ratées aux parties précédentes (« almas pendientes »). */
   pending?: string[];
+  /** Partie courte. */
+  short?: boolean;
   /** Branche des observateurs sur la partie (révision de Leitner, par exemple). */
   attach?: (g: Game) => void;
 }
@@ -29,7 +31,7 @@ export interface SimOptions {
 export const T = { qcm: 9, write: 16, tf: 7, order: 18, match: 15, place: 20, feedback: 4, reward: 10, shop: 25, map: 4, event: 25, rest: 8, chest: 8 };
 
 export function simulate(content: Content, seed: string, accuracy: number, settings: Settings = { ...DEFAULT_SETTINGS }, opts: SimOptions = {}): SimResult {
-  const g = Game.newRun(content, settings, seed, 0, { pending: opts.pending });
+  const g = Game.newRun(content, settings, seed, 0, { pending: opts.pending, short: opts.short });
   opts.attach?.(g);
   const bot = new Rng(`bot-${seed}-${accuracy}`);
   let sec = 0, answers = 0, guard = 0, warmup = 0;

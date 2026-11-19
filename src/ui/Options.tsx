@@ -1,4 +1,4 @@
-/** Panneau d'options de confort : son, taille du texte, police dyslexie, animations, pétales, chrono. */
+/** Panneau d'options de confort : son, taille du texte, police dyslexie, animations, pages qui volent, chrono. */
 import { useEffect, useRef } from 'preact/hooks';
 import type { Settings } from '../engine/game';
 import type { Prefs, TextSize } from '../prefs';
@@ -71,7 +71,7 @@ export function OptionsPanel({ prefs, onPrefs, settings, onSettings, onClose }: 
           </label>
           <label class="check">
             <input type="checkbox" checked={prefs.petals} onChange={e => set({ petals: (e.target as HTMLInputElement).checked })} />
-            Pétales qui tombent
+            Pages qui volent sur l’accueil
           </label>
         </fieldset>
         <fieldset>

@@ -78,3 +78,9 @@ button.mini-carta:hover { transform: translateY(-4px) rotate(-2deg); }
   .nociones summary { grid-template-columns: 1fr; }
   .tablero-loteria { grid-template-columns: repeat(auto-fill, minmax(88px, 1fr)); }
 }
+
+/* durée de la partie (normale ou courte) */
+.duracion { display: flex; flex-wrap: wrap; gap: 8px 22px; border: 2px solid var(--noche-3); border-radius: var(--r); padding: 10px 16px; margin: 0; }
+.duracion legend { padding: 0 6px; font-weight: 700; }
+.duracion label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.duracion input { flex: none; width: 20px; height: 20px; accent-color: var(--cempa); }

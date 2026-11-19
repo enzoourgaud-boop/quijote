@@ -33,6 +33,19 @@ test('une partie entière, du profil jusqu’au code de fin', async ({ page }) =
   await expect(page.getByRole('button', { name: /Álbum \d+\/42/ })).not.toHaveText(/Álbum 0\//);
 });
 
+test('une partie courte entière (les trois actes raccourcis)', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', e => errors.push(e.message));
+  await page.fill('#pseudo', 'Bot');
+  await page.click('text=Créer et jouer');
+  await page.fill('input[placeholder="au hasard"]', 'LANZA-21');
+  await page.getByLabel(/Partie courte/).check();
+  await page.getByRole('button', { name: 'Commencer le chemin' }).click();
+  await playToEnd(page, data);
+  await expect(page.locator('.stats')).toBeVisible();
+  expect(errors).toEqual([]);
+});
+
 test('espace professeur : code de classe appliqué côté élève', async ({ page, context }) => {
   await page.goto('./#prof');
   await page.fill('#prof-code', 'profe2026');
